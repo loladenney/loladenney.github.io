@@ -1,0 +1,119 @@
+body{ 
+    width: 700;
+    background-color: rgb(255, 255, 255);
+
+    margin:0 auto; 
+    cursor: url("assets/neutral_cursor.png"), auto;
+    
+}
+
+.subheading {
+    font-family: Arial, sans-serif;  
+    font-size: 24px;                 
+    color: #333;                     
+    font-weight: bold; 
+    margin-top: 0px;
+}
+
+
+td {
+    padding: 0; /* Removes space inside table cells */
+    margin: 0;  /* Reduces any default margin */
+}
+
+.dragon_header {
+    width: 100%;  
+    text-align: center;
+    margin: 0 auto; 
+}
+
+
+.dragon_header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dragon-header img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;  /* Set a width for the image */
+    height: auto;  /* Keep the aspect ratio intact */
+}
+
+.buttoninactive {
+    border: 2px solid black;
+    border-radius: 10px 
+    
+  }
+
+.buttonbackground {
+    background-color: black;
+}
+
+.buttonbackground:hover {
+    background-color:rgb(161, 161, 161);
+    cursor: url("assets/evil_cursor.png"), auto;
+}
+.navbarTable { 
+    margin: auto;
+    width : 700px; 
+    border : none;
+}
+
+.contentTable {
+    border-radius: 0px;
+    width : 700px; 
+    margin: 0px auto;
+}
+
+.button {
+    border: none;
+    color: rgb(178, 72, 72);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    
+  }
+
+.navbutton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;  
+}
+.navbutton:hover {
+    color: rgb(0, 0, 0);
+    cursor: url("assets/evil_cursor.png"), auto;
+    text-decoration: none;  
+}
+.buttoninactive:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* stuff about embedded links*/
+.embedlink:link {
+    color:#333;           /* Set the link color */
+    text-decoration: none;    /* Remove underline */
+    
+}
+
+.embedlink:hover {
+    color: #333;           /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    font-weight: bold;      /* Change font weight to normal */
+}
+
+/* State when the link is active (when clicked) */
+.embedlink:active {
+    color: #333;           /* Set the color when the link is clicked */
+    text-decoration: none; /* Keep underline while active */
+}
+
+.embedlink:visited {
+    color: #333;           /* Set the color when the link is clicked */
+    text-decoration: none; /* Keep underline while active */
+}
