@@ -44,7 +44,7 @@ td {
     border: 2px solid black;
     border-radius: 10px 
     
-  }
+}
 
 .buttonbackground {
     background-color: black;
@@ -88,7 +88,7 @@ td {
     cursor: url("assets/evil_cursor.png"), auto;
     text-decoration: none;  
 }
-.buttoninactive:hover {
+.navbuttoninactive:hover {
     color: rgb(0, 0, 0);
 }
 
@@ -116,4 +116,63 @@ td {
 .embedlink:visited {
     color: #333;           /* Set the color when the link is clicked */
     text-decoration: none; /* Keep underline while active */
+}
+
+/* hire me section*/
+.hiremeTable { 
+    margin: auto;
+    border : none;
+}
+
+.buttonhireme {
+    border-radius: 1px;
+    font-size: 24px; 
+    padding: 10px ;
+    width: 15%;
+    text-decoration: none; 
+    color: #333;
+}
+
+.buttonbackgroundhireme {
+    border-color: rgb(0, 0, 0);
+    border: 2px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.buttonbackgroundhireme:hover {
+    cursor: url("assets/evil_cursor.png"), auto;
+    background-color:rgb(197, 197, 197);
+}
+.buttonhireme:hover {
+    color: rgb(222, 55, 55);
+    cursor: url("assets/evil_cursor.png"), auto;
+}
+.buttoninactive:link {
+    color: rgb(0, 0, 0);
+}
+.buttoninactive:active {
+    color: rgb(0, 0, 0);
+}
+
+/* pottery gallery section*/
+.galleryTable {
+    border-radius: 0px;
+    width : 700px; 
+    margin: 10px auto;
+    padding: 5px;
+}
+.potterygallery{
+    margin: 10ox;
+    border: 5px;
+    float: center;
+    width: auto;
+}
+.potterygallery img {
+    width: 200px;
+    height: auto;
+   
+  }
+.desc {
+    padding: 5px;
+    text-align: center;
 }
