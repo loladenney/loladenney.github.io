@@ -95,19 +95,53 @@ td {
 
 
 /* stuff about embedded links*/
+.linkinsta:hover span {
+    display: none;
+    cursor: url("assets/evil_cursor.png"), auto;
+}
+.linkinsta:link {
+    color:#333;         
+    text-decoration: none;   
+}
+.linkinsta:active {
+    color: #333;         
+    text-decoration: none; 
+}
+.linkinsta:hover:before {
+    content: "@pottery.gator";
+    text-decoration: underline;
+    cursor: url("assets/evil_cursor.png"), auto;
+}
+.linkinsta:visited {
+    color: #333;           /* Set the color when the link is clicked */
+    text-decoration: none; /* Keep underline while active */
+}
+.linkemail:hover span {
+    display: none;
+    cursor: url("assets/evil_cursor.png"), auto;
+}
+.linkemail:link {
+        color:#333;          
+        text-decoration: none;   
+}
+  
+.linkemail:hover:before {
+    content: "pottery.gator@gmail.com";
+    text-decoration: underline;
+    cursor: url("assets/evil_cursor.png"), auto;
+}
 .embedlink:link {
-    color:#333;           /* Set the link color */
-    text-decoration: none;    /* Remove underline */
-    
+    color:#333;           
+    text-decoration: none;    
 }
 
 .embedlink:hover {
-    color: #333;           /* Change color on hover */
-    text-decoration: underline; /* Add underline on hover */
-    font-weight: bold;      /* Change font weight to normal */
+    color: #333;           
+    text-decoration: underline; 
+    font-weight: bold;
+    cursor: url("assets/evil_cursor.png"), auto; 
 }
 
-/* State when the link is active (when clicked) */
 .embedlink:active {
     color: #333;           /* Set the color when the link is clicked */
     text-decoration: none; /* Keep underline while active */
@@ -175,4 +209,14 @@ td {
 .desc {
     padding: 5px;
     text-align: center;
+}
+
+.plainlink:link, .plainlink:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.plainlink:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    cursor: url("assets/evil_cursor.png"), auto;
 }
