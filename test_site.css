@@ -213,7 +213,7 @@ td {
 }
 
 /* makes links not purple */
-a { 
+.plainlink { 
     color:black;
     text-decoration: none;
 } 
@@ -221,7 +221,7 @@ a {
     color: black;
     text-decoration: none;
 }
-a:hover{
+.plainlink:hover{
     color: black;
     text-decoration: underline;
     cursor: url("assets/evil_cursor.png"), auto;
