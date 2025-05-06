@@ -202,10 +202,7 @@ td {
     vertical-align: top;
 }
 .potterygallery{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: flex-start; 
     margin: 10px auto;
     width: 200px;
 }
@@ -214,7 +211,6 @@ td {
     height: auto;
     display: block;
     margin: 0 auto;
-    align-self: flex-start;
     object-fit: cover;
     height: 200px;
   }
