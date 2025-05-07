@@ -53,7 +53,7 @@ td {
 
 .buttonbackground:hover {
     background-color:rgb(161, 161, 161);
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 .navbarTable { 
     margin: auto;
@@ -86,7 +86,7 @@ td {
 }
 .navbutton:hover {
     color: rgb(0, 0, 0);
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
     text-decoration: none;  
 }
 .navbuttoninactive:hover {
@@ -98,7 +98,7 @@ td {
 /* stuff about embedded links*/
 .linkinsta:hover span {
     display: none;
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 .linkinsta:link {
     color:#333;         
@@ -111,7 +111,7 @@ td {
 .linkinsta:hover:before {
     content: "@pottery.gator";
     text-decoration: underline;
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 .linkinsta:visited {
     color: #333;           /* Set the color when the link is clicked */
@@ -119,7 +119,7 @@ td {
 }
 .linkemail:hover span {
     display: none;
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 .linkemail:link {
         color:#333;          
@@ -129,7 +129,7 @@ td {
 .linkemail:hover:before {
     content: "pottery.gator@gmail.com";
     text-decoration: underline;
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 .embedlink:link {
     color:#333;           
@@ -140,7 +140,7 @@ td {
     color: #333;           
     text-decoration: underline; 
     font-weight: bold;
-    cursor: url("assets/evil_cursor.png"), auto; 
+    cursor: url("assets/magglasscursor.png"), auto; 
 }
 
 .embedlink:active {
@@ -175,12 +175,12 @@ td {
     border-radius: 5px;
 }
 .buttonbackgroundhireme:hover {
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
     background-color:rgb(197, 197, 197);
 }
 .buttonhireme:hover {
     color: rgb(222, 55, 55);
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 .buttoninactive:link {
     color: rgb(0, 0, 0);
@@ -228,7 +228,7 @@ td {
 .plainlink:hover{
     color: black;
     text-decoration: underline;
-    cursor: url("assets/evil_cursor.png"), auto;
+    cursor: url("assets/magglasscursor.png"), auto;
 }
 
 
