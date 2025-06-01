@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--L Denney's Homepage-->
+    <link rel="stylesheet" href="input_puzzle.css">
+    <meta name="viewport">
+</head>
+<body>
+    <h1>Tool for adding crossword puzzles to my website</h1>
+    <h3>Reset any time using <button type="button" id="resetButton" onclick="resetForm();"> reset </button></h3>
+    <form>
+        <label for="puzzleTitle">Puzzle title:</label><br>
+        <input type="text" id="puzzleTitle"><br>
+        <label for="notes">Notes:</label><br>
+        <input type="text" id="notes"><br>
+        <label for="dimensions">dimensions:</label><br>
+        <input type="number" id="dimensions" min="1" max="21" required><br>
+    </form> 
+
+    <button type="button" id="nextButton" onclick="nextSteps();"> next </button>
+
+    <div id="selectSquares" style="display: none;">
+        <p for="blacksquarestoggle">Click on the squares you want to be black. click again to undo<br></p>
+        <div id="buttonContainer"></div> <br>
+        <button type="button" id="confirmSquaresButton" onclick="confirmSquares();"> Confirm </button> 
+        <br>
+    </div>
+    <br>
+    <div id="templateTableContainer" style="display: none;"></div>
+    <br>
+    <div id="clueTableContainer" style="display: none;"></div>
+
+    <div id="checkPuzzleButton" style="display: none;">
+    <button type="button" id="checkPuzzleButton" onclick="checkPuzzleSolution();" > Check Puzzle </button>
+    </div>
+
+   
+
+<script src="input_puzzle.js"></script>
+</body>
+</html>

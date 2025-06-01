@@ -1,0 +1,6 @@
+## puzzles
+todo:
+- web form to let me input my corsswords as json files
+- make a puzzle appear (js script and ui)
+- allow user to fill in puzzle
+- 
