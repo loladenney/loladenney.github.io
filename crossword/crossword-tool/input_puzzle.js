@@ -5,7 +5,7 @@
 const puzzleJson = {
     title: "Untitled",
     notes: "",
-    dimensions: 1,
+    dimensions: 2,
     template: null,    // -1 for no character, 0 for character must be placed, numbers for clues will be added in here
     solution: null,    // special character ∅ to indicate a black square, otherwise it will have alpha numeric character. i dont know if i should allow punctuation
     clues: null
@@ -33,8 +33,8 @@ function resetForm() {
 
     let dim = document.getElementById("dimensions");
     dim.readOnly = false;
-    dim.value = 1;
-    puzzleJson.dimensions = 1;
+    dim.value = 2;
+    puzzleJson.dimensions = 2;
 
     puzzleJson.template = null;
     puzzleJson.solution = null;
@@ -186,7 +186,7 @@ function addNumbers() {
     let num = 1;
 
     // add in number labels for answers in increasing order when required
-    //TODO fix the logic of this, code is wrong, comment might be right
+    //TODO fix the logic of this, across might be right. please test first to find issue. 
     for (let i=0; i<dim*dim; i++){
 /*
         //cases for across word begins at index i

@@ -1,6 +1,20 @@
 ## puzzles
-todo:
 - web form to let me input my corsswords as json files
 - make a puzzle appear (js script and ui)
-- allow user to fill in puzzle
-- 
+- allow user to fill in puzzle and play
+- make custom font of captial letters for the puzzle
+
+## future additions
+- add a spot for book reviews/recommendations (no out of 5 or out of 10. just description)
+- eventually expand the above to movies and music and podcasts etc
+- probably just a section for my interests in others stuff. 
+
+## fixes and upgrades
+- make center of magnifying glass transparent
+- please make it better for mobile and even dark mode???
+- add more clickable links everywhere
+- make links in list of favourite website links look better (and the list overall)
+
+## archive
+- add bench picture
+- add skirt!!

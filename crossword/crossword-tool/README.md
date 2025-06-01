@@ -23,3 +23,4 @@ to let me input my crossword games as compatible json to be playable on my websi
 - append the down clues to the table!!!
 - check the completed game has no conflicts and that all words are the correct number of characters long and print error messages when needed.
 - export as json when clicking on a button (auto add current date on upload)
+- add author field (maybe just write in notes???)
