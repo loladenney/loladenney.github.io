@@ -14,6 +14,7 @@
 - please make it better for mobile and even dark mode???
 - add more clickable links everywhere
 - make links in list of favourite website links look better (and the list overall)
+- fix clickable links (color, underline, hover cursor!!!)
 
 ## archive
 - add bench picture
