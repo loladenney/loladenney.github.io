@@ -6,7 +6,9 @@ const puzzleJson = {
     title: "Untitled",
     notes: "",
     dimensions: 2,
-    template: null,    // -1 for no character, 0 for character must be placed, numbers for clues will be added in here
+    template: null,     // array of a record with an integer value, and a flag for across and down 
+                        // value is -1 for no character, 0 for character must be placed, numbers for clues will be added in here
+                        // both flags in template get initialized to false in "confirmSquares"
     solution: null,    // special character ∅ to indicate a black square, otherwise it will have alpha numeric character. i dont know if i should allow punctuation
     clues: null
   };
@@ -66,7 +68,7 @@ function nextSteps() {
     puzzleJson.notes = notesInput.value; 
 
     let dimInput = document.getElementById('dimensions');
-    puzzleJson.dimensions = dimInput.value; 
+    puzzleJson.dimensions = parseInt(dimInput.value, 10);
 
     //set all fields to read over to prevent issues with ambiguity if it gets changed after he value is read
     document.getElementById("puzzleTitle").readOnly = true;
@@ -74,9 +76,13 @@ function nextSteps() {
     document.getElementById("dimensions").readOnly = true;
     document.getElementById("nextButton").disabled = true;
 
-    //initialise the template and solution arrays in the json struct to have the right number of spots
-    puzzleJson.template = Array(dimInput.value * dimInput.value);
-    puzzleJson.solution = Array(dimInput.value * dimInput.value);
+    //initialise the template and solution arrays in the json struct to have the right number of spots and flags set to null
+    puzzleJson.template = new Array(puzzleJson.dimensions * puzzleJson.dimensions).fill(null).map(() => ({
+        value: 0,
+        acrossflag: false,
+        downflag: false
+    }));
+    puzzleJson.solution = new Array(dimInput.value * dimInput.value).fill(null);
 
     selectSquares();
 }
@@ -128,15 +134,19 @@ function confirmSquares(){
         let color = b.style.backgroundColor;
 
         // record the current state of the buttons in an array in the json stuct
-        // if button is black it is selected
+        
+        // we previously initialize the template array with both flags to false in "nextSteps"
+        
+
+        // if button is black it is selected, and a character cannot be placed there
         if (color === "rgb(0, 0, 0)") {
-            puzzleJson.template[i] = -1;
+            puzzleJson.template[i].value = -1;
             puzzleJson.solution[i] = "∅";
         }
-        // otherwise it is white and must take a character. 
+
+        // otherwise it is white and must take a character (keeps the 0 from initialization). 
         // the solution is intialized with null in this case so it is easy to detect if a square never gets filled in
         else {
-            puzzleJson.template[i] = 0;
             puzzleJson.solution[i] = null;
         }
     }
@@ -161,7 +171,7 @@ function drawTemplate() {
         for (let j = 0; j<puzzleJson.dimensions; j++){
             const box = document.createElement("td");
             box.className = "display-template-box";
-            const box_content = puzzleJson.template[(i*puzzleJson.dimensions)+j];
+            const box_content = puzzleJson.template[(i*puzzleJson.dimensions)+j].value;
             
             if (box_content < 0){ // make background grey (so if black text appears it is easier to notice the error)
                 box.style.backgroundColor = "rgb(100, 100, 100)";
@@ -186,30 +196,29 @@ function addNumbers() {
     let num = 1;
 
     // add in number labels for answers in increasing order when required
-    //TODO fix the logic of this, across might be right. please test first to find issue. 
     for (let i=0; i<dim*dim; i++){
-/*
-        //cases for across word begins at index i
-        if (( i % dim === 0 || ( i-1 >= 0 && template[i-1] === -1 )) &&         // in first row or previous is black
-             ( i+1 < dim*dim && (i+1) % dim !== 0  &&  template[i+1] !== -1 )){ // and next is white and it doesnt wrap around (i % dim !== dim-1)
-                template[i] = num;
-                num ++;                                 
-        }
 
-        //cases for down word begins at index i
-        if (( i < dim || (i-dim >= 0 && template[i-dim] === -1 )) &&    // in top row or spot at i-dim is black
-            (  i + dim < dim*dim && template[i+dim] >= 0 )) {           // and below is white and in bounds
-            template[i] = num;
-            num ++;  
-        }                            
-      */  
-        if ( template[i] !== -1 &&                                                                          //current square is not black AND all of the following
-            ((i-dim < 0 && (i + dim < dim*dim && template[i+dim] >= 0))||                                   // (in top row AND below is white) OR 
-            ((i - dim >= 0 && template[i-dim] === -1) && (i + dim < dim*dim && template[i+dim] >= 0)) ||    // (above is black AND below is white) OR
-            (i % dim === 0 && ( i+1 % dim !== 0 && i+1 < dim*dim && template[i+1] >= 0 ))||              // (in first column AND to the right is white) OR
-            (( i-1 >= 0 && template[i-1] === -1) && ( i+1 % dim !== 0 && i+1 < dim*dim && template[i+1] >= 0 )))){       // (to the left is black AND to the right is white )
-                template[i] = num;
+        // case for across
+        if ( template[i].value !== -1 &&                                          //current square is not black AND 
+            (i+1 % dim !== 0 && i+1 < dim*dim && template[i+1].value >= 0) &&     //to the right is white ( with no wrap around or out of bounds) AND
+            (i % dim === 0 || (( i-1 >= 0 && i % dim !== 0 && template[i-1].value === -1)) ))       // in first column OR left is black (with no wrap around or out of bounds)
+            {     
+                template[i].value = num;
+                template[i].acrossflag = true;
                 num ++;
+            }
+
+        // case for down
+        if ( template[i].value !== -1 &&                            //current square is not black AND 
+            (i + dim < dim * dim && template[i+dim].value >= 0) &&    // below is white (and in bounds) AND 
+            (i < dim || (i-dim >= 0 && template[i-dim].value === -1)))         // in top row OR above is black (without being out of bounds, implicit by not being in top row)
+            {    
+                // to make sure only one number gets written if it had both an across and down clue
+                if (!template[i].acrossflag) {
+                    template[i].value = num;
+                    num ++;
+                }
+                template[i].downflag = true;
             }
     }
     // write back in to the struct thing
@@ -245,49 +254,63 @@ function generateClueTable() {
 
     //build remaining rows from template
     const template = puzzleJson.template
+
+
+    //iterate through template twice, first for across clues, then for down clues
+
+    //across clue iterations
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
-        const clue_num = template[i] 
-        if (clue_num <= 0) continue; //skip if no word begins here
+        // skip if not across clue begins here
+        if (! template[i].acrossflag) continue;
         
         // try to go across
         let j = i + 1;
         let count_char_across = 1;
         // we can write in j and we havent wrapped around (note: first spot is always writable by containing number > 0)
-        while (template[j] > -1 && ( j % puzzleJson.dimensions !== 0)){
+        while ( j % puzzleJson.dimensions !== 0 && template[j].value > -1){
             count_char_across ++;
             j ++;
         }
-        // a word lives in the across from i
-        if (count_char_across > 1) {
-            const row = document.createElement("tr");
 
-            const direction = document.createElement("td");
-            const clue_number = document.createElement("td");
-            const clue = document.createElement("td");
-            const answer_length = document.createElement("td");
-            const answer = document.createElement("td");
-
-            //making answer and clue able to take user inputs
-            const clue_content = document.createElement("input");
-            clue_content.type = "text";
-            clue_content.id = "clueContent_A_" + clue_num;
-            const answer_content = document.createElement("input");
-            answer_content.type = "text";
-            answer_content.id = "answerContent_A_" + clue_num;
+        // if the word has less than 2 characters, print an error
+        if (count_char_across < 2) console.log("across word at " + i + " has less than 2 charaters. this shouldnt happen.");
         
-            // filling in the table
-            direction.textContent = Direction.ACROSS;
-            clue_number.textContent = clue_num;
-            clue.appendChild(clue_content); 
-            answer_length.textContent = count_char_across;
-            answer.appendChild(answer_content); 
+        // we are sure there is a valid length word across starting here so we can add an input row for it
+        const row = document.createElement("tr");
 
-            row.append(direction, clue_number, clue, answer, answer_length);
-            
-            //append row to table
-            table.appendChild(row);
-        }
+        const direction = document.createElement("td");
+        const clue_number = document.createElement("td");
+        const clue = document.createElement("td");
+        const answer_length = document.createElement("td");
+        const answer = document.createElement("td");
+
+        //making answer and clue able to take user inputs
+        const clue_content = document.createElement("input");
+        clue_content.type = "text";
+        clue_content.id = "clueContent_A_" + template[i].value;
+        const answer_content = document.createElement("input");
+        answer_content.type = "text";
+        answer_content.id = "answerContent_A_" + template[i].value;
+    
+        // filling in the table
+        direction.textContent = Direction.ACROSS;
+        clue_number.textContent = template[i].value;
+        clue.appendChild(clue_content); 
+        answer_length.textContent = count_char_across;
+        answer.appendChild(answer_content); 
+
+        row.append(direction, clue_number, clue, answer, answer_length);
         
+        //append row to table
+        table.appendChild(row);
+    
+    }
+
+    //down clue iterations
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        //skip if no down answer starts from here
+        if (! template[i].downflag) continue;
+
         // try to go down
         let k = i + puzzleJson.dimensions;
         let count_char_down = 1;
@@ -297,35 +320,37 @@ function generateClueTable() {
             count_char_down ++;
             k += puzzleJson.dimensions; //fix
         }
-        // a word lives in the across from i
-        if (count_char_down > 1) {
-            const row = document.createElement("tr");
 
-            const direction = document.createElement("td");
-            const clue_number = document.createElement("td");
-            const clue = document.createElement("td");
-            const answer_length = document.createElement("td");
-            const answer = document.createElement("td");
+        // if the word has less than 2 characters, print an error
+        if (count_char_down < 2) console.log("down word at " + i + " has less than 2 charaters. this shouldnt happen.");
+        
+        // we are sure there is a valid length word down starting here so we can add an input row for it
+        const row = document.createElement("tr");
 
-            //making answer and clue able to take user inputs
-            const clue_content = document.createElement("input");
-            clue_content.type = "text";
-            clue_content.id = "clueContent_D_" + clue_num;
-            const answer_content = document.createElement("input");
-            answer_content.type = "text";
-            answer_content.id = "answerContent_D_" + clue_num;
+        const direction = document.createElement("td");
+        const clue_number = document.createElement("td");
+        const clue = document.createElement("td");
+        const answer_length = document.createElement("td");
+        const answer = document.createElement("td");
 
-            // filling in the table
-            direction.textContent = Direction.DOWN;
-            clue_number.textContent = clue_num;
-            clue.appendChild(clue_content); 
-            answer_length.textContent = count_char_down;
-            answer.appendChild(answer_content); 
+        //making answer and clue able to take user inputs
+        const clue_content = document.createElement("input");
+        clue_content.type = "text";
+        clue_content.id = "clueContent_D_" + template[i].value;
+        const answer_content = document.createElement("input");
+        answer_content.type = "text";
+        answer_content.id = "answerContent_D_" + template[i].value;
 
-            row.append(direction, clue_number, clue, answer, answer_length);
-            
-            //TODO append row to table but after all the acrosses !!!!
-        }
+        // filling in the table
+        direction.textContent = Direction.DOWN;
+        clue_number.textContent = template[i].value;
+        clue.appendChild(clue_content); 
+        answer_length.textContent = count_char_down;
+        answer.appendChild(answer_content); 
+
+        row.append(direction, clue_number, clue, answer, answer_length);
+        
+        table.appendChild(row);
     }
 
     document.getElementById("clueTableContainer").appendChild(table);
