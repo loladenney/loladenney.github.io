@@ -200,8 +200,8 @@ function addNumbers() {
 
         // case for across
         if ( template[i].value !== -1 &&                                          //current square is not black AND 
-            (i+1 % dim !== 0 && i+1 < dim*dim && template[i+1].value >= 0) &&     //to the right is white ( with no wrap around or out of bounds) AND
-            (i % dim === 0 || (( i-1 >= 0 && i % dim !== 0 && template[i-1].value === -1)) ))       // in first column OR left is black (with no wrap around or out of bounds)
+            (i % dim !== dim-1 && i+1 < dim*dim && template[i+1].value >= 0) &&     //to the right is white ( with no wrap around or out of bounds) AND
+            (i % dim === 0 || (( i-1 >= 0 && i % dim !== 0 && template[i-1].value === -1))))       // in first column OR left is black (with no wrap around or out of bounds)
             {     
                 template[i].value = num;
                 template[i].acrossflag = true;
