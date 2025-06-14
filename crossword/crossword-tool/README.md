@@ -5,9 +5,9 @@ to let me input my crossword games as compatible json to be playable on my websi
 
 ## features
 - UI is pure (ugly) HTML 
-- the crossword games are stored as arrays like this [a,b,c,d] -> a b 
+- the crossword games are stored as 1d arrays like this [a,b,c,d] -> a b 
                                                                   c d
-- when a crossword is saved with this tool, it gets saved to ~loladenney.github.io/crossword/puzzles where it's filename is ???????? i havent decided yet
+- when a crossword is created with this tool, it gets saved to ~loladenney.github.io/crossword/puzzles where it's filename is ???????? i havent decided yet
 
 
 ## file structure
@@ -19,8 +19,6 @@ to let me input my crossword games as compatible json to be playable on my websi
 ## future plans  - move to features when added
 
 ## todo
-- fix numbering logic
-- append the down clues to the table!!!
 - check the completed game has no conflicts and that all words are the correct number of characters long and print error messages when needed.
 - export as json when clicking on a button (auto add current date on upload)
-- add author field (maybe just write in notes???)
+- add author field (maybe just write in notes as a guest if its not by me???)
