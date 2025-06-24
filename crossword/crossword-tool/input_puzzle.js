@@ -9,8 +9,9 @@ const puzzleJson = {
     template: null,     // array of a record with an integer value, and a flag for across and down 
                         // value is -1 for no character, 0 for character must be placed, numbers for clues will be added in here
                         // both flags in template get initialized to false in "confirmSquares"
-    solution: null,    // special character ∅ to indicate a black square, otherwise it will have alpha numeric character. i dont know if i should allow punctuation
-    clues: null
+    solution: null,     // special character ∅ to indicate a black square, otherwise it will have alpha numeric character. i dont know if i should allow punctuation
+    answer_info: null,  // lowkey this is a hashmap where the key is a string of direction "D" or "A" concat to the cluenumber and value is the expected lenght of the answer
+    clues: null         // an array of objects with direction, number and clue. this will be used to make the clue table the player references
   };
 
 // for saying is a clue is for an across or a down
@@ -40,6 +41,7 @@ function resetForm() {
 
     puzzleJson.template = null;
     puzzleJson.solution = null;
+    puzzleJson.answer_info = null;
     puzzleJson.clues = null;
 
     document.getElementById("nextButton").disabled = false;
@@ -229,7 +231,13 @@ function addNumbers() {
 }
 
 // builds a form table for each of the word solutions and clues to be added to 
+// this will only run once per reset
 function generateClueTable() {
+
+    //initialize with new hashmap
+    puzzleJson.answer_info = new Map();
+
+    //start generating the table
     const table = document.createElement("table");
    
     //build the header row 
@@ -303,7 +311,13 @@ function generateClueTable() {
         
         //append row to table
         table.appendChild(row);
-    
+
+
+        // let's also save the lengths of answers in the answers_info hashmap for reference later.
+        const key = "A" + template[i].value;
+        const value = count_char_across;
+
+        puzzleJson.answer_info.set( key, value);
     }
 
     //down clue iterations
@@ -351,6 +365,12 @@ function generateClueTable() {
         row.append(direction, clue_number, clue, answer, answer_length);
         
         table.appendChild(row);
+
+        // let's also save the lengths of answers in the answers_info hashmap for reference later.
+        const key = "D" + template[i].value;
+        const value = count_char_down;
+        
+        puzzleJson.answer_info.set( key, value);
     }
 
     document.getElementById("clueTableContainer").appendChild(table);
@@ -365,13 +385,84 @@ function checkPuzzleSolution() {
 // Note: ID names for clues and answers follow the format "TYPEContent_DIRECTION_NUM" 
 // where TYPE is either "clue" or "answer", DIRECTION is "A" for across or "D" for down 
 // and NUM is the corresponding clue number
+    const template = puzzleJson.template
 
+    //get acess to the error message thing. and wipe it clean
+    const errormessage = document.getElementById("errorMessage");
+    errormessage.textContent = "";
+
+    // check that the length of each answer is exactly correct, otherwise print some message saying which is wrong
+    // for across 
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        // for across
+        if (template[i].acrossflag){
+            const length = puzzleJson.answer_info["A" + template[i].value];
+            //check we retreives the clue info well!!!
+            if (length === undefined) {
+                throw new Error("failure when accessing hashmap for across at " + template[i].value);
+            }
+
+            const answer = document.getElementById('answerContent_A_' + template[i].value);
+
+            //check the answer is the right length
+            if (length !== answer.length){
+                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
+                const errormessage = document.getElementById("errorMessage");
+                errormessage.textContent = "Answer at " + template[i].value + " across is " + answer.length + " but " + length + " was expected" ;
+                return;
+            }
+        }
+        // for down TODO
+        if (template[i].downflag){
+            const length = puzzleJson.answer_info["D" + template[i].value];
+            //check we retreives the clue info well!!!
+            if (length === undefined) {
+                console.log("failure when accessing hashmap for down at " + template[i].value);
+            }
+
+            const answer = document.getElementById('answerContent_D_' + template[i].value);
+
+            //check the answer is the right length. if it's wrong, we want to exit so the user can fix their inputs. 
+            if (length !== answer.length){
+                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
+                const errormessage = document.getElementById("errorMessage");
+                errormessage.textContent = "Answer at " + template[i].value + " down is " + answer.length + " but " + length + " was expected" ;
+                return;
+            }
+        }
+
+        
+    }
+    
+
+
+    // TODO build two arrays, one with the down answers, one with the across answers, 
+    
+    // across array 
+    let across_sol = puzzleJson.solution;
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        if (template[i].acrossflag){
+            let answer = 'answerContent_A_' + template[i].value;    // get the answer
+            for (let j = 0; j < puzzleJson.answer_info["A" + template[i].value]; j++){
+                across_sol[i+j] = answer[j];    // put the answer in the array
+            }
+        }
+    }
+    // TODO down array (this might be a pain)
+
+    // TODO if they ever 1. dont match up, or 2. have a null element, or 3. the blacked out squares dont match template's 
+    // then print the location of issue for the user and stop.
+
+
+
+
+    // TODO if all this passes, set solution array to either of the ones above
+    // and set the clues field with an array with the direction, number and clue in that order.
+    puzzleJson.template = across_sol;
 
 }
 
 
-
-// then display a table for clues with columns across and down, ask for input of clues and solutions
 //check solutions are valid (no conflicts and covered the whole map)
 // make a thing that prints the error and where it happens in the grid and what it is. a bad sumbission shouldnt wipe anything
 
