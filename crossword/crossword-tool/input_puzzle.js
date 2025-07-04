@@ -54,9 +54,11 @@ function resetForm() {
     document.getElementById("checkPuzzleButton").style.display = "none";
 
     // Wipe template display table and clue table
-    
-    document.getElementById("templateTableContainer").innerHTML = ""
-    document.getElementById("clueTableContainer").innerHTML = ""
+    document.getElementById("templateTableContainer").innerHTML = "";
+    document.getElementById("clueTableContainer").innerHTML = "";
+
+    // Wipe any error messages
+    document.getElementById("errorMsg").textContent = "";
 }
 
 //when next is clicked: collect the user inputs,  disable editing the name, notes, and dimensions. 
@@ -375,9 +377,93 @@ function generateClueTable() {
 
     document.getElementById("clueTableContainer").appendChild(table);
 
+    //get access to the error message thing. and wipe it clean before we let the user see it
+    const errormessage = document.getElementById("errorMsg");
+    errormessage.textContent = "";
+
     //display the table to fill in and the button to check
     document.getElementById("clueTableContainer").style.display = "block";
     document.getElementById("checkPuzzleButton").style.display = "block";
+}
+
+// helper to check if the across answers coincide with the down answers and they both work with template and have no holes
+ // if they ever 1. dont match up, or 2. have a null element, or 3. the blacked out squares dont match template's 
+    // then print the location of issue for the user and stop.
+function checkAcrossAndDownCoincide(across, down) {
+    const errormessage = document.getElementById("errorMsg");
+
+    if (across.length !== down.length || across.length !== puzzleJson.template.length) {
+        console.log("issue with size of arrays. something is very wrong if you see this.")
+        return false; 
+    }
+  
+    for (let i = 0; i < across.length; i++) {
+      // if null encounterd
+      if (across[i] === null || down[i] === null) {
+        console.log("index " + i + " has nothing in it, idk how it got by the length check");
+        return false;
+      }
+      // check if the black squares "∅" match what is expected in template
+      if (puzzleJson.template[i] !== -1 && (across[i] === "∅" || down[i] === "∅") || ( puzzleJson.template[i] === -1 && (across[i] !== "∅" || down[i] !== "∅"))) {
+        console.log("the square at index " + i + " isnt the right color according to the template");
+        return false;
+      }
+      if (across[i] !== down[i]) {
+        // print to USER there is an issue here and ask them to fix and resubmit
+
+        errormessage.textContent += "conflict at row " + (Math.floor(i / puzzleJson.dimensions)+1) + " and column " + (i%puzzleJson.dimensions) + "\n";
+        return false; 
+      }
+    }
+  
+    return true; 
+  }
+
+function saveClues() {
+    //TODO    save the clues
+}
+
+function checkAnswerLength() {
+    const template = puzzleJson.template
+    const errormessage = document.getElementById("errorMsg");
+
+    // check that the length of each answer is exactly correct, otherwise print some message saying which is wrong
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        // for across
+        if (template[i].acrossflag){
+            const length = puzzleJson.answer_info.get("A" + template[i].value);
+            //check we retreives the clue info well!!!
+            if (length === undefined) {
+                console.log("failure when accessing hashmap for across at " + template[i].value);
+            }
+
+            const answer = document.getElementById('answerContent_A_' + template[i].value).value;
+            //check the answer is the right length
+            if (length !== answer.length){
+                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
+                errormessage.textContent = "Answer at " + template[i].value + " across is " + answer.length + " but " + length + " was expected" ;
+                return false;
+            }
+        }
+        // for down TODO
+        if (template[i].downflag){
+            const length = puzzleJson.answer_info.get("D" + template[i].value);
+            //check we retreives the clue info well
+            if (length === undefined) {
+                console.log("failure when accessing hashmap for down at " + template[i].value);
+            }
+
+            const answer = document.getElementById('answerContent_D_' + template[i].value).value;
+
+            //check the answer is the right length. if it's wrong, we want to exit so the user can fix their inputs. 
+            if (length !== answer.length){
+                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
+                errormessage.textContent = "Answer at " + template[i].value + " down is " + answer.length + " but " + length + " was expected" ;
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 // checks that all answers fit together, no empty spots, not conflicts.
@@ -387,59 +473,12 @@ function checkPuzzleSolution() {
 // and NUM is the corresponding clue number
     const template = puzzleJson.template
 
-    //get acess to the error message thing. and wipe it clean
-    const errormessage = document.getElementById("errorMessage");
-    errormessage.textContent = "";
-
-    // check that the length of each answer is exactly correct, otherwise print some message saying which is wrong
-    // for across 
-    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
-        // for across
-        if (template[i].acrossflag){
-            const length = puzzleJson.answer_info["A" + template[i].value];
-            //check we retreives the clue info well!!!
-            if (length === undefined) {
-                throw new Error("failure when accessing hashmap for across at " + template[i].value);
-            }
-
-            const answer = document.getElementById('answerContent_A_' + template[i].value);
-
-            //check the answer is the right length
-            if (length !== answer.length){
-                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
-                const errormessage = document.getElementById("errorMessage");
-                errormessage.textContent = "Answer at " + template[i].value + " across is " + answer.length + " but " + length + " was expected" ;
-                return;
-            }
-        }
-        // for down TODO
-        if (template[i].downflag){
-            const length = puzzleJson.answer_info["D" + template[i].value];
-            //check we retreives the clue info well!!!
-            if (length === undefined) {
-                console.log("failure when accessing hashmap for down at " + template[i].value);
-            }
-
-            const answer = document.getElementById('answerContent_D_' + template[i].value);
-
-            //check the answer is the right length. if it's wrong, we want to exit so the user can fix their inputs. 
-            if (length !== answer.length){
-                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
-                const errormessage = document.getElementById("errorMessage");
-                errormessage.textContent = "Answer at " + template[i].value + " down is " + answer.length + " but " + length + " was expected" ;
-                return;
-            }
-        }
-
-        
-    }
-    
+    if (!checkAnswerLength()) return; //issue with answer length so we get out of here
 
 
-    // TODO build two arrays, one with the down answers, one with the across answers, 
-    
-    // across array 
-    let across_sol = puzzleJson.solution;
+    // build two arrays, one with the down answers, one with the across answers, 
+    //across array (1d)
+    let across_sol = Array.from(puzzleJson.solution);
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (template[i].acrossflag){
             let answer = 'answerContent_A_' + template[i].value;    // get the answer
@@ -448,18 +487,32 @@ function checkPuzzleSolution() {
             }
         }
     }
-    // TODO down array (this might be a pain)
+    //down array (1d)
+    let down_sol = Array.from(puzzleJson.solution);
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        if (template[i].downflag){
+            let answer = 'answerContent_D_' + template[i].value;    // get the answer
+            for (let j = 0; j < puzzleJson.answer_info["D" + template[i].value]; j++){
+                down_sol[i+(j * puzzleJson.dimensions)] = answer[j];    // put the answer in the array
+            }
+        }
+    }
 
-    // TODO if they ever 1. dont match up, or 2. have a null element, or 3. the blacked out squares dont match template's 
-    // then print the location of issue for the user and stop.
+
+    // calls a helper function to check that the arrays agree. if they dont we jump back to asking the user for new inputs. 
+    if ( ! checkAcrossAndDownCoincide(across_sol, down_sol)) {
+        // there is some issue with the super input so we ask the user to edit their inputs and click confirm again
+        return;
+    }
+    
+    
 
 
-
-
-    // TODO if all this passes, set solution array to either of the ones above
-    // and set the clues field with an array with the direction, number and clue in that order.
-    puzzleJson.template = across_sol;
-
+    // TODO all this passes, set solution array to either of the ones above
+    // and set the clues field with an array with the direction, number and clue in that order. 
+    // and lock inputs? maybe add an edit button that lets you unlock and make changes
+    puzzleJson.solution = across_sol;
+    saveClues();
 }
 
 
@@ -467,5 +520,5 @@ function checkPuzzleSolution() {
 // make a thing that prints the error and where it happens in the grid and what it is. a bad sumbission shouldnt wipe anything
 
 
-// add a restart button at the top
+// finally add a button to download. throw an error telling them to submit a good set of clues and answers if puzzzleJSON.clues is empty. 
 
