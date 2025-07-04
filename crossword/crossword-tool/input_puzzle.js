@@ -396,22 +396,22 @@ function checkAcrossAndDownCoincide(across, down) {
         console.log("issue with size of arrays. something is very wrong if you see this.")
         return false; 
     }
-  
+
     for (let i = 0; i < across.length; i++) {
       // if null encounterd
-      if (across[i] === null || down[i] === null) {
-        console.log("index " + i + " has nothing in it, idk how it got by the length check");
+      if (across[i] === null && down[i] === null) {
+        console.log("index " + i + " has nothing in it");
         return false;
       }
       // check if the black squares "∅" match what is expected in template
-      if (puzzleJson.template[i] !== -1 && (across[i] === "∅" || down[i] === "∅") || ( puzzleJson.template[i] === -1 && (across[i] !== "∅" || down[i] !== "∅"))) {
+      if ((puzzleJson.template[i].value !== -1 && (across[i] === "∅" || down[i] === "∅")) || ( puzzleJson.template[i].value === -1 && (across[i] !== "∅" || down[i] !== "∅"))) {
         console.log("the square at index " + i + " isnt the right color according to the template");
         return false;
       }
-      if (across[i] !== down[i]) {
-        // print to USER there is an issue here and ask them to fix and resubmit
-
-        errormessage.textContent += "conflict at row " + (Math.floor(i / puzzleJson.dimensions)+1) + " and column " + (i%puzzleJson.dimensions) + "\n";
+     
+      if (across[i] != down[i] && !((across[i] !== null && down[i] === null) || (across[i] === null && down[i] !== null))) {
+        // print error message to screen to tell user there is an issue here and ask them to fix and resubmit
+        errormessage.textContent +="conflict at row " + (Math.floor(i / puzzleJson.dimensions)+1) + " and column " + (i%puzzleJson.dimensions +1);
         return false; 
       }
     }
@@ -420,7 +420,8 @@ function checkAcrossAndDownCoincide(across, down) {
   }
 
 function saveClues() {
-    //TODO    save the clues
+    //TODO    save the clues in to the struct at the top of the file
+     // and set the clues field with an array with the direction, number and clue in that order. 
 }
 
 function checkAnswerLength() {
@@ -440,12 +441,12 @@ function checkAnswerLength() {
             const answer = document.getElementById('answerContent_A_' + template[i].value).value;
             //check the answer is the right length
             if (length !== answer.length){
-                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
-                errormessage.textContent = "Answer at " + template[i].value + " across is " + answer.length + " but " + length + " was expected" ;
+                //print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
+                errormessage.textContent = "Answer at " + template[i].value + " across has length " + answer.length + " but " + length + " was expected\n" ;
                 return false;
             }
         }
-        // for down TODO
+        // for down 
         if (template[i].downflag){
             const length = puzzleJson.answer_info.get("D" + template[i].value);
             //check we retreives the clue info well
@@ -457,8 +458,8 @@ function checkAnswerLength() {
 
             //check the answer is the right length. if it's wrong, we want to exit so the user can fix their inputs. 
             if (length !== answer.length){
-                //TODO print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
-                errormessage.textContent = "Answer at " + template[i].value + " down is " + answer.length + " but " + length + " was expected" ;
+                //print some error to the user indicating the current spot. and stop doing the current thing until button is clicked again
+                errormessage.textContent = "Answer at " + template[i].value + " down has length " + answer.length + " but " + length + " was expected \n" ;
                 return false;
             }
         }
@@ -481,9 +482,10 @@ function checkPuzzleSolution() {
     let across_sol = Array.from(puzzleJson.solution);
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (template[i].acrossflag){
-            let answer = 'answerContent_A_' + template[i].value;    // get the answer
-            for (let j = 0; j < puzzleJson.answer_info["A" + template[i].value]; j++){
+            let answer = document.getElementById('answerContent_A_' + template[i].value).value;    // get the answer
+            for (let j = 0; j < puzzleJson.answer_info.get("A" + template[i].value); j++){
                 across_sol[i+j] = answer[j];    // put the answer in the array
+                console.log(answer[j]); //for testing
             }
         }
     }
@@ -491,33 +493,22 @@ function checkPuzzleSolution() {
     let down_sol = Array.from(puzzleJson.solution);
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (template[i].downflag){
-            let answer = 'answerContent_D_' + template[i].value;    // get the answer
-            for (let j = 0; j < puzzleJson.answer_info["D" + template[i].value]; j++){
+            let answer = document.getElementById('answerContent_D_' + template[i].value).value;    // get the answer
+            for (let j = 0; j < puzzleJson.answer_info.get("D" + template[i].value); j++){
                 down_sol[i+(j * puzzleJson.dimensions)] = answer[j];    // put the answer in the array
             }
         }
     }
-
 
     // calls a helper function to check that the arrays agree. if they dont we jump back to asking the user for new inputs. 
     if ( ! checkAcrossAndDownCoincide(across_sol, down_sol)) {
         // there is some issue with the super input so we ask the user to edit their inputs and click confirm again
         return;
     }
-    
-    
 
-
-    // TODO all this passes, set solution array to either of the ones above
-    // and set the clues field with an array with the direction, number and clue in that order. 
-    // and lock inputs? maybe add an edit button that lets you unlock and make changes
-    puzzleJson.solution = across_sol;
-    saveClues();
+    puzzleJson.solution = across_sol.map((value, index) => (value === null) ? down_sol[index] : value ); // record the solution
+    saveClues();  // and set the clues field with an array with the direction, number and clue in that order. 
 }
-
-
-//check solutions are valid (no conflicts and covered the whole map)
-// make a thing that prints the error and where it happens in the grid and what it is. a bad sumbission shouldnt wipe anything
 
 
 // finally add a button to download. throw an error telling them to submit a good set of clues and answers if puzzzleJSON.clues is empty. 
