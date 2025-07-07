@@ -13,13 +13,13 @@
 
 ## fixes and upgrades
 - make center of magnifying glass translucent
-- please make it better for mobile and even dark mode???
-- add more clickable links everywhere
+- please make it better for mobile and even dark mode??? no i dont want to
+- add more clickable links everywhere (on home page!!!)
 - make links in list of favourite website links look better (and the list overall)
 - fix clickable links (color, underline, hover cursor!!!)
 - organize links better
-- make favourite weebsite links open in new tab
+- make favourite weebsite links open in new tab 
 
 ## archive
-- add in time lapses
+- add in time lapses - they are all on youtube shorts which makes it easy to embed them
 

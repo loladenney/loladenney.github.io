@@ -235,7 +235,6 @@ function addNumbers() {
 // builds a form table for each of the word solutions and clues to be added to 
 // this will only run once per reset
 function generateClueTable() {
-
     //initialize with new hashmap
     puzzleJson.answer_info = new Map();
 
@@ -420,8 +419,27 @@ function checkAcrossAndDownCoincide(across, down) {
   }
 
 function saveClues() {
+    puzzleJson.clues = new Array;
     //TODO    save the clues in to the struct at the top of the file
-     // and set the clues field with an array with the direction, number and clue in that order. 
+    // and set the clues field with an array with the direction, number and clue in that order. 
+    // these are read from user input
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        if (puzzleJson.template[i].acrossflag) {
+            const clue = document.getElementById("clueContent_A_" + puzzleJson.template[i].value);
+            if (clue === null) console.log("this shouldnt happen"); //check if the above failed
+            let info = {direction: Direction.ACROSS, number: puzzleJson.template[i].value,  clue: clue.value};
+            puzzleJson.clues.push(info);
+        }
+        if (puzzleJson.template[i].downflag) {
+            // TODO down clue is here;
+            const clue = document.getElementById("clueContent_D_" + puzzleJson.template[i].value);
+            if (clue === null) console.log("this shouldnt happen");
+            let info = {direction: Direction.DOWN, number: puzzleJson.template[i].value,  clue: clue.value};
+            puzzleJson.clues.push(info);
+        }
+     }
+     console.log(puzzleJson.clues);
+
 }
 
 function checkAnswerLength() {
