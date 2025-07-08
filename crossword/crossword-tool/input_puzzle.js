@@ -1,7 +1,6 @@
 // turn on strict mode
 'use strict';
 
-//TODO make json global object that gets built where its ? or passed from function to function? 
 const puzzleJson = {
     title: "Untitled",
     notes: "",
@@ -418,11 +417,13 @@ function checkAcrossAndDownCoincide(across, down) {
     return true; 
   }
 
+
+// helper function to save the clues in to the struct at the top of the file
+// and set the clues field with an array with the direction, number and clue in that order. 
+// clues are read from user input
 function saveClues() {
     puzzleJson.clues = new Array;
-    //TODO    save the clues in to the struct at the top of the file
-    // and set the clues field with an array with the direction, number and clue in that order. 
-    // these are read from user input
+
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (puzzleJson.template[i].acrossflag) {
             const clue = document.getElementById("clueContent_A_" + puzzleJson.template[i].value);
@@ -431,7 +432,7 @@ function saveClues() {
             puzzleJson.clues.push(info);
         }
         if (puzzleJson.template[i].downflag) {
-            // TODO down clue is here;
+            //down clue is here;
             const clue = document.getElementById("clueContent_D_" + puzzleJson.template[i].value);
             if (clue === null) console.log("this shouldnt happen");
             let info = {direction: Direction.DOWN, number: puzzleJson.template[i].value,  clue: clue.value};
@@ -439,7 +440,6 @@ function saveClues() {
         }
      }
      console.log(puzzleJson.clues);
-
 }
 
 function checkAnswerLength() {
@@ -491,6 +491,9 @@ function checkPuzzleSolution() {
 // where TYPE is either "clue" or "answer", DIRECTION is "A" for across or "D" for down 
 // and NUM is the corresponding clue number
     const template = puzzleJson.template
+    const errormessage = document.getElementById("errorMsg");
+    errormessage.textContent = "";
+
 
     if (!checkAnswerLength()) return; //issue with answer length so we get out of here
 
@@ -529,5 +532,5 @@ function checkPuzzleSolution() {
 }
 
 
-// finally add a button to download. throw an error telling them to submit a good set of clues and answers if puzzzleJSON.clues is empty. 
+// TODO finally add a button to download. throw an error telling them to submit a good set of clues and answers if puzzzleJSON.clues is empty. 
 
