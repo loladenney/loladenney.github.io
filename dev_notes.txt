@@ -6,6 +6,8 @@
 
 ## future additions
 - add a spot for book reviews/recommendations (no out of 5 or out of 10. just description)
+movies: Kpop demon hunters, romeo and juliet, 
+books: dune, heart of a dog
 - eventually expand the above to movies and music and podcasts etc
 - probably just a section for my interests in others stuff. 
 - crossword acess is in a sidebar on the left side of home page. here will link to lists of favourite media as well. i want to drawy icons or animations for them 
@@ -19,6 +21,9 @@
 - fix clickable links (color, underline, hover cursor!!!)
 - organize links better
 - make favourite weebsite links open in new tab 
+Put my X-rays on my website???
+Tab for dental health….. 
+
 
 ## archive
 - add in time lapses - they are all on youtube shorts which makes it easy to embed them

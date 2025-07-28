@@ -51,6 +51,7 @@ function resetForm() {
     document.getElementById("clueTableContainer").style.display = "none";
     document.getElementById("templateTableContainer").style.display = "none";
     document.getElementById("checkPuzzleButton").style.display = "none";
+    document.getElementById("downloadButton").style.display = "none";
 
     // Wipe template display table and clue table
     document.getElementById("templateTableContainer").innerHTML = "";
@@ -494,6 +495,9 @@ function checkPuzzleSolution() {
     const errormessage = document.getElementById("errorMsg");
     errormessage.textContent = "";
 
+    //hide the download buttom while we check if the changes still make a valid puzzle
+    document.getElementById("downloadButton").style.display = "none";
+
 
     if (!checkAnswerLength()) return; //issue with answer length so we get out of here
 
@@ -528,9 +532,18 @@ function checkPuzzleSolution() {
     }
 
     puzzleJson.solution = across_sol.map((value, index) => (value === null) ? down_sol[index] : value ); // record the solution
-    saveClues();  // and set the clues field with an array with the direction, number and clue in that order. 
+    saveClues();  // and set the clues field with an array with the direction, number and clue in that order.
+    
+    //tell user their puzzle is good and allow them to click a button to download it
+    const successMsg = document.getElementById("successMsg");
+    successMsg.textContent = "Puzzle is all good, ready to download?!";   /// TODO test this does what i want!!!!!
+    //display download buttom
+    document.getElementById("downloadButton").style.display = "block";
 }
 
 
+function downloadPuzzle() {
+     // TODO
+}
 // TODO finally add a button to download. throw an error telling them to submit a good set of clues and answers if puzzzleJSON.clues is empty. 
 
