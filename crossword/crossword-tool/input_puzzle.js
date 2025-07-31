@@ -4,6 +4,7 @@
 const puzzleJson = {
     title: "Untitled",
     notes: "",
+    date: null,
     dimensions: 2,
     template: null,     // array of a record with an integer value, and a flag for across and down 
                         // value is -1 for no character, 0 for character must be placed, numbers for clues will be added in here
@@ -494,9 +495,16 @@ function checkPuzzleSolution() {
     const template = puzzleJson.template
     const errormessage = document.getElementById("errorMsg");
     errormessage.textContent = "";
+    document.getElementById("successMsg").style.display = "none";
 
     //hide the download buttom while we check if the changes still make a valid puzzle
     document.getElementById("downloadButton").style.display = "none";
+    
+    //wipe the solution to allow resubmission
+    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
+        if (puzzleJson.solution[i] === "∅") continue;
+        puzzleJson.solution[i] = null;
+    }
 
 
     if (!checkAnswerLength()) return; //issue with answer length so we get out of here
@@ -534,16 +542,31 @@ function checkPuzzleSolution() {
     puzzleJson.solution = across_sol.map((value, index) => (value === null) ? down_sol[index] : value ); // record the solution
     saveClues();  // and set the clues field with an array with the direction, number and clue in that order.
     
-    //tell user their puzzle is good and allow them to click a button to download it
-    const successMsg = document.getElementById("successMsg");
-    successMsg.textContent = "Puzzle is all good, ready to download?!";   /// TODO test this does what i want!!!!!
+    //TODO TEST THIS PART tell user their puzzle is good and allow them to click a button to download it
+    document.getElementById("successMsg").style.display = "block";
     //display download buttom
     document.getElementById("downloadButton").style.display = "block";
 }
 
 
 function downloadPuzzle() {
-     // TODO
+    //first, add the date to the json
+    const date = new Date();
+    puzzleJson.date = date.toJSON();    // we can do smth like this: new Date(jsonDate).toUTCString() to convert it to a string later
+
+
+     // download puzzle json
+    const filename =  puzzleJson.title + ".json";
+    const jsonStr = JSON.stringify(puzzleJson, null, 2); 
+
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename; 
+
+    a.click(); // trigger download
+
+    URL.revokeObjectURL(url);
 }
-// TODO finally add a button to download. throw an error telling them to submit a good set of clues and answers if puzzzleJSON.clues is empty. 
 
