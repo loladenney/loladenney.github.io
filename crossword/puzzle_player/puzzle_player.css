@@ -1,0 +1,48 @@
+body{ 
+    display: flex;
+    width: 700;
+    background-color: rgb(255, 255, 255);
+    justify-content: center; 
+    margin:0 auto; 
+    cursor: url("assets/neutral_cursor.png"), auto;
+}
+
+
+.layout {
+    display: flex;
+    gap: 10px;
+    width: 700px;
+  }
+  
+  .gameboard-box {
+    flex: 2; 
+    background: #ddd;
+    padding: 10px;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .clues-box {
+     /* smaller than left */
+    display: flex;
+    width: 175px;
+    flex-direction: column;
+    gap:10px;
+  }
+  
+  .across-box,
+  .down-box {   
+    display: flex;
+    flex: 1; 
+    flex-direction: column;
+    display: flex;
+    background: #bbb;
+    padding: 10px;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+
+  .clues {
+    flex: 1; 
+    background: #e6e1e1;
+    padding: 1px;
+  }
