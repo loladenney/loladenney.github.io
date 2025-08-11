@@ -22,6 +22,7 @@ books: dune, heart of a dog, lord of the rings, edogawa ranpo
 - make links in list of favourite website links look better (and the list overall)
 - fix clickable links (color, underline, hover cursor!!!)
 - make favourite website links open in new tab 
+- change favicon
 
 
 ## archive
