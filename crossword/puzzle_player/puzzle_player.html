@@ -8,15 +8,20 @@
 
 <table><tr><td>
 
-<h1>title</h1>
-<h2>date</h2>
-<h3>notes</h3>
+<h1 id="title">title</h1>
+<h2 id="date">date</h2>
+<h3 id="notes">notes</h3>
 
+<button id="reveal-letter-button" disabled>Reveal Letter</button>
 <div class="layout" align="center">
-    <div class="gameboard-box">crossword</div>
+    <div class="gameboard-box">
+    <div id="gameboard-grid"></div>
+
+
+    </div>
     <div class="clues-box">
-        <div class="across-box"><div>Across</div> </div>
-        <div class="down-box"><div>Down</div> </div>
+        <div class="across-box" id="across-box" ><div>Across</div> </div>
+        <div class="down-box" id="down-box"><div>Down</div> </div>
     </div>
 </div>
 

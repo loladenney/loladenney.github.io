@@ -1,6 +1,6 @@
 body{ 
     display: flex;
-    width: 700;
+    width: 700px;
     background-color: rgb(255, 255, 255);
     justify-content: center; 
     margin:0 auto; 
@@ -20,6 +20,41 @@ body{
     padding: 10px;
     aspect-ratio: 1 / 1;
   }
+
+  #gameboard-grid {
+    display: grid;
+    aspect-ratio:  1 / 1;
+
+  }
+  
+  .crossword-cell {
+    aspect-ratio:  1 / 1;
+    background: white;
+    border: 2px solid #454545;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    position: relative;
+    /* add my own font here */
+
+    display: grid;
+    grid-template-columns: 15% [text] auto 15%;
+    grid-template-rows: 15% [text] auto 15%;
+  }
+  .crossword-cell input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: calc(495px / var(--dim) * 0.6); /*TODO: check text scaling on different puzzles!!!!! */ 
+    border: none;
+    outline: none;
+    background: transparent;
+    caret-color: transparent;
+    grid-row: 2;
+    grid-column: 2;
+  }
+  
   
   .clues-box {
      /* smaller than left */
@@ -41,8 +76,10 @@ body{
     white-space: nowrap;
   }
 
-  .clues {
+  .clue {
     flex: 1; 
-    background: #e6e1e1;
-    padding: 1px;
+    padding: 2px;
+    font-size: 90%;
+    overflow: scroll;
+    align-self: start;
   }
