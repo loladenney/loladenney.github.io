@@ -52,21 +52,43 @@ body{
     width: 100%;  
     text-align: left;
     margin: 0 auto; 
+    margin-top: 7px;
 }
 
-
+.title-text {
+    position: relative;
+    left: 20px;
+  }
 
 .content-container {
     display: grid;
-    grid-template-columns: [sidebar] 100px [subheadings] 125px [content] auto;
-    grid-template-rows: [about-me-title] auto [about-me-body] auto [hire-me-title] auto [hire-me-body] auto;
+    grid-template-columns: [sidebar] 125px [subheadings] auto [content] auto;
+    grid-template-rows: [about-me-title] auto [about-me-body] auto [hire-me-title] auto [hire-me-body] auto [overflow] auto;
+    row-gap: 0px;
+    column-gap: 20px;
 }
 
+/* all the sidebar stuff */
 .sidebar {
     grid-column: sidebar;
     grid-row: 1 / -1;
-    display: flex;
-    flex-direction: column;
+}
+
+table#sidebar-table {
+    border:6px #4b4b4b;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    
+}
+.sidebar-icon {
+    width: 115px;
+    height: 115px;
+
+}
+.sidebar-title {
+    width: 115px;
+    height: auto;
 
 }
 
