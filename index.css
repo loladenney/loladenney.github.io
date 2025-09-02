@@ -1,3 +1,7 @@
+* {
+    cursor: url("assets/neutral_cursor.png"), auto;
+ }
+
 body{ 
     display: flex;
     flex-direction: column;
@@ -5,7 +9,6 @@ body{
     background-color: rgb(255, 255, 255);
     justify-content: center; 
     margin:0 auto; 
-    cursor: url("assets/neutral_cursor.png"), auto;
 }
 
 .dragonheader {
@@ -42,9 +45,6 @@ body{
     cursor: url("assets/magglasscursor.png"), auto;
     text-decoration: none;  
 }
-.navbuttoninactive:hover {
-    color: rgb(0, 0, 0);
-}
 
 .title {
     width: 300px;
@@ -65,7 +65,7 @@ body{
     grid-template-columns: [sidebar] 125px [subheadings] auto [content] auto;
     grid-template-rows: [about-me-title] auto [about-me-body] auto [hire-me-title] auto [hire-me-body] auto [overflow] auto;
     row-gap: 0px;
-    column-gap: 20px;
+    column-gap: 25px;
 }
 
 /* all the sidebar stuff */
@@ -73,13 +73,16 @@ body{
     grid-column: sidebar;
     grid-row: 1 / -1;
 }
-
 table#sidebar-table {
-    border:6px #4b4b4b;
+    border:3px #000000;
     border-radius: 5px;
     border-style: solid;
-    background-color: white;
-    
+    border-spacing:7px;
+}
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .sidebar-icon {
     width: 115px;
@@ -91,6 +94,11 @@ table#sidebar-table {
     height: auto;
 
 }
+.sidebar :hover {
+    cursor: url("assets/magglasscursor.png"), auto;
+}
+
+
 
 .aboutme-title {
     grid-column: subheadings / span content;

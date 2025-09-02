@@ -2,7 +2,13 @@
 
 let puzzleJson;
 
-function loadPuzzle(fileName){
+function getPuzzleTitleFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('id');
+  }
+
+function loadPuzzle(){
+    const fileName = getPuzzleTitleFromUrl();
     fetch(`https://loladenney.github.io/crossword/puzzles/${fileName}.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
@@ -139,8 +145,12 @@ function CheckPuzzle() {
 
     //success
     console.log("WIN");
+    alert("YOU WIN!");
     //TODO go to YouWin() function
 }
+
+
+loadPuzzle("hello");
 
 
 // then add all the interactivity, inputing, , reveal answer
@@ -161,4 +171,27 @@ function CheckPuzzle() {
 //todo highlight currently selected box, starting with top right corner. when a character is inputted, automatically move to the right. 
 
 // temporary for testing!!!
-loadPuzzle("hello");
+
+
+
+
+
+// ok for the highlighting
+/*
+when you click on a clue, it highlights the corresponding first empty square in the right direction at that number. if its all full it goes to the first square
+clicking on a clue sets the "direction" state, so we know which way to move the cursor when a character is entered
+
+by default on load in, the direction is set to across, and the highlighted square is the top left one. the first across clue is also highlighted
+if a cell that is currently selected gets clicked, direction flips and the square doesnt change even if its filled. 
+if no across clue exists, if there is a down clue flip direction and start with that one. if there is neither then 
+
+when a character is written, the cursor move one spot in the direction of "direction", if we are already at the end, we look at the list of 
+clues in the current direction, and go to the next empty square from a clue after the current one. 
+if there are no more blank squares from any of the clues in the current direction, we go to the next open square of the other direction (make sure we flip the direction), 
+if that one is filled then look through the original direction from the top. there will always be an open square because the below thing will enforce that.
+
+if the character is the one that completes the puzzle (correct or not) (this will be detected the same way we know to check the full puzzle) do not change anything. check this before the above to avoid infinite loops
+
+-how can i get the thing to immediately take a character? a secret click happening? idk
+
+*/

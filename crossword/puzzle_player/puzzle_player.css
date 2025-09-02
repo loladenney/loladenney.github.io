@@ -1,10 +1,13 @@
+* {
+  cursor: url("assets/neutral_cursor.png"), auto;
+}
+
 body{ 
     display: flex;
     width: 700px;
     background-color: rgb(255, 255, 255);
     justify-content: center; 
     margin:0 auto; 
-    cursor: url("assets/neutral_cursor.png"), auto;
 }
 
 

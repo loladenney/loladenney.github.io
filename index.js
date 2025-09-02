@@ -1,4 +1,4 @@
-
+'use strict';
 const image = document.querySelector('.dragon-img');
 
 // Function to check if the mouse is over the leftmost 100 pixels of the image
