@@ -1,0 +1,149 @@
+{
+  "title": "Tuesday September 2nd",
+  "notes": "My first (non-testing) crossword!!",
+  "date": "2025-09-02T14:05:17.884Z",
+  "dimensions": 4,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "c",
+    "h",
+    "e",
+    "f",
+    "r",
+    "e",
+    "a",
+    "r",
+    "o",
+    "l",
+    "i",
+    "o",
+    "w",
+    "l",
+    "o",
+    "g"
+  ],
+  "answer_info": {},
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "the bear profession"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "goth bird (smaller)"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "a hot final destination"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "vowels in order"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "nonbinary animal"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "to raise livestock"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "pasta dish with aglio"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "useful statement in a math proof that should be more general"
+    }
+  ]
+}

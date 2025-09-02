@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/png" href="assets/gator2025.png">
+    <link rel="icon" type="image/png" href="../assets/gator2025.png">
     <meta name="viewport" content="width=700">
+    <link rel="stylesheet" href="../index.css">
 </head>
 <body>
+
+    <div class="dragonheader"><img class="dragon-img" src="../assets/dragon_header.png" alt="awesome wavy dragon"></div>
+
+    <div class="navbar"> 
+        <div class="navbuttonbackground" > <a class="navbutton" href="../index.html">----- Home -----</a> </div>
+        <div class="navbuttonbackground" > <a class="navbutton" href="../archive.html">----- Archive -----</a>  </div>
+        <div class="navbuttonbackground" > <a class="navbutton" href="../pottery.html">----- Pottery -----</a> </div>
+    </div>
+    
 
 <!-- ok i want to have a list of all the puzzles available, sorted by most recent.
 i want the menu to display their title, date posted, and dimensions. Maybe i need a nice header as well. but start simple.  -->
 
 <h1>Please pick a puzzle from the list below:)</h1>
-<ul>
+
+<ol reversed>  <!-- add new crosswords to the top!   The Id should be the title with spaces replaced by underscores -->
+    <li><a href="puzzle_player/puzzle_player.html?id=flight">Flight to Japan</a></li>
+    <li><a href="puzzle_player/puzzle_player.html?id=tuesday_september_2nd">Tuesday September 2nd</a></li>
     <li><a href="puzzle_player/puzzle_player.html?id=hello">hello</a></li>
-</ul>
+    
+</ol>
 
 </body>
 </html>

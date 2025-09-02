@@ -1,0 +1,382 @@
+{
+  "title": "Flight to Japan",
+  "notes": "I wrote this on the plane to japan",
+  "date": "2025-09-02T14:50:05.842Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "k",
+    "o",
+    "r",
+    "e",
+    "a",
+    "n",
+    "∅",
+    "e",
+    "p",
+    "∅",
+    "∅",
+    "r",
+    "∅",
+    "∅",
+    "r",
+    "e",
+    "n",
+    "a",
+    "e",
+    "∅",
+    "p",
+    "o",
+    "n",
+    "a",
+    "d",
+    "a",
+    "t",
+    "e",
+    "p",
+    "i",
+    "t",
+    "a",
+    "r",
+    "a",
+    "t",
+    "p",
+    "t",
+    "∅",
+    "p",
+    "u",
+    "r",
+    "e",
+    "i",
+    "∅",
+    "∅",
+    "t",
+    "g",
+    "t",
+    "∅"
+  ],
+  "answer_info": {},
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "home country of bts"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "hello kitty's frog friend"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "said impatiently by children at a birthday party"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "partial floor covering in a room"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "Thompson, author of \"the making of the english working class\""
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "great name for a girl horse in my opinion"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "pos. num. "
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "become suited to"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "cat that walks in his cool shoes"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "two people at a restaurant"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "tiny pie"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "shawarma rodent"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "one-on-one service at the gym"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "uncontaminated"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "target's stock abbrv."
+    }
+  ]
+}

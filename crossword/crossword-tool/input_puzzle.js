@@ -2,7 +2,7 @@
 'use strict';
 
 const puzzleJson = {
-    title: "Untitled",
+    title: "Untitled", // spaces are replaced with _
     notes: "",
     date: null,
     dimensions: 2,
@@ -331,10 +331,10 @@ function generateClueTable() {
         let k = i + puzzleJson.dimensions;
         let count_char_down = 1;
         // we can write in j and we havent wrapped around (note: first spot is always writable by containing number > 0)
-        while (k < puzzleJson.dimensions*puzzleJson.dimensions && k > -1){
+        while (k < puzzleJson.dimensions*puzzleJson.dimensions && template[k].value > -1){
 
             count_char_down ++;
-            k += puzzleJson.dimensions; //fix
+            k += puzzleJson.dimensions; //TODO fix
         }
 
         // if the word has less than 2 characters, print an error
@@ -556,7 +556,8 @@ function downloadPuzzle() {
 
 
      // download puzzle json
-    const filename =  puzzleJson.title + ".json";
+    const title = originalString.replace(/ /g, "_");
+    const filename =  title + ".json";              // title with the spaces replaced by underscores
     const jsonStr = JSON.stringify(puzzleJson, null, 2); 
 
     const blob = new Blob([jsonStr], { type: 'application/json' });

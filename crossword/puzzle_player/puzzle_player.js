@@ -4,6 +4,7 @@ let puzzleJson;
 
 function getPuzzleTitleFromUrl() {
     const params = new URLSearchParams(window.location.search);
+    console.log(params.get('id'));
     return params.get('id');
   }
 
@@ -150,7 +151,7 @@ function CheckPuzzle() {
 }
 
 
-loadPuzzle("hello");
+loadPuzzle();
 
 
 // then add all the interactivity, inputing, , reveal answer
