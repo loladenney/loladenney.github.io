@@ -70,9 +70,9 @@ function DrawBoard(){
             if (puzzleJson.template[i].value > 0){
                 const cornerNumber = document.createElement('div');
                 cornerNumber.textContent = puzzleJson.template[i].value;
-                cornerNumber.style.placeItems = "center";
-                cornerNumber.style.gridColumn = '1';
-                cornerNumber.style.gridRow = '1';
+                //cornerNumber.style.gridColumn = '1';
+                //cornerNumber.style.gridRow = '1';
+                //cornerNumber.style.placeItems = "center";
                 cell.appendChild(cornerNumber);
             }
 
@@ -104,7 +104,7 @@ function DrawCluesList(){
             const clueElement = document.createElement('div');
             clueElement.classList.add('clue');
             clueElement.innerHTML = `<b>${item.number}.</b> ${item.clue}`;
-            acrossBox.appendChild(clueElement);
+            downBox.appendChild(clueElement);
         }
     });
 

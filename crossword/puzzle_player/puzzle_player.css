@@ -40,7 +40,6 @@ body{
     line-height: 40px;
     position: relative;
     /* add my own font here */
-
     display: grid;
     grid-template-columns: 15% [text] auto 15%;
     grid-template-rows: 15% [text] auto 15%;
@@ -72,17 +71,19 @@ body{
     display: flex;
     flex: 1; 
     flex-direction: column;
-    display: flex;
     background: #bbb;
     padding: 10px;
     overflow: scroll;
     white-space: nowrap;
+    
+    gap: 2px;
   }
 
   .clue {
     flex: 1; 
     padding: 2px;
     font-size: 90%;
+    height: 25px;  
     overflow: scroll;
     align-self: start;
   }
