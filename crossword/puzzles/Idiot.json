@@ -1,7 +1,7 @@
 {
-  "title": "Flight to Japan",
-  "notes": "I wrote this on the plane to japan",
-  "date": "2025-09-02T14:50:05.842Z",
+  "title": "Idiot",
+  "notes": "Two of the words here are synonyms for idiot, so thats why i named it this way. Sorry this one has some that are a real stretch :3",
+  "date": "2025-09-02T22:26:16.352Z",
   "dimensions": 7,
   "template": [
     {
@@ -15,12 +15,7 @@
       "downflag": true
     },
     {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": 0,
+      "value": -1,
       "acrossflag": false,
       "downflag": false
     },
@@ -30,44 +25,14 @@
       "downflag": true
     },
     {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
       "value": -1,
       "acrossflag": false,
       "downflag": false
     },
     {
       "value": 4,
-      "acrossflag": true,
-      "downflag": false
-    },
-    {
-      "value": 0,
       "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": -1,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": -1,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": -1,
-      "acrossflag": false,
-      "downflag": false
+      "downflag": true
     },
     {
       "value": -1,
@@ -90,6 +55,11 @@
       "downflag": true
     },
     {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
       "value": 7,
       "acrossflag": false,
       "downflag": true
@@ -106,12 +76,47 @@
     },
     {
       "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
       "acrossflag": false,
-      "downflag": true
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
     },
     {
       "value": 9,
       "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
       "downflag": false
     },
     {
@@ -140,7 +145,7 @@
       "downflag": true
     },
     {
-      "value": 0,
+      "value": -1,
       "acrossflag": false,
       "downflag": false
     },
@@ -175,13 +180,53 @@
       "downflag": false
     },
     {
-      "value": 0,
+      "value": -1,
       "acrossflag": false,
       "downflag": false
     },
     {
       "value": 12,
       "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
       "downflag": false
     },
     {
@@ -203,180 +248,130 @@
       "value": 0,
       "acrossflag": false,
       "downflag": false
-    },
-    {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": -1,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": -1,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": 14,
-      "acrossflag": true,
-      "downflag": false
-    },
-    {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": 0,
-      "acrossflag": false,
-      "downflag": false
-    },
-    {
-      "value": -1,
-      "acrossflag": false,
-      "downflag": false
     }
   ],
   "solution": [
-    "k",
-    "o",
-    "r",
-    "e",
-    "a",
-    "n",
-    "∅",
-    "e",
-    "p",
-    "∅",
-    "∅",
-    "r",
-    "∅",
-    "∅",
-    "r",
-    "e",
-    "n",
-    "a",
-    "e",
-    "∅",
-    "p",
-    "o",
-    "n",
-    "a",
-    "d",
-    "a",
     "t",
-    "e",
     "p",
+    "∅",
+    "a",
+    "∅",
+    "a",
+    "∅",
+    "w",
     "i",
+    "l",
+    "l",
     "t",
-    "a",
-    "r",
-    "a",
-    "t",
-    "p",
-    "t",
+    "o",
     "∅",
-    "p",
+    "i",
+    "n",
+    "z",
+    "e",
+    "r",
+    "o",
+    "∅",
+    "t",
+    "h",
+    "e",
+    "s",
+    "e",
     "u",
-    "r",
+    "s",
+    "∅",
     "e",
-    "i",
-    "∅",
-    "∅",
-    "t",
+    "n",
+    "o",
+    "u",
     "g",
+    "h",
+    "∅",
+    "a",
+    "o",
+    "r",
     "t",
-    "∅"
+    "a",
+    "e",
+    "∅",
+    "d",
+    "∅",
+    "g",
+    "∅",
+    "h",
+    "s"
   ],
   "answer_info": {},
   "clues": [
     {
       "direction": "across",
       "number": 1,
-      "clue": "BTS member's nationality"
+      "clue": "roll of 2 ply (abbr.)"
     },
     {
       "direction": "down",
       "number": 1,
-      "clue": "hello kitty's frog friend"
+      "clue": "foolish person"
     },
     {
       "direction": "down",
       "number": 2,
-      "clue": "said impatiently by children at a birthday party"
+      "clue": "foolish person"
     },
     {
       "direction": "down",
       "number": 3,
-      "clue": "partial floor covering in a room"
+      "clue": "beer coalition"
     },
     {
-      "direction": "across",
+      "direction": "down",
       "number": 4,
-      "clue": "Thompson, author of \"the making of the english working class\""
+      "clue": "said when your eyes elongate (onometapia)"
     },
     {
       "direction": "across",
       "number": 5,
-      "clue": "great name for a girl horse in my opinion"
+      "clue": "_ power, Nietzsche"
     },
     {
       "direction": "down",
       "number": 6,
-      "clue": "pos. num. "
+      "clue": "saying to taunt the guy who had issue with an 'infinite' footrace "
     },
     {
       "direction": "down",
       "number": 7,
-      "clue": "become suited to"
+      "clue": "treat in scottish gaelic "
     },
     {
-      "direction": "down",
+      "direction": "across",
       "number": 8,
-      "clue": "cat that walks in his cool shoes"
+      "clue": "occupants of the ISS, relative to gravity"
     },
     {
       "direction": "across",
       "number": 9,
-      "clue": "two people at a restaurant"
+      "clue": "guy who might have 1 or 2 boats"
     },
     {
       "direction": "down",
       "number": 10,
-      "clue": "tiny pie"
+      "clue": "feminine contraction"
     },
     {
       "direction": "across",
       "number": 11,
-      "clue": "shawarma rodent"
+      "clue": "That's it!"
     },
     {
       "direction": "across",
       "number": 12,
-      "clue": "one-on-one service at the gym"
+      "clue": "blood tubes"
     },
     {
       "direction": "across",
       "number": 13,
-      "clue": "uncontaminated"
-    },
-    {
-      "direction": "across",
-      "number": 14,
-      "clue": "target's stock abbrv."
+      "clue": "post-elementary"
     }
   ]
 }

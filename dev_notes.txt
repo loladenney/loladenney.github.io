@@ -2,6 +2,8 @@
 - make custom font of captial letters for the puzzle
 - make win pop up in crossword player..... better
 - hide the solution....
+- fix clue number placement
+- fix outline around puzzle not being centered
 
 ## future additions
 - add a spot for book reviews/recommendations (no out of 5 or out of 10. just description)
@@ -9,6 +11,7 @@ movies: Kpop demon hunters, romeo and juliet, look back
 books: dune, heart of a dog, lord of the rings, edogawa ranpo
 - add in a spot for my timelapses, maybe in archive?
 - add a news spot to homepage at the bottom where i have updates about me!
+- imporve cursors
 
 
 ## fixes and upgrades

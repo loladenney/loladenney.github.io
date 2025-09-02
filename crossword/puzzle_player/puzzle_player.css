@@ -22,19 +22,24 @@ body{
     background: #ddd;
     padding: 10px;
     aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-content: center;
   }
 
   #gameboard-grid {
     display: grid;
     aspect-ratio:  1 / 1;
-
+    height:495px;
+    width: 495px;
   }
   
   .crossword-cell {
     aspect-ratio:  1 / 1;
+    height:100%;
+    width: min-content;
     background: white;
     border: 2px solid #454545;
-    font-size: 20px;
+    /*font-size: calc(495px / var(--dim) * 0.2);*/
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
@@ -56,34 +61,45 @@ body{
     grid-row: 2;
     grid-column: 2;
   }
+  .corner-number {
+    display: flex;
+    align-items: flex-start;    /* vertical: top */
+    justify-content: flex-start; 
+    grid-row: 1;
+    grid-column: 1;
+    font-size: auto;
+    
+  }
   
   
   .clues-box {
      /* smaller than left */
     display: flex;
     width: 175px;
+    height: 515px;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
   }
   
-  .across-box,
-  .down-box {   
+  #across-box,
+  #down-box {   
     display: flex;
     flex: 1; 
+    height:252.5px;
     flex-direction: column;
     background: #bbb;
     padding: 10px;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: scroll;
     white-space: nowrap;
-    
     gap: 2px;
   }
 
   .clue {
     flex: 1; 
     padding: 2px;
-    font-size: 90%;
-    height: 25px;  
-    overflow: scroll;
+    font-size: 90%;  
+    max-height: 20px;
+    min-height: 20px;
     align-self: start;
   }

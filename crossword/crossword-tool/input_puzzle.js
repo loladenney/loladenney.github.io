@@ -76,8 +76,8 @@ function nextSteps() {
     puzzleJson.dimensions = parseInt(dimInput.value, 10);
 
     //set all fields to read over to prevent issues with ambiguity if it gets changed after he value is read
-    document.getElementById("puzzleTitle").readOnly = true;
-    document.getElementById("notes").readOnly = true;
+    //document.getElementById("puzzleTitle").readOnly = true;
+    //document.getElementById("notes").readOnly = true;
     document.getElementById("dimensions").readOnly = true;
     document.getElementById("nextButton").disabled = true;
 
@@ -553,7 +553,12 @@ function downloadPuzzle() {
     //first, add the date to the json
     const date = new Date();
     puzzleJson.date = date.toJSON();    // we can do smth like this: new Date(jsonDate).toUTCString() to convert it to a string later
+    // update title and notes in case they were changed
+    let titleInput = document.getElementById('puzzleTitle');
+    puzzleJson.title = titleInput.value; 
 
+    let notesInput = document.getElementById('notes');
+    puzzleJson.notes = notesInput.value; 
 
      // download puzzle json
     const title = originalString.replace(/ /g, "_");

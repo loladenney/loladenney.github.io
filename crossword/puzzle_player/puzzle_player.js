@@ -69,10 +69,8 @@ function DrawBoard(){
             //write in number if needed
             if (puzzleJson.template[i].value > 0){
                 const cornerNumber = document.createElement('div');
+                cornerNumber.className = cornerNumber;
                 cornerNumber.textContent = puzzleJson.template[i].value;
-                //cornerNumber.style.gridColumn = '1';
-                //cornerNumber.style.gridRow = '1';
-                //cornerNumber.style.placeItems = "center";
                 cell.appendChild(cornerNumber);
             }
 
