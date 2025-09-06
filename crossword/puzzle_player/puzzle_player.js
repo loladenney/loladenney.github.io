@@ -1,6 +1,8 @@
 'use strict';
 
 let puzzleJson;
+let cellReferenceArray; 
+let clueReferenceArray;
 
 function getPuzzleTitleFromUrl() {
     const params = new URLSearchParams(window.location.search);
@@ -10,7 +12,8 @@ function getPuzzleTitleFromUrl() {
 
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
-    fetch(`https://loladenney.github.io/crossword/puzzles/${fileName}.json`)
+    //fetch(`https://loladenney.github.io/crossword/puzzles/${fileName}.json`)
+    fetch(`https://loladenney.github.io/crossword/puzzles/tuesday_september_2nd.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -37,10 +40,15 @@ function drawPage(){
     DrawCluesList(); //add in all the clues in order using flexbox
 }
 
+//returns a 1d array with references to all the cells
 function DrawBoard(){
     const grid = document.getElementById("gameboard-grid");
     grid.style.gridTemplateColumns = `repeat(${puzzleJson.dimensions}, 1fr)`;
     grid.style.gridTemplateRows = `repeat(${puzzleJson.dimensions}, 1fr)`;
+
+    //for storing references to all the cells in the array (1d array)
+    cellReferenceArray = [];
+
 
     // generating the puzzle cells
     for (let i=0; i< puzzleJson.dimensions ** 2; i ++){
@@ -82,6 +90,7 @@ function DrawBoard(){
         }
 
         grid.appendChild(cell);
+        cellReferenceArray.push(cell);
     }
 }
 
@@ -137,7 +146,9 @@ function CheckPuzzle() {
 
         if (inputs[i].value != puzzleJson.solution[i+j].toUpperCase()){
             //wrong answer
+            alert("Not quite right");
             console.log("FAIL");
+
             return;
         }
     }
@@ -146,6 +157,24 @@ function CheckPuzzle() {
     console.log("WIN");
     alert("YOU WIN!");
     //TODO go to YouWin() function
+}
+
+function RevealIncorrectSquares() {
+    const puzzleGrid = document.getElementById('gameboard-grid');
+    const i = puzzleGrid.querySelectorAll('#gameboard-grid input');
+    const inputs = Array.from(i);
+    
+    let j = 0;
+    for (let i = 0; i < inputs.length ; i++) {
+        while (puzzleJson.solution[i+j] === "∅") j++; // to skip black squares in solution
+        //set crossword-cell background back to white to 
+
+        cellReferenceArray[i+j].style.backgroundColor = "rgb(255, 255, 255)";
+        if (inputs[i].value != puzzleJson.solution[i+j].toUpperCase() && inputs[i].value != ""){
+            //wrong answer -> highlight the square red
+            cellReferenceArray[i+j].style.backgroundColor = "rgb(255, 144, 144)";
+        }
+    }
 }
 
 
