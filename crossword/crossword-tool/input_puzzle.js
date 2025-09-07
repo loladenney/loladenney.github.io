@@ -11,8 +11,8 @@ const puzzleJson = {
                         // both flags in template get initialized to false in "confirmSquares"
     solution: null,     // special character ∅ to indicate a black square, otherwise it will have alpha numeric character. i dont know if i should allow punctuation
     answer_info: null,  // lowkey this is a hashmap where the key is a string of direction "D" or "A" concat to the cluenumber and value is the expected lenght of the answer
-    clues: null         // an array of objects with direction, number and clue. this will be used to make the clue table the player references
-  };
+    clues: null,         // an array of objects with direction, number and clue. this will be used to make the clue table the player references
+};
 
 // for saying is a clue is for an across or a down
 const Direction = Object.freeze({
@@ -511,20 +511,15 @@ function checkPuzzleSolution() {
 
 
     // build two arrays, one with the down answers, one with the across answers, 
-    //across array (1d)
+    //across array and down array (1d)
     let across_sol = Array.from(puzzleJson.solution);
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (template[i].acrossflag){
             let answer = document.getElementById('answerContent_A_' + template[i].value).value;    // get the answer
             for (let j = 0; j < puzzleJson.answer_info.get("A" + template[i].value); j++){
                 across_sol[i+j] = answer[j];    // put the answer in the array
-                console.log(answer[j]); //for testing
             }
         }
-    }
-    //down array (1d)
-    let down_sol = Array.from(puzzleJson.solution);
-    for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (template[i].downflag){
             let answer = document.getElementById('answerContent_D_' + template[i].value).value;    // get the answer
             for (let j = 0; j < puzzleJson.answer_info.get("D" + template[i].value); j++){
@@ -549,16 +544,22 @@ function checkPuzzleSolution() {
 }
 
 
+
+
 function downloadPuzzle() {
     //first, add the date to the json
     const date = new Date();
     puzzleJson.date = date.toJSON();    // we can do smth like this: new Date(jsonDate).toUTCString() to convert it to a string later
+    
     // update title and notes in case they were changed
     let titleInput = document.getElementById('puzzleTitle');
     puzzleJson.title = titleInput.value; 
 
     let notesInput = document.getElementById('notes');
     puzzleJson.notes = notesInput.value; 
+
+    //save the hashmap for transport
+    answer_info = JSON.stringify(answer_info);
 
      // download puzzle json
     const title = originalString.replace(/ /g, "_");
