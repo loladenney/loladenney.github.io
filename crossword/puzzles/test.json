@@ -1,0 +1,144 @@
+{
+  "title": "test",
+  "notes": "",
+  "date": "2025-09-07T14:27:54.086Z",
+  "dimensions": 4,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "a",
+    "b",
+    "∅",
+    "c",
+    "∅",
+    "d",
+    "e",
+    "f",
+    "∅",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "∅",
+    "l"
+  ],
+  "answer_info": "{}",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": ""
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": ""
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": ""
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": ""
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": ""
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": ""
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": ""
+    }
+  ]
+}

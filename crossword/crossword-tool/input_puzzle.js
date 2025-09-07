@@ -513,6 +513,7 @@ function checkPuzzleSolution() {
     // build two arrays, one with the down answers, one with the across answers, 
     //across array and down array (1d)
     let across_sol = Array.from(puzzleJson.solution);
+    let down_sol = Array.from(puzzleJson.solution);
     for (let i = 0; i< puzzleJson.dimensions*puzzleJson.dimensions; i++){
         if (template[i].acrossflag){
             let answer = document.getElementById('answerContent_A_' + template[i].value).value;    // get the answer
@@ -559,10 +560,10 @@ function downloadPuzzle() {
     puzzleJson.notes = notesInput.value; 
 
     //save the hashmap for transport
-    answer_info = JSON.stringify(answer_info);
+    puzzleJson.answer_info = JSON.stringify(puzzleJson.answer_info);
 
      // download puzzle json
-    const title = originalString.replace(/ /g, "_");
+    const title = puzzleJson.title.replace(/ /g, "_");
     const filename =  title + ".json";              // title with the spaces replaced by underscores
     const jsonStr = JSON.stringify(puzzleJson, null, 2); 
 
