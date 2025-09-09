@@ -195,7 +195,7 @@ function DrawBoard(){
                     const currentCol = parseInt(e.target.dataset.col);
 
                     const [nextRow, nextCol] = FindNextIndex(currentRow, currentCol); //TODO make this a function that calculates the next one based on direction and stuff
-                    console.log(nextRow + ", " + nextCol)
+                    
                     
                     ///search through input references to pick the one with the right indices
                     const cell = cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol];
@@ -206,26 +206,6 @@ function DrawBoard(){
                     cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol].querySelector('input')?.focus();
                     
                 }
-            });
-
-            input.addEventListener('keydown', (e) => {
-                
-                if (e.key === ' '){
-                    direction= direction ==="across"? "down":"across";
-                }
-
-                //TODO add backspace to delete current input and go back one spot
-
-                //TODO enter to jump to next empty spot after the current word in current direction (or if at the end, flip direction and go from start)
-            });
-
-
-            //for highlighting I DONT KNOW IF THIS WORKS
-            input.addEventListener('focus', () => {
-                input.parentElement.classList.add('focused');
-            });
-            input.addEventListener('blur', () => {
-                input.parentElement.classList.remove('focused');
             });
 
 
@@ -247,6 +227,89 @@ function DrawBoard(){
         grid.appendChild(cell);
         cellReferenceArray.push(cell);
     }
+
+
+    
+    AddBetterNavigation();
+}
+
+function AddBetterNavigation(){
+    const container = document.getElementById('gameboard-grid');
+
+    // this is about what happens when the user clicks on a cell (update direction and active clue number)
+    container.addEventListener('click', function(event) {
+        const cell = event.target.closest('.crossword-cell');
+        if (!cell) return; //we didtn click a  cell
+        
+        const input = cell.querySelector('input');
+        if (!input) return;
+        
+        const row = Number(input.dataset.row);
+        const col = Number(input.dataset.col);
+        
+        // Find clue number and if they have across and/or down
+        const acrossClue = across_in_order.find(c => c.row === row && c.col === col);
+        const downClue = down_in_order.find(c => c.row === row && c.col === col);
+
+        // update direction and clue number accordingly
+        if (direction === "across" && downClue) {
+            direction = "down";
+            clue_num = downClue.clue_num;
+        } else if (direction === "down" && acrossClue) {
+            direction = "across";
+            clue_num = acrossClue.clue_num;
+        } else if (direction === "across" && acrossClue) {
+            clue_num = acrossClue.clue_num;
+        } else if (direction === "down" && downClue) {
+            clue_num = downClue.clue_num;
+        } else {
+            return;
+        }
+    });
+
+
+    // toggle direction on space etc
+    container.addEventListener('keydown', (e) => {
+                
+        if (e.key === ' '){
+            direction= direction ==="across"? "down":"across";
+        }
+
+        //TODO add backspace to delete current input and go back one spot or arrow keys??
+
+        });
+
+
+    // start by focusing on the first guy in the puzzle. 
+    for (const cell of cellReferenceArray){
+        const input = cell?.querySelector('input');
+        if (input){
+            const row = Number(input.dataset.row);
+            const col = Number(input.dataset.col);
+            const acrossClue = across_in_order.find(c => c.row === row && c.col === col);
+            const downClue = down_in_order.find(c => c.row === row && c.col === col);
+            if (acrossClue){
+                direction = "across";
+                clue_num = acrossClue.clue_num;
+            }
+            else if (downClue){
+                direction = "down";
+                clue_num = downClue.clue_num;
+            }
+            else {break;}
+            focus(input)
+        }
+    }
+
+    // TODO highlighting
+     //TODO fix highlighting I DONT KNOW IF THIS WORKS
+     /*
+     input.addEventListener('focus', () => {
+        input.parentElement.classList.add('focused');
+    });
+    input.addEventListener('blur', () => {
+        input.parentElement.classList.remove('focused');
+    });*/
 }
 
 function DrawCluesList(){
