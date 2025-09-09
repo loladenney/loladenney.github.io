@@ -1,25 +1,29 @@
 'use strict';
 
 let puzzleJson;
-let cellReferenceArray; 
-let clueReferenceArray;
+const cellReferenceArray = []; //for storing references to all the cells in the array (1d array)  FIX HOW INITIALIZED
+const inputReferenceArray = []; 
+const clueReferenceArray = [];
+let direction = "across";
+let clue_num = 1;
+const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
+const down_in_order = [];
 
 function getPuzzleTitleFromUrl() {
     const params = new URLSearchParams(window.location.search);
-    console.log(params.get('id'));
     return params.get('id');
   }
 
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
-    //fetch(`https://loladenney.github.io/crossword/puzzles/${fileName}.json`)
-    fetch(`https://loladenney.github.io/crossword/puzzles/tuesday_september_2nd.json`)
+    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
     })
     .then(data => {
         puzzleJson = data;
+        WriteInOrders();
         drawPage();
         CheckBoardFull();
       })
@@ -40,14 +44,122 @@ function drawPage(){
     DrawCluesList(); //add in all the clues in order using flexbox
 }
 
+function WriteInOrders() {
+    const answer_info = new Map(JSON.parse(puzzleJson.answer_info));
+
+    across_in_order.length = 0;  // prevent overwriting/duplication
+    down_in_order.length = 0;
+
+    const dim = puzzleJson.dimensions;
+
+    for (let i = 0; i < dim * dim; i++) {
+        const cell = puzzleJson.template[i];
+        const row = Math.floor(i / dim);
+        const col = i % dim;
+
+        if (cell.acrossflag) {
+            const clue_num = cell.value;
+            const length = answer_info.get("A" + clue_num);
+
+            for (let j = 0; j < length; j++) {
+                across_in_order.push({
+                    clue_num: clue_num,
+                    row: row,
+                    col: col + j
+                });
+            }
+        }
+
+        if (cell.downflag) {
+            const clue_num = cell.value;
+            const length = answer_info.get("D" + clue_num);
+
+            for (let j = 0; j < length; j++) {
+                down_in_order.push({
+                    clue_num: clue_num,
+                    row: row + j,
+                    col: col
+                });
+            }
+        }
+    }
+}
+
+
+
+function FindNextIndex(currentRow, currentCol) {
+    if (direction === "across") {
+        let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
+        if (currentIndex >= 0) {
+            let remaining_row = across_in_order.slice(currentIndex+1); //TODO handle if currentIndex+1 out of bounds (might be handled by if statement)
+            
+            for (const cell of remaining_row) {
+                
+                if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    clue_num = cell.clue_num;
+                    return [cell.row, cell.col];
+                }
+            }
+
+            for (const cell of down_in_order) {
+                if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    clue_num = cell.clue_num;
+                    direction = "down";
+                    return [cell.row, cell.col];
+                }
+            }
+
+            let beginning_row = across_in_order.slice(0, currentIndex);
+            for (const cell of beginning_row) {
+                if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    clue_num = cell.clue_num;
+                    return [cell.row, cell.col];
+                }
+            }
+        }
+    } 
+    else {  // direction = "down"
+        let currentIndex = down_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
+        if (currentIndex >= 0) {
+            let remaining_col = down_in_order.slice(currentIndex + 1); //TODO handle if currentIndex+1 out of bounds
+            for (const cell of remaining_col) {
+                if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    clue_num = cell.clue_num;
+                    return [cell.row, cell.col];
+                }
+            }
+
+            for (const cell of across_in_order) {
+                if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    clue_num = cell.clue_num;
+                    direction = "across";
+                    return [cell.row, cell.col];
+                }
+            }
+
+            let beginning_col = down_in_order.slice(0, currentIndex);
+            for (const cell of beginning_col) {
+                if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    clue_num = cell.clue_num;
+                    return [cell.row, cell.col];
+                }
+            }
+        }
+    }
+    // in case we dont find an empty cell
+    return [currentRow, currentCol];
+}
+
+
+
+
+
+
 //returns a 1d array with references to all the cells
 function DrawBoard(){
     const grid = document.getElementById("gameboard-grid");
     grid.style.gridTemplateColumns = `repeat(${puzzleJson.dimensions}, 1fr)`;
     grid.style.gridTemplateRows = `repeat(${puzzleJson.dimensions}, 1fr)`;
-
-    //for storing references to all the cells in the array (1d array)
-    cellReferenceArray = [];
 
 
     // generating the puzzle cells
@@ -61,18 +173,61 @@ function DrawBoard(){
         // iterate through puzzle json template
         //  -1 means black and no input, otherwise there is an input and the square is white
         // we also add the clue index numbers as needed
-        console.log(puzzleJson.template[i]);
         if (puzzleJson.template[i].value >= 0) {
             const input = document.createElement('input');
+            input.className = "cell-input"
             input.type = 'text';
             input.maxLength = 1;
-    
+            input.dataset.row = Math.floor( i / puzzleJson.dimensions); // record the position in the context of the full gameboard 
+            input.dataset.col = i % puzzleJson.dimensions;
+            inputReferenceArray.push(input);
+
+            //TODO check if a cell is clicked, update clue and directon (across default) to match. 
+            //another click means toggle direction?
             
 
             input.addEventListener('input', (e) => {
                 const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
                 e.target.value = value;
+                
+                if (value && inputReferenceArray.length > 0) { //smth has been written and 
+                    const currentRow = parseInt(e.target.dataset.row);
+                    const currentCol = parseInt(e.target.dataset.col);
+
+                    const [nextRow, nextCol] = FindNextIndex(currentRow, currentCol); //TODO make this a function that calculates the next one based on direction and stuff
+                    console.log(nextRow + ", " + nextCol)
+                    
+                    ///search through input references to pick the one with the right indices
+                    const cell = cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol];
+                    const input = cell?.querySelector('input');
+                    if (input) {
+                        input.focus();
+                    }
+                    cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol].querySelector('input')?.focus();
+                    
+                }
             });
+
+            input.addEventListener('keydown', (e) => {
+                
+                if (e.key === ' '){
+                    direction= direction ==="across"? "down":"across";
+                }
+
+                //TODO add backspace to delete current input and go back one spot
+
+                //TODO enter to jump to next empty spot after the current word in current direction (or if at the end, flip direction and go from start)
+            });
+
+
+            //for highlighting I DONT KNOW IF THIS WORKS
+            input.addEventListener('focus', () => {
+                input.parentElement.classList.add('focused');
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.classList.remove('focused');
+            });
+
 
             //write in number if needed
             if (puzzleJson.template[i].value > 0){
@@ -143,20 +298,17 @@ function CheckPuzzle() {
     let j = 0;
     for (let i = 0; i < inputs.length ; i++) {
         while (puzzleJson.solution[i+j] === "∅") j++; // to skip black squares in solution
-
+        
         if (inputs[i].value != puzzleJson.solution[i+j].toUpperCase()){
             //wrong answer
             alert("Not quite right");
             console.log("FAIL");
-
             return;
         }
     }
 
     //success
-    console.log("WIN");
-    alert("YOU WIN!");
-    //TODO go to YouWin() function
+    YouWin();
 }
 
 function RevealIncorrectSquares() {
@@ -174,11 +326,35 @@ function RevealIncorrectSquares() {
             //wrong answer -> highlight the square red
             cellReferenceArray[i+j].style.backgroundColor = "rgb(255, 144, 144)";
         }
+        else {
+            inputReferenceArray[i].readOnly = true;
+        }
     }
 }
 
+//remove all red from squares and send alert
+function YouWin(){
+    let j = 0;
+    for (let i = 0; i < inputReferenceArray.length ; i++) {
+        while (puzzleJson.solution[i+j] === "∅") j++; // to skip black squares in solution
+        
+        cellReferenceArray[i+j].style.backgroundColor = "rgb(255, 255, 255)";
+    }
+
+    //let the cells update first before the alert
+    setTimeout(() => {
+        alert("YOU WIN!");
+    }, 10);
+
+    //TODO make the alert nicer and add a graphic
+}
+
+
 
 loadPuzzle();
+
+//TODO highlight full word based on direction and current letter
+
 
 
 // then add all the interactivity, inputing, , reveal answer
@@ -190,15 +366,9 @@ loadPuzzle();
 
 // add animations for when the puzzle is complete
 
-// add a timer?
-
-// add a thing that saves progress even if you leave the page (i dont think i want this)
-
-//YouWin() should lock the puzzle inputs and stop checking and play a horray animation
 
 //todo highlight currently selected box, starting with top right corner. when a character is inputted, automatically move to the right. 
 
-// temporary for testing!!!
 
 
 

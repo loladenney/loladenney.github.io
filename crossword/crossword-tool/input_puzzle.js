@@ -560,8 +560,9 @@ function downloadPuzzle() {
     puzzleJson.notes = notesInput.value; 
 
     //save the hashmap for transport
-    puzzleJson.answer_info = JSON.stringify(puzzleJson.answer_info);
-
+    puzzleJson.answer_info = JSON.stringify(Array.from(puzzleJson.answer_info.entries()));
+    
+    
      // download puzzle json
     const title = puzzleJson.title.replace(/ /g, "_");
     const filename =  title + ".json";              // title with the spaces replaced by underscores
