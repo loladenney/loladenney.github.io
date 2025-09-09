@@ -298,6 +298,7 @@ function AddBetterNavigation(){
             }
             else {break;}
             focus(input)
+            break;
         }
     }
 
