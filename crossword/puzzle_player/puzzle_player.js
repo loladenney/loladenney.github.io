@@ -4,7 +4,7 @@ let puzzleJson;
 const cellReferenceArray = []; //for storing references to all the cells in the array (1d array)  FIX HOW INITIALIZED
 const inputReferenceArray = []; 
 const clueReferenceArray = [];
-let direction = "across";
+let direction = "down";
 let clue_num = 1;
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
 const down_in_order = [];
@@ -280,7 +280,8 @@ function AddBetterNavigation(){
         });
 
 
-    // start by focusing on the first guy in the puzzle. 
+    // TODO THIS DOESNT WORK start by focusing on the first guy in the puzzle.
+    // WHEN IT WORKS SWITCH DEFUALT AT TOP TO ACROSS 
     for (const cell of cellReferenceArray){
         const input = cell?.querySelector('input');
         if (input){
