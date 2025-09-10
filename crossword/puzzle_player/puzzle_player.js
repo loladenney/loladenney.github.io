@@ -194,12 +194,11 @@ function DrawBoard(){
                     const currentRow = parseInt(e.target.dataset.row);
                     const currentCol = parseInt(e.target.dataset.col);
 
-                    const [nextRow, nextCol] = FindNextIndex(currentRow, currentCol); //TODO make this a function that calculates the next one based on direction and stuff
-                    
+                    const [nextRow, nextCol] = FindNextIndex(currentRow, currentCol); //make this a function that calculates the next one based on direction and stuff
                     
                     ///search through input references to pick the one with the right indices
-                    const cell = cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol];
-                    const input = cell?.querySelector('input');
+                    const nextcell = cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol];
+                    const input = nextcell?.querySelector('input');
                     if (input) {
                         input.focus();
                     }
@@ -409,7 +408,7 @@ function YouWin(){
     //let the cells update first before the alert
     setTimeout(() => {
         alert("YOU WIN!");
-    }, 10);
+    }, 20);
 
     //TODO make the alert nicer and add a graphic
 }
