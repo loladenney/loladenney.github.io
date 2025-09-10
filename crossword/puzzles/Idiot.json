@@ -1,0 +1,377 @@
+{
+  "title": "Idiot",
+  "notes": "Two of the words here are synonyms for idiot, so thats why i named it this way. Sorry this one has some that are a real stretch :3",
+  "date": "2025-09-10T21:20:53.415Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "t",
+    "p",
+    "∅",
+    "a",
+    "∅",
+    "a",
+    "∅",
+    "w",
+    "i",
+    "l",
+    "l",
+    "t",
+    "o",
+    "∅",
+    "i",
+    "n",
+    "z",
+    "e",
+    "r",
+    "o",
+    "∅",
+    "t",
+    "h",
+    "e",
+    "s",
+    "e",
+    "u",
+    "s",
+    "∅",
+    "e",
+    "n",
+    "o",
+    "u",
+    "g",
+    "h",
+    "∅",
+    "a",
+    "o",
+    "r",
+    "t",
+    "a",
+    "e",
+    "∅",
+    "d",
+    "∅",
+    "g",
+    "∅",
+    "h",
+    "s"
+  ],
+  "answer_info": "[[\"A1\",2],[\"A5\",6],[\"A8\",6],[\"A9\",7],[\"A11\",6],[\"A12\",6],[\"A13\",2],[\"D1\",4],[\"D2\",7],[\"D3\",7],[\"D4\",7],[\"D6\",5],[\"D7\",5],[\"D10\",4]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "roll of 2ply (abbr.)"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "idiot"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "idiot"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "beer coalition"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "said when your eyes elongate and smoke comes out your ears(onometapia)"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "_ power, Nietzsche"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "saying to taunt the guy who thought up an 'infinite' footrace"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "treat in scottish gaelic"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "occupants of the ISS, relative to gravity"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "guy with 1 or 2 ships"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "feminine contraction"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "that's it!"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "big blood tubes"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "disney channel made 3 musicals about this (acroynm)"
+    }
+  ]
+}
