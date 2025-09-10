@@ -237,6 +237,9 @@ function AddBetterNavigation(){
 
     // this is about what happens when the user clicks on a cell (update direction and active clue number)
     container.addEventListener('click', function(event) {
+
+        //TODO add that on click the cursor moves to the rightest of the text box so it can delete with backspace
+        //or maybe that typing rewrites over the whole thing on any input
         const cell = event.target.closest('.crossword-cell');
         if (!cell) return; //we didtn click a  cell
         
@@ -390,9 +393,7 @@ function RevealIncorrectSquares() {
             //wrong answer -> highlight the square red
             cellReferenceArray[i+j].style.backgroundColor = "rgb(255, 144, 144)";
         }
-        else {
-            inputReferenceArray[i].readOnly = true;
-        }
+        
     }
 }
 
