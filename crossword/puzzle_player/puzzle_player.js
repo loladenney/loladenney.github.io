@@ -185,28 +185,11 @@ function DrawBoard(){
             //TODO check if a cell is clicked, update clue and directon (across default) to match. 
             //another click means toggle direction?
             
-
+            //ensure input is a valid one
             input.addEventListener('input', (e) => {
                 const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
                 e.target.value = value;
-                
-                if (value && inputReferenceArray.length > 0) { //smth has been written and 
-                    const currentRow = parseInt(e.target.dataset.row);
-                    const currentCol = parseInt(e.target.dataset.col);
-
-                    const [nextRow, nextCol] = FindNextIndex(currentRow, currentCol); //make this a function that calculates the next one based on direction and stuff
-                    
-                    ///search through input references to pick the one with the right indices
-                    const nextcell = cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol];
-                    const input = nextcell?.querySelector('input');
-                    if (input) {
-                        input.focus();
-                    }
-                    cellReferenceArray[(nextRow*puzzleJson.dimensions) + nextCol].querySelector('input')?.focus();
-                    
-                }
             });
-
 
             //write in number if needed
             if (puzzleJson.template[i].value > 0){
@@ -227,6 +210,27 @@ function DrawBoard(){
         cellReferenceArray.push(cell);
     }
 
+    //writing in to input
+    document.getElementById('gameboard-grid').addEventListener('keydown', (e) => {
+        
+        const input = e.target.closest('input.cell-input');
+        if (!input) return; 
+      
+        const key = e.key.toUpperCase().replace(/[^A-Z0-9]/g, '');
+        if (/^[A-Z0-9]$/.test(key)) {
+          e.preventDefault();
+          input.value = key;
+      
+          // focus on next
+          const row = parseInt(input.dataset.row);
+          const col = parseInt(input.dataset.col);
+          const [nextRow, nextCol] = FindNextIndex(row, col);
+          const nextInput = cellReferenceArray[(nextRow * puzzleJson.dimensions) + nextCol]?.querySelector('input');
+          if (nextInput) nextInput.focus();
+        }
+      
+      });
+
 
     
     AddBetterNavigation();
@@ -238,8 +242,6 @@ function AddBetterNavigation(){
     // this is about what happens when the user clicks on a cell (update direction and active clue number)
     container.addEventListener('click', function(event) {
 
-        //TODO add that on click the cursor moves to the rightest of the text box so it can delete with backspace
-        //or maybe that typing rewrites over the whole thing on any input
         const cell = event.target.closest('.crossword-cell');
         if (!cell) return; //we didtn click a  cell
         
