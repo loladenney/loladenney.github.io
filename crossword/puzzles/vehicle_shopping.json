@@ -1,0 +1,309 @@
+{
+  "title": "vehicle shopping",
+  "notes": "written during comp321 lecture with help from Zahra",
+  "date": "2025-09-16T03:10:19.969Z",
+  "dimensions": 6,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 13,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "p",
+    "i",
+    "l",
+    "e",
+    "u",
+    "p",
+    "i",
+    "l",
+    "o",
+    "v",
+    "e",
+    "u",
+    "g",
+    "l",
+    "u",
+    "m",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "v",
+    "a",
+    "l",
+    "e",
+    "c",
+    "a",
+    "r",
+    "l",
+    "o",
+    "t",
+    "r",
+    "u",
+    "e",
+    "l",
+    "l",
+    "e"
+  ],
+  "answer_info": "[[\"A1\",6],[\"A7\",6],[\"A8\",4],[\"A9\",4],[\"A12\",6],[\"A14\",6],[\"D1\",3],[\"D2\",3],[\"D3\",6],[\"D4\",6],[\"D5\",2],[\"D6\",2],[\"D10\",3],[\"D11\",3],[\"D12\",2],[\"D13\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "big car crash"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "oink"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "sick"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "parisien museum"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "place to buy an electric car"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "popular game engine (abbr.)"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "stinky in short"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "<3"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "feeling blue :("
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "dragon _ , mobile game"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "hahahahhah"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "summer in french"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "place to buy a used vehicle"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "chromium"
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "in fanfic when the characters have a different environment"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "little lane (french)"
+    }
+  ]
+}

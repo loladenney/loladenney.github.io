@@ -182,8 +182,6 @@ function DrawBoard(){
             input.dataset.col = i % puzzleJson.dimensions;
             inputReferenceArray.push(input);
 
-            //TODO check if a cell is clicked, update clue and directon (across default) to match. 
-            //another click means toggle direction?
             
             //ensure input is a valid one
             input.addEventListener('input', (e) => {
@@ -239,6 +237,18 @@ function DrawBoard(){
 function AddBetterNavigation(){
     const container = document.getElementById('gameboard-grid');
 
+     // toggle direction on space etc   TODO test this with highlighting
+     container.addEventListener('keydown', (e) => {
+                
+        if (e.key === ' '){
+            direction= direction ==="across"? "down":"across";
+        }
+
+        //TODO add backspace to delete current input and go back one spot or arrow keys??
+
+    });
+
+
     // this is about what happens when the user clicks on a cell (update direction and active clue number)
     container.addEventListener('click', function(event) {
 
@@ -272,16 +282,6 @@ function AddBetterNavigation(){
     });
 
 
-    // toggle direction on space etc
-    container.addEventListener('keydown', (e) => {
-                
-        if (e.key === ' '){
-            direction= direction ==="across"? "down":"across";
-        }
-
-        //TODO add backspace to delete current input and go back one spot or arrow keys??
-
-        });
 
 
     // TODO THIS DOESNT WORK start by focusing on the first guy in the puzzle.

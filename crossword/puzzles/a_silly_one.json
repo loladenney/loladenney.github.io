@@ -1,0 +1,407 @@
+{
+  "title": "a silly one",
+  "notes": "written in comp321 with NO HELP from syd <3",
+  "date": "2025-09-16T03:25:52.583Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 13,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "n",
+    "h",
+    "s",
+    "∅",
+    "w",
+    "i",
+    "i",
+    "e",
+    "u",
+    "c",
+    "l",
+    "i",
+    "d",
+    "s",
+    "w",
+    "h",
+    "a",
+    "r",
+    "f",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "r",
+    "∅",
+    "e",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "e",
+    "i",
+    "d",
+    "o",
+    "s",
+    "i",
+    "m",
+    "d",
+    "r",
+    "u",
+    "n",
+    "k",
+    "g",
+    "u",
+    "y",
+    "∅",
+    "p",
+    "e",
+    "i"
+  ],
+  "answer_info": "[[\"A1\",3],[\"A4\",3],[\"A7\",7],[\"A9\",5],[\"A10\",5],[\"A14\",7],[\"A16\",3],[\"A17\",3],[\"D1\",3],[\"D2\",3],[\"D3\",7],[\"D4\",7],[\"D5\",2],[\"D6\",2],[\"D8\",2],[\"D11\",2],[\"D12\",3],[\"D13\",3],[\"D14\",2],[\"D15\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "english healthcare (abbr.)"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "novel"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "said in mild surprise"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "used to slander cats for being cautious"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "my favourite console"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "what happened to both lesbians on their wedding day"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "passport"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "to be"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "_ algorithm for greatest common divisor"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "possible handedness (abbr.)"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "place to moor your boat at"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "essence, form, greek philosophy thing"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "heat camera's input"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "the main ring in lord of the rings"
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "mountain sport"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "me after 2 beers"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "meta for teens (abbr.)"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "μ"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "dude"
+    },
+    {
+      "direction": "across",
+      "number": 17,
+      "clue": "canada's smallest province"
+    }
+  ]
+}
