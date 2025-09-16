@@ -225,6 +225,9 @@ function DrawBoard(){
           const [nextRow, nextCol] = FindNextIndex(row, col);
           const nextInput = cellReferenceArray[(nextRow * puzzleJson.dimensions) + nextCol]?.querySelector('input');
           if (nextInput) nextInput.focus();
+
+          // check for when full
+          CheckBoardFull()
         }
       
       });
@@ -347,15 +350,11 @@ function DrawCluesList(){
 
 // checks the crossword. will only run if all white cells have an character
 function CheckBoardFull(){
-    const puzzleGrid = document.getElementById('gameboard-grid');
-    puzzleGrid.addEventListener('input', () => {
-        const inputs = puzzleGrid.querySelectorAll('input');
-        const allFilled = Array.from(inputs).every(input => input.value.trim() !== '');
+    const allFilled = inputReferenceArray.every(input => input.value.trim() !== '');
     
-        if (allFilled) {
-            CheckPuzzle();
-        }
-    });
+    if (allFilled) {
+        CheckPuzzle();
+    }
 }
    
  // Compare with the solution, this will only be called on a completely filled in puzzle
