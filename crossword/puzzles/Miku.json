@@ -1,0 +1,402 @@
+{
+  "title": "Miku",
+  "notes": "written in comp321 again. ill never learn alternative uses of binary search trees at this rate",
+  "date": "2025-09-17T20:28:56.018Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "f",
+    "i",
+    "s",
+    "h",
+    "j",
+    "o",
+    "b",
+    "h",
+    "a",
+    "t",
+    "s",
+    "u",
+    "n",
+    "e",
+    "a",
+    "g",
+    "e",
+    "∅",
+    "s",
+    "∅",
+    "n",
+    "∅",
+    "o",
+    "r",
+    "a",
+    "t",
+    "e",
+    "∅",
+    "e",
+    "∅",
+    "i",
+    "∅",
+    "l",
+    "o",
+    "g",
+    "m",
+    "i",
+    "l",
+    "k",
+    "i",
+    "n",
+    "g",
+    "o",
+    "n",
+    "e",
+    "l",
+    "e",
+    "s",
+    "s"
+  ],
+  "answer_info": "[[\"A1\",7],[\"A8\",7],[\"A9\",3],[\"A10\",5],[\"A13\",3],[\"A15\",7],[\"A18\",7],[\"D1\",3],[\"D2\",4],[\"D3\",7],[\"D4\",2],[\"D5\",7],[\"D6\",2],[\"D7\",3],[\"D11\",4],[\"D12\",3],[\"D14\",3],[\"D16\",2],[\"D17\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "'school' teacher ??!"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "US housing resources agency (abbr.)"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "Othello antagonist/Jafar's bird"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "super clean"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "last mandatory education (abbr.)"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "reasonable fib"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "not off"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "big clock"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "miku's surname"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "years since birth"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "to make a pompous speech"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "long time span"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "paramore, fall out boy, my chemical romance"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "ship capitan's notebook"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "sent in chat after a round of gaming"
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "what one does to a cow"
+    },
+    {
+      "direction": "down",
+      "number": 16,
+      "clue": "n out"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "leafy green (shortened)"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "decrement"
+    }
+  ]
+}

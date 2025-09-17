@@ -4,7 +4,7 @@ let puzzleJson;
 const cellReferenceArray = []; //for storing references to all the cells in the array (1d array)  FIX HOW INITIALIZED
 const inputReferenceArray = []; 
 const clueReferenceArray = [];
-let direction = "down";
+let direction = "across";
 let clue_num = 1;
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
 const down_in_order = [];
@@ -244,7 +244,7 @@ function AddBetterNavigation(){
      container.addEventListener('keydown', (e) => {
                 
         if (e.key === ' '){
-            direction= direction ==="across"? "down":"across";
+            direction = direction === "across"? "down":"across";
         }
 
         //TODO add backspace to delete current input and go back one spot or arrow keys??
@@ -309,16 +309,25 @@ function AddBetterNavigation(){
             break;
         }
     }
-
-    // TODO highlighting
-     //TODO fix highlighting I DONT KNOW IF THIS WORKS
-     /*
-     input.addEventListener('focus', () => {
-        input.parentElement.classList.add('focused');
+/*   THIS ISNT WORKING, DO IT TONIGHT  (also the way we advance to the next square has mistakes. so does spacebar, maybe it needs to wait or smthing)
+    // direction indication and focued cell highlighting
+    container.addEventListener('focus', (event) => {
+        // set to an image of an arrow, direction depending on direction global variable
+        // set a fallback color of grey if the arrow doesnt show up
+        if (direction === "across"){
+            event.target.parentElement.parentElement.classList.add('focused-across')
+        }
+        else {
+            event.target.parentElement.parentElement.classList.add('focused-down') 
+        }
     });
-    input.addEventListener('blur', () => {
-        input.parentElement.classList.remove('focused');
-    });*/
+    container.addEventListener('blur', (event) => {
+        // set background back to default
+        event.target.parentElement.classList.remove('focused-across'); 
+        event.target.parentElement.classList.remove('focused-down');
+    });
+
+*/
 }
 
 function DrawCluesList(){

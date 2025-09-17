@@ -61,8 +61,11 @@ body{
     grid-row: 2;
     grid-column: 2;
   }
-  .crossword-cell.focused {
-    background:  #ddd;
+  .focused-across {
+    background: url("~assets/neutral_cursor.png") #ddd;
+  }
+  .focused-down {
+    background: url("~assets/scared_cursor.png") #ddd;
   }
 
   .corner-number {
