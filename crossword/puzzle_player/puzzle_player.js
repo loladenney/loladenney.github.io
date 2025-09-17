@@ -309,7 +309,7 @@ function AddBetterNavigation(){
             break;
         }
     }
-/*   THIS ISNT WORKING, DO IT TONIGHT  (also the way we advance to the next square has mistakes. so does spacebar, maybe it needs to wait or smthing)
+/*   THIS ISNT WORKING, DO IT TONIGHT  (also the way we advance to the next square has mistakes. so does spacebar, maybe it needs to wait or smthing, and add custom cursor (pencil??))
     // direction indication and focued cell highlighting
     container.addEventListener('focus', (event) => {
         // set to an image of an arrow, direction depending on direction global variable
