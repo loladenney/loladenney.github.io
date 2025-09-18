@@ -44,38 +44,76 @@ body{
     vertical-align: middle;
     line-height: 40px;
     position: relative;
+    z-index: 0;
     /* add my own font here */
     display: grid;
     grid-template-columns: 15% [text] auto 15%;
     grid-template-rows: 15% [text] auto 15%;
   }
   .crossword-cell input {
+    z-index: 2;
     width: 100%;
     height: 100%;
     text-align: center;
     font-size: calc(495px / var(--dim) * 0.6); /*TODO: check text scaling on different puzzles!!!!! */ 
     border: none;
     outline: none;
+    position: relative;
     background: transparent;
     caret-color: transparent;
     grid-row: 2;
     grid-column: 2;
+    z-index: 2;
   }
-  .focused-across {
-    background: url("~assets/neutral_cursor.png") #ddd;
+  
+.highlight-across::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+  background-image: url('https://shadowthehedgehog.ca/crossword/puzzle-assets/across-arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 1; 
+}
+  .highlight-down::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://shadowthehedgehog.ca/crossword/puzzle-assets/down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    pointer-events: none;
+    z-index: 1; 
   }
-  .focused-down {
-    background: url("~assets/scared_cursor.png") #ddd;
-  }
-
+/*
   .corner-number {
     display: flex;
-    align-items: flex-start;    /* vertical: top */
+    align-items: flex-start;    
     justify-content: flex-start; 
     grid-row: 1;
     grid-column: 1;
     font-size: auto;
-    
+    z-index: 3;
+  } 
+  */
+  crossword-cell .corner-number {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    font-size: 0.5em;
+    z-index: 3; /* above highlight and input */
+    pointer-events: none;
   }
   
   

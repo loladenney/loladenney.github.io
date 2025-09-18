@@ -1,11 +1,12 @@
 'use strict';
 
 let puzzleJson;
-const cellReferenceArray = []; //for storing references to all the cells in the array (1d array)  FIX HOW INITIALIZED
+const cellReferenceArray = []; //for storing references to all the cells in the array (1d array), includes black squares
 const inputReferenceArray = []; 
 const clueReferenceArray = [];
 let direction = "across";
 let clue_num = 1;
+let current_active_cell_index = 0;
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
 const down_in_order = [];
 
@@ -86,8 +87,8 @@ function WriteInOrders() {
 }
 
 
-
-function FindNextIndex(currentRow, currentCol) {
+// something is not right in here... i must test it better
+function FindNextIndex(currentRow, currentCol) { 
     if (direction === "across") {
         let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
         if (currentIndex >= 0) {
@@ -187,6 +188,11 @@ function DrawBoard(){
             input.addEventListener('input', (e) => {
                 const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
                 e.target.value = value;
+
+                const row = parseInt(e.target.dataset.row);
+                const col = parseInt(e.target.dataset.col);
+                const index = row * puzzleJson.dimensions + col;
+                updateActiveCellHighlight(index);
             });
 
             //write in number if needed
@@ -224,7 +230,12 @@ function DrawBoard(){
           const col = parseInt(input.dataset.col);
           const [nextRow, nextCol] = FindNextIndex(row, col);
           const nextInput = cellReferenceArray[(nextRow * puzzleJson.dimensions) + nextCol]?.querySelector('input');
-          if (nextInput) nextInput.focus();
+          if (nextInput){ 
+            nextInput.focus();
+            const index = (nextRow * puzzleJson.dimensions) + nextCol;
+            updateActiveCellHighlight(index);
+        }
+
 
           // check for when full
           CheckBoardFull()
@@ -237,14 +248,33 @@ function DrawBoard(){
     AddBetterNavigation();
 }
 
+// call this function every time a cell gets clicked on or moved to
+function updateActiveCellHighlight(index) {
+    console.log("in highlighting code");
+    // remove all previous ones
+    cellReferenceArray.forEach(cell => {
+        cell.classList.remove('highlight-across', 'highlight-down');
+    });
+
+    current_active_cell_index = index
+    const cell = cellReferenceArray[index];
+    if (!cell) return;
+
+    const highlightClass = direction === 'across' ? 'highlight-across' : 'highlight-down';
+    cell.classList.add(highlightClass);
+}
+
 function AddBetterNavigation(){
     const container = document.getElementById('gameboard-grid');
 
      // toggle direction on space etc   TODO test this with highlighting
      container.addEventListener('keydown', (e) => {
-                
+             
         if (e.key === ' '){
             direction = direction === "across"? "down":"across";
+            //update arrow in "highlight"
+            updateActiveCellHighlight(current_active_cell_index);
+            
         }
 
         //TODO add backspace to delete current input and go back one spot or arrow keys??
@@ -282,6 +312,10 @@ function AddBetterNavigation(){
         } else {
             return;
         }
+
+        // check for highlighting update
+        const index = row * puzzleJson.dimensions + col;
+        updateActiveCellHighlight(index);
     });
 
 
@@ -309,25 +343,6 @@ function AddBetterNavigation(){
             break;
         }
     }
-/*   THIS ISNT WORKING, DO IT TONIGHT  (also the way we advance to the next square has mistakes. so does spacebar, maybe it needs to wait or smthing, and add custom cursor (pencil??))
-    // direction indication and focued cell highlighting
-    container.addEventListener('focus', (event) => {
-        // set to an image of an arrow, direction depending on direction global variable
-        // set a fallback color of grey if the arrow doesnt show up
-        if (direction === "across"){
-            event.target.parentElement.parentElement.classList.add('focused-across')
-        }
-        else {
-            event.target.parentElement.parentElement.classList.add('focused-down') 
-        }
-    });
-    container.addEventListener('blur', (event) => {
-        // set background back to default
-        event.target.parentElement.classList.remove('focused-across'); 
-        event.target.parentElement.classList.remove('focused-down');
-    });
-
-*/
 }
 
 function DrawCluesList(){
