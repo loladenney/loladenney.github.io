@@ -1,0 +1,213 @@
+{
+  "title": "Ale special #1",
+  "notes": "Hello word, this is my first crossword. give  a like plis :D",
+  "date": "2025-09-18T15:49:45.791Z",
+  "dimensions": 5,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "d",
+    "e",
+    "n",
+    "s",
+    "e",
+    "o",
+    "n",
+    "e",
+    "h",
+    "p",
+    "n",
+    "d",
+    "r",
+    "a",
+    "t",
+    "u",
+    "o",
+    "v",
+    "r",
+    "e",
+    "t",
+    "w",
+    "e",
+    "a",
+    "k"
+  ],
+  "answer_info": "[[\"A1\",5],[\"A6\",5],[\"A7\",5],[\"A8\",5],[\"A9\",5],[\"D1\",5],[\"D2\",5],[\"D3\",5],[\"D4\",5],[\"D5\",5]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "\\mathbb{Q} in \\mathbb{R} "
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "genus 1 dessert"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "when you give a set X some metric/topology (infinitive)"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "wow the \"___\" on you"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "A name but said by someone with food in their mouth (name belongs to a friend of the crosswords)"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "short musical project + .tex but pronounced properly"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "when a gust of wind could kill u (in a game)"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "rodent who is really into propositional logic"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "to open in french with the transposition (uo)"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "when you smoke too much weed / to fix smth"
+    }
+  ]
+}

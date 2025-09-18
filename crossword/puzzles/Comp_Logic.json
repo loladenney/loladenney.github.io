@@ -1,0 +1,218 @@
+{
+  "title": "Comp Logic",
+  "notes": "The intended audience is my computer science friends, I expect it is impossible for others!! but feel free to give it a try anyways. written during comp360. I should start paying attention in my lectures",
+  "date": "2025-09-18T15:49:05.844Z",
+  "dimensions": 5,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "a",
+    "g",
+    "a",
+    "t",
+    "e",
+    "l",
+    "a",
+    "t",
+    "e",
+    "x",
+    "g",
+    "∅",
+    "l",
+    "r",
+    "i",
+    "o",
+    "c",
+    "a",
+    "m",
+    "l",
+    "∅",
+    "e",
+    "s",
+    "s",
+    "e"
+  ],
+  "answer_info": "[[\"A1\",5],[\"A6\",5],[\"A7\",3],[\"A8\",5],[\"A10\",4],[\"D1\",4],[\"D2\",2],[\"D3\",5],[\"D4\",5],[\"D5\",5],[\"D9\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "banded quartz"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "a set of steps (in short)"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "non-vip"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "held the world on his shoulders"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "M,N:= M N, \\x.M, x"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "an alternative to execution"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "typesetting for proofs"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "a person who has a legal duty to care for another (abbr.)"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "my favourite programming language"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "the secular AD"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "palindrome with s and e"
+    }
+  ]
+}

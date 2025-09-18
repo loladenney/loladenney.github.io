@@ -4,7 +4,7 @@ let puzzleJson;
 const cellReferenceArray = []; //for storing references to all the cells in the array (1d array), includes black squares
 const inputReferenceArray = []; 
 const clueReferenceArray = [];
-let direction = "across";
+let direction = 'across';
 let clue_num = 1;
 let current_active_cell_index = 0;
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
@@ -27,6 +27,7 @@ function loadPuzzle(){
         WriteInOrders();
         drawPage();
         CheckBoardFull();
+        
       })
     .catch(error => {
         console.error('Error fetching JSON:', error);
@@ -162,7 +163,6 @@ function DrawBoard(){
     grid.style.gridTemplateColumns = `repeat(${puzzleJson.dimensions}, 1fr)`;
     grid.style.gridTemplateRows = `repeat(${puzzleJson.dimensions}, 1fr)`;
 
-
     // generating the puzzle cells
     for (let i=0; i< puzzleJson.dimensions ** 2; i ++){
         const cell = document.createElement('div');
@@ -246,6 +246,7 @@ function DrawBoard(){
 
     
     AddBetterNavigation();
+    
 }
 
 // call this function every time a cell gets clicked on or moved to
@@ -260,7 +261,7 @@ function updateActiveCellHighlight(index) {
     const cell = cellReferenceArray[index];
     if (!cell) return;
 
-    const highlightClass = direction === 'across' ? 'highlight-across' : 'highlight-down';
+    const highlightClass = direction === "across" ? 'highlight-across' : 'highlight-down';
     cell.classList.add(highlightClass);
 }
 
@@ -274,7 +275,7 @@ function AddBetterNavigation(){
             direction = direction === "across"? "down":"across";
             //update arrow in "highlight"
             updateActiveCellHighlight(current_active_cell_index);
-            
+
         }
 
         //TODO add backspace to delete current input and go back one spot or arrow keys??
