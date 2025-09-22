@@ -1,0 +1,507 @@
+{
+  "title": "Galileo",
+  "notes": "Written in comp321, again. Sorry to my mom for including so many computer science words.",
+  "date": "2025-09-22T18:22:28.158Z",
+  "dimensions": 8,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "a",
+    "l",
+    "a",
+    "s",
+    "∅",
+    "p",
+    "b",
+    "s",
+    "g",
+    "a",
+    "l",
+    "i",
+    "l",
+    "e",
+    "i",
+    "∅",
+    "e",
+    "p",
+    "a",
+    "u",
+    "l",
+    "e",
+    "s",
+    "∅",
+    "d",
+    "d",
+    "n",
+    "∅",
+    "m",
+    "∅",
+    "e",
+    "∅",
+    "∅",
+    "a",
+    "∅",
+    "w",
+    "∅",
+    "t",
+    "x",
+    "t",
+    "∅",
+    "n",
+    "o",
+    "i",
+    "r",
+    "h",
+    "u",
+    "e",
+    "∅",
+    "c",
+    "a",
+    "t",
+    "s",
+    "e",
+    "a",
+    "r",
+    "w",
+    "e",
+    "t",
+    "∅",
+    "g",
+    "a",
+    "l",
+    "a"
+  ],
+  "answer_info": "[[\"A1\",4],[\"A5\",3],[\"A7\",7],[\"A9\",7],[\"A10\",3],[\"A12\",3],[\"A14\",7],[\"A17\",7],[\"A18\",3],[\"A19\",4],[\"D1\",4],[\"D2\",8],[\"D3\",4],[\"D4\",3],[\"D5\",3],[\"D6\",8],[\"D8\",3],[\"D11\",3],[\"D12\",4],[\"D13\",4],[\"D15\",3],[\"D16\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "I fear..."
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "got older"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "stripper service"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "turing"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "char _, canto bbq pork"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "public childrens TV channel"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "piss"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "gay AND strait"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "galileo's last name"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "chatgpt etc."
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "shoudlers in french"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "netflix sound effect"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "i have a sharp one "
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "plain test file extension"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "Stilton, female mouse detective"
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "prefix for a trillion"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "blackish tone (synonyms)"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "6 down's favourite milk"
+    },
+    {
+      "direction": "down",
+      "number": 16,
+      "clue": "said to begin a race (acronym)"
+    },
+    {
+      "direction": "across",
+      "number": 17,
+      "clue": "what a feline listens with"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "soaking"
+    },
+    {
+      "direction": "across",
+      "number": 19,
+      "clue": "fancy party"
+    }
+  ]
+}
