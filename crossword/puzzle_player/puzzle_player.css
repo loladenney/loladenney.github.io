@@ -4,7 +4,7 @@
 
 body{ 
     display: flex;
-    width: 700px;
+    width: 800px;
     background-color: rgb(255, 255, 255);
     justify-content: center; 
     margin:0 auto; 
@@ -14,7 +14,7 @@ body{
 .layout {
     display: flex;
     gap: 10px;
-    width: 700px;
+    width: 800px;
   }
   
   .gameboard-box {
@@ -120,7 +120,7 @@ body{
   .clues-box {
      /* smaller than left */
     display: flex;
-    width: 175px;
+    width: 275px;
     height: 515px;
     flex-direction: column;
     gap: 10px;
