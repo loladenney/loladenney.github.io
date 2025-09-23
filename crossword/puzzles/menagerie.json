@@ -1,0 +1,362 @@
+{
+  "title": "menagerie",
+  "notes": "hehe",
+  "date": "2025-09-23T16:52:57.679Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "∅",
+    "∅",
+    "b",
+    "f",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "r",
+    "a",
+    "t",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "a",
+    "n",
+    "u",
+    "b",
+    "i",
+    "∅",
+    "a",
+    "s",
+    "m",
+    "r",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "b",
+    "a",
+    "t",
+    "∅",
+    "∅",
+    "s",
+    "n",
+    "a",
+    "i",
+    "l",
+    "∅",
+    "∅",
+    "∅",
+    "i",
+    "n",
+    "l",
+    "e",
+    "t",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",2],[\"A3\",3],[\"A5\",5],[\"A6\",4],[\"A7\",3],[\"A8\",5],[\"A10\",5],[\"D1\",7],[\"D2\",7],[\"D4\",6],[\"D9\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "live in labubu (abbreviated)"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "garments prohibition of free the nip (2 words)"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "romanticize your life by pretending your bills are this"
+    },
+    {
+      "direction": "across",
+      "number": 3,
+      "clue": "of new york sewer fame"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "animal who's adolescents are portrayed as ninjas in popular tv show"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "dog-headed god of death minus the s"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "production of people with long nails 24/7"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "flying puppy"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "immortal animal with fatal touch (meme)"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "28th element"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "narrow channel of water connecting a larger body of water to a smaller one"
+    }
+  ]
+}
