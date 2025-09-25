@@ -32,7 +32,7 @@ body{
 
 .navbuttonbackground:hover {
     background-color:rgb(161, 161, 161);
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png")12 12, auto;
 }
 
 .navbutton {
@@ -42,7 +42,7 @@ body{
 }
 .navbutton:hover {
     color: rgb(0, 0, 0);
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png")12 12, auto;
     text-decoration: none;  
 }
 
@@ -95,7 +95,7 @@ table#sidebar-table {
 
 }
 .sidebar :hover {
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 
 
@@ -162,7 +162,7 @@ table#sidebar-table {
 }
 .navbutton:hover {
     color: rgb(0, 0, 0);
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
     text-decoration: none;  
 }
 .navbuttoninactive:hover {
@@ -174,7 +174,7 @@ table#sidebar-table {
 /* stuff about embedded links*/
 .linkinsta:hover span {
     display: none;
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 .linkinsta:link {
     color:#333;         
@@ -187,7 +187,7 @@ table#sidebar-table {
 .linkinsta:hover:before {
     content: "@pottery.gator";
     text-decoration: underline;
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 .linkinsta:visited {
     color: #333;           /* Set the color when the link is clicked */
@@ -195,7 +195,7 @@ table#sidebar-table {
 }
 .linkemail:hover span {
     display: none;
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 .linkemail:link {
         color:#333;          
@@ -205,7 +205,7 @@ table#sidebar-table {
 .linkemail:hover:before {
     content: "pottery.gator@gmail.com";
     text-decoration: underline;
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 .embedlink:link {
     color:#333;           
@@ -216,7 +216,7 @@ table#sidebar-table {
     color: #333;           
     text-decoration: underline; 
     font-weight: bold;
-    cursor: url("assets/magglasscursor.png"), auto; 
+    cursor: url("assets/magglasscursor.png") 12 12, auto; 
 }
 
 .embedlink:active {
@@ -251,12 +251,12 @@ table#sidebar-table {
     border-radius: 5px;
 }
 .buttonbackgroundhireme:hover {
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
     background-color:rgb(197, 197, 197);
 }
 .buttonhireme:hover {
     color: rgb(222, 55, 55);
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 .buttoninactive:link {
     color: rgb(0, 0, 0);
@@ -304,7 +304,7 @@ table#sidebar-table {
 .plainlink:hover{
     color: black;
     text-decoration: underline;
-    cursor: url("assets/magglasscursor.png"), auto;
+    cursor: url("assets/magglasscursor.png") 12 12, auto;
 }
 
 

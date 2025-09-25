@@ -5,6 +5,7 @@
 - fix clue number placement
 - fix outline around puzzle not being centered
 
+
 ## future additions
 - add a spot for book reviews/recommendations (no out of 5 or out of 10. just description)
 movies: Kpop demon hunters, romeo and juliet, look back 
@@ -15,14 +16,9 @@ books: dune, heart of a dog, lord of the rings, edogawa ranpo
 
 
 ## fixes and upgrades
-- make homepage prettier. add a side bar?? for my xrays, crosswords, favourite things list (movies, books, etc), favourite websites
-- draw icons for the above
-- make center of magnifying glass translucent
+- favourite things list (movies, books, etc), favourite websites
 - please make it better for mobile and even dark mode??? no i dont want to
 - add more clickable links everywhere (on home page!!!)
-- make links in list of favourite website links look better (and the list overall)
-- fix clickable links (color, underline, hover cursor!!!)
-- change favicon
 
 
 ## archive

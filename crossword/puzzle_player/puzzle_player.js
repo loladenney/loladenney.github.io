@@ -16,7 +16,7 @@ function getPuzzleTitleFromUrl() {
   }
 
 function loadPuzzle(){
-    const fileName = getPuzzleTitleFromUrl();
+    const fileName = "Galileo";// getPuzzleTitleFromUrl();
     fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
