@@ -1,0 +1,299 @@
+{
+  "title": "J. Special #1",
+  "notes": "by j. han",
+  "date": "2025-09-26T01:43:06.427Z",
+  "dimensions": 6,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "c",
+    "s",
+    "i",
+    "∅",
+    "i",
+    "c",
+    "a",
+    "c",
+    "r",
+    "o",
+    "s",
+    "s",
+    "b",
+    "r",
+    "o",
+    "∅",
+    "∅",
+    "s",
+    "∅",
+    "a",
+    "b",
+    "b",
+    "a",
+    "∅",
+    "s",
+    "m",
+    "o",
+    "o",
+    "c",
+    "h",
+    "∅",
+    "∅",
+    "t",
+    "a",
+    "t",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",3],[\"A4\",2],[\"A6\",6],[\"A7\",3],[\"A8\",4],[\"A11\",6],[\"A12\",3],[\"D1\",3],[\"D2\",5],[\"D3\",6],[\"D4\",2],[\"D5\",3],[\"D9\",3],[\"D10\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "franchise about forensics"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "call one instead of an Uber"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "get out"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "vacuum company or Asimov anthology"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "forms subject after top"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "third person copula"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "friend of HTML"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "type of clue this is"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "fraternity fellow, briefly"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "palindromic Swedish hitmakers"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "long and feathery or scaly"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "standardized test or part of play"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "kiss loudly"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "what you might give tit for"
+    }
+  ]
+}
