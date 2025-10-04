@@ -1,0 +1,213 @@
+{
+  "title": "small october 4th",
+  "notes": "i can't study all day on a saturday so i wrote this",
+  "date": "2025-10-04T19:00:58.229Z",
+  "dimensions": 5,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "b",
+    "e",
+    "r",
+    "r",
+    "y",
+    "o",
+    "r",
+    "e",
+    "∅",
+    "∅",
+    "w",
+    "a",
+    "d",
+    "e",
+    "∅",
+    "i",
+    "∅",
+    "o",
+    "a",
+    "t",
+    "e",
+    "∅",
+    "∅",
+    "r",
+    "n"
+  ],
+  "answer_info": "[[\"A1\",5],[\"A4\",3],[\"A5\",4],[\"A7\",3],[\"A9\",2],[\"D1\",5],[\"D2\",3],[\"D3\",4],[\"D6\",3],[\"D8\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "blue, black, straw"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "70s david"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "longish timeframe"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "shift ctrl Z"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "sediment plus"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "in up to your knees at least"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "listening device"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "breakfast mush grain"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "before tomorrow morning, for short"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "healthcare worker (abbr)"
+    }
+  ]
+}
