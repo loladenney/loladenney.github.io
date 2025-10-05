@@ -1,0 +1,763 @@
+{
+  "title": "themeless",
+  "notes": "i am happy with this one barring the 2 character words, next i will imporve at board layout to avoid them",
+  "date": "2025-10-05T22:03:26.732Z",
+  "dimensions": 10,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 20,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 21,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 22,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 24,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 25,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 26,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 27,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "o",
+    "v",
+    "e",
+    "n",
+    "p",
+    "a",
+    "s",
+    "t",
+    "a",
+    "∅",
+    "r",
+    "a",
+    "i",
+    "s",
+    "i",
+    "n",
+    "s",
+    "∅",
+    "∅",
+    "p",
+    "a",
+    "r",
+    "∅",
+    "∅",
+    "s",
+    "t",
+    "a",
+    "n",
+    "∅",
+    "a",
+    "n",
+    "n",
+    "∅",
+    "s",
+    "h",
+    "e",
+    "n",
+    "y",
+    "u",
+    "n",
+    "g",
+    "i",
+    "s",
+    "t",
+    "∅",
+    "∅",
+    "n",
+    "a",
+    "n",
+    "a",
+    "u",
+    "s",
+    "s",
+    "r",
+    "∅",
+    "d",
+    "e",
+    "n",
+    "i",
+    "m",
+    "t",
+    "h",
+    "r",
+    "i",
+    "c",
+    "e",
+    "∅",
+    "∅",
+    "q",
+    "a",
+    "a",
+    "∅",
+    "i",
+    "d",
+    "o",
+    "l",
+    "∅",
+    "∅",
+    "u",
+    "∅",
+    "n",
+    "∅",
+    "∅",
+    "e",
+    "n",
+    "t",
+    "i",
+    "r",
+    "e",
+    "∅",
+    "∅",
+    "m",
+    "o",
+    "r",
+    "t",
+    "a",
+    "l",
+    "∅",
+    "∅",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",9],[\"A8\",7],[\"A10\",2],[\"A11\",4],[\"A13\",2],[\"A14\",7],[\"A16\",4],[\"A18\",4],[\"A19\",4],[\"A20\",5],[\"A21\",6],[\"A23\",2],[\"A24\",4],[\"A25\",6],[\"A27\",6],[\"D1\",9],[\"D2\",7],[\"D3\",2],[\"D4\",2],[\"D5\",4],[\"D6\",4],[\"D7\",6],[\"D9\",6],[\"D12\",4],[\"D14\",7],[\"D15\",6],[\"D17\",4],[\"D20\",5],[\"D22\",4],[\"D26\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "my new meal prep "
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "orange monkey"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "glossy finish"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "start of old macdonald's refrain"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "province with halifax (acronym)"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "posh"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "pre dealing stake"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "ship that stops in pokemon's verillion city"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "wrinkly snack"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "important trade conduit"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "deadly weapon, 15"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "flat guy for short"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "poptart cat with rainbow trail"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "double the letter after m "
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "experience china before communism with dance"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "aragorn's nickname or one who walks with few steps"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "one of a kind"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "the main point of it"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "un-sad pill"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "hachi's roommate"
+    },
+    {
+      "direction": "across",
+      "number": 19,
+      "clue": "biggest country from 1922 to 1991"
+    },
+    {
+      "direction": "across",
+      "number": 20,
+      "clue": "jean"
+    },
+    {
+      "direction": "down",
+      "number": 20,
+      "clue": "hometown / greek triangle"
+    },
+    {
+      "direction": "across",
+      "number": 21,
+      "clue": "more than twice"
+    },
+    {
+      "direction": "down",
+      "number": 22,
+      "clue": "carry on w/ "
+    },
+    {
+      "direction": "across",
+      "number": 23,
+      "clue": "making sure stuff is good (acronym)"
+    },
+    {
+      "direction": "across",
+      "number": 24,
+      "clue": "american, or your by the saja boys"
+    },
+    {
+      "direction": "across",
+      "number": 25,
+      "clue": "whole"
+    },
+    {
+      "direction": "down",
+      "number": 26,
+      "clue": "he (french)"
+    },
+    {
+      "direction": "across",
+      "number": 27,
+      "clue": "all men are (and socrates is a man)"
+    }
+  ]
+}
