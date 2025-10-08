@@ -6,7 +6,7 @@ const inputReferenceArray = [];
 const clueReferenceArray = [];
 let direction = 'across';
 let clue_num = 1;
-let current_active_cell_index = 0;
+let current_active_cell_index = 0; // index of cell reference array
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
 const down_in_order = [];
 
@@ -17,7 +17,8 @@ function getPuzzleTitleFromUrl() {
 
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
-    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
+    //fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
+    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/small_october_4th.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -88,8 +89,8 @@ function WriteInOrders() {
 }
 
 
-// something is not right in here... i must test it better
-function FindNextIndex(currentRow, currentCol) { 
+// calculates the next index. tab is a poolean telling is use to skip spots in the current word
+function FindNextIndex(currentRow, currentCol, tab) { 
     if (direction === "across") {
         let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
         if (currentIndex >= 0) {
@@ -98,6 +99,9 @@ function FindNextIndex(currentRow, currentCol) {
             for (const cell of remaining_row) {
                 
                 if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    if (cell.clue_num == clue_num && tab){ // skip open spots in current word if we want to tab
+                        continue;
+                    }
                     clue_num = cell.clue_num;
                     return [cell.row, cell.col];
                 }
@@ -123,9 +127,12 @@ function FindNextIndex(currentRow, currentCol) {
     else {  // direction = "down"
         let currentIndex = down_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
         if (currentIndex >= 0) {
-            let remaining_col = down_in_order.slice(currentIndex + 1); //TODO handle if currentIndex+1 out of bounds
+            let remaining_col = down_in_order.slice(currentIndex + 1); 
             for (const cell of remaining_col) {
                 if (cellReferenceArray[(cell.row * puzzleJson.dimensions) + cell.col].querySelector('input').value.trim() === "") {
+                    if (cell.clue_num == clue_num && tab){ // skip open spots in current word if we want to tab
+                        continue;
+                    }
                     clue_num = cell.clue_num;
                     return [cell.row, cell.col];
                 }
@@ -219,27 +226,32 @@ function DrawBoard(){
         
         const input = e.target.closest('input.cell-input');
         if (!input) return; 
+
       
         const key = e.key.toUpperCase().replace(/[^A-Z0-9]/g, '');
-        if (/^[A-Z0-9]$/.test(key)) {
-          e.preventDefault();
-          input.value = key;
-      
-          // focus on next
-          const row = parseInt(input.dataset.row);
-          const col = parseInt(input.dataset.col);
-          const [nextRow, nextCol] = FindNextIndex(row, col);
-          const nextInput = cellReferenceArray[(nextRow * puzzleJson.dimensions) + nextCol]?.querySelector('input');
-          if (nextInput){ 
-            nextInput.focus();
-            const index = (nextRow * puzzleJson.dimensions) + nextCol;
-            updateActiveCellHighlight(index);
-        }
+        if (/^[A-Z0-9]$/.test(key) || e.key === 'Tab') {
+            e.preventDefault();
+            if ( e.key != 'Tab'){ // write in to square if its a character
+                input.value = key;
+            }
+
+            // focus on next
+            const row = parseInt(input.dataset.row);
+            const col = parseInt(input.dataset.col);
+            const [nextRow, nextCol] = FindNextIndex(row, col, e.key === 'Tab');
+            const nextInput = cellReferenceArray[(nextRow * puzzleJson.dimensions) + nextCol]?.querySelector('input');
+            if (nextInput){ 
+                nextInput.focus();
+                const index = (nextRow * puzzleJson.dimensions) + nextCol;
+                updateActiveCellHighlight(index);
+            }
 
 
-          // check for when full
-          CheckBoardFull()
-        }
+            // check for when full
+            CheckBoardFull()
+            }
+
+        
       
       });
 
@@ -251,7 +263,6 @@ function DrawBoard(){
 
 // call this function every time a cell gets clicked on or moved to
 function updateActiveCellHighlight(index) {
-    console.log("in highlighting code");
     // remove all previous ones
     cellReferenceArray.forEach(cell => {
         cell.classList.remove('highlight-across', 'highlight-down');
