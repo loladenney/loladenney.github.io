@@ -17,8 +17,8 @@ function getPuzzleTitleFromUrl() {
 
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
-    //fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
-    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/small_october_4th.json`)
+    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
+    // for testing: fetch(`https://shadowthehedgehog.ca/crossword/puzzles/small_october_4th.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -89,7 +89,7 @@ function WriteInOrders() {
 }
 
 
-// calculates the next index. tab is a poolean telling is use to skip spots in the current word
+// calculates the next index. tab is a boolean to skip over the current word first
 function FindNextIndex(currentRow, currentCol, tab) { 
     if (direction === "across") {
         let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
@@ -160,6 +160,36 @@ function FindNextIndex(currentRow, currentCol, tab) {
 }
 
 
+// calculates the previous index for using backspace, only finds previous index within active word
+function FindPrevIndex(currentRow, currentCol) { 
+    if (direction === "across") {
+        let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
+    
+        // if current index is 0 we dont want to try to decrement index because it will be out of bounds.
+        // and if its 0 its nessesarily the first char in its word
+        if (currentIndex > 0) { 
+            const prevIndex = currentIndex - 1;
+            if (across_in_order[prevIndex].clue_num == clue_num) { // there is a character before focused on in the same word
+                return [across_in_order[prevIndex].row, across_in_order[prevIndex].col]
+            }
+        }
+        return [currentRow, currentCol]; // otherwise we don't want to move 
+    } 
+    else {  // direction = "down"
+        let currentIndex = down_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
+    
+    
+        if (currentIndex > 0) { 
+            const prevIndex = currentIndex - 1;
+            if (down_in_order[prevIndex].clue_num == clue_num) { // there is a character before focused on in the same word
+                return [down_in_order[prevIndex].row, down_in_order[prevIndex].col] // return it's position
+            }
+        }
+        return [currentRow, currentCol]; // otherwise we don't want to move 
+    }
+  
+}
+
 
 
 
@@ -223,19 +253,40 @@ function DrawBoard(){
 
     //writing in to input
     document.getElementById('gameboard-grid').addEventListener('keydown', (e) => {
-        
+        e.preventDefault();
         const input = e.target.closest('input.cell-input');
         if (!input) return; 
 
+        const key = e.key.toUpperCase().replace(/[^A-Z0-9]/g, ''); // get rid of blank space and capitalize
+
+        if (e.key === 'Backspace') { // delete current square and focus on previous one
+            if (input.value == ""){ // if current cell input empty, we want to delete the previous char in that word (if it exists)
+                // move to previous
+                const row = parseInt(input.dataset.row);
+                const col = parseInt(input.dataset.col);
+                const [prevRow, prevCol] = FindPrevIndex(row, col);
+                const prevInput = cellReferenceArray[(prevRow * puzzleJson.dimensions) + prevCol]?.querySelector('input');
+                if (prevInput && ! (prevRow == row &&  prevCol == col) ){  // the position has changes and no errors
+                    prevInput.value = "";
+                    prevInput.focus();
+                    const index = (prevRow * puzzleJson.dimensions) + prevCol;
+                    updateActiveCellHighlight(index);
+                }
+            }
+            else { // if current cell has content, just delete it
+                input.value = "";
+            }
+        
+            // no need to check if board is full because by def this will leave an empty cell
+        }
       
-        const key = e.key.toUpperCase().replace(/[^A-Z0-9]/g, '');
-        if (/^[A-Z0-9]$/.test(key) || e.key === 'Tab') {
-            e.preventDefault();
+        
+        else if (/^[A-Z0-9]$/.test(key) || e.key === 'Tab') { // we write a character or we want to skip to next word
             if ( e.key != 'Tab'){ // write in to square if its a character
                 input.value = key;
             }
 
-            // focus on next
+            // move to next (either next empty, or if tab next empty not in current word)
             const row = parseInt(input.dataset.row);
             const col = parseInt(input.dataset.col);
             const [nextRow, nextCol] = FindNextIndex(row, col, e.key === 'Tab');
@@ -249,15 +300,12 @@ function DrawBoard(){
 
             // check for when full
             CheckBoardFull()
-            }
-
-        
+        }
       
       });
 
-
-    
-    AddBetterNavigation();
+     
+    AddBetterNavigation(); // spacebar to toggle
     
 }
 
@@ -289,7 +337,6 @@ function AddBetterNavigation(){
 
         }
 
-        //TODO add backspace to delete current input and go back one spot or arrow keys??
 
     });
 
