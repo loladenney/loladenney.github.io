@@ -1,0 +1,392 @@
+{
+  "title": "anyways stan fromis",
+  "notes": "alternate clues (these change the puzzle solution!): 4 ACROSS what Chumbawamba got famous for thumping, 5 DOWN aggregate of sets or labor rights organization",
+  "date": "2025-10-07T16:22:28.727Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "p",
+    "p",
+    "t",
+    "∅",
+    "t",
+    "a",
+    "b",
+    "o",
+    "e",
+    "r",
+    "∅",
+    "o",
+    "n",
+    "a",
+    "g",
+    "r",
+    "a",
+    "p",
+    "h",
+    "i",
+    "c",
+    "∅",
+    "j",
+    "i",
+    "h",
+    "e",
+    "o",
+    "n",
+    "m",
+    "u",
+    "n",
+    "d",
+    "a",
+    "n",
+    "e",
+    "d",
+    "r",
+    "m",
+    "m",
+    "r",
+    "∅",
+    "∅",
+    "b",
+    "e",
+    "e",
+    "i",
+    "t",
+    "∅",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",3],[\"A4\",3],[\"A7\",3],[\"A8\",3],[\"A9\",7],[\"A11\",6],[\"A12\",7],[\"A13\",5],[\"A14\",5],[\"D1\",3],[\"D2\",7],[\"D3\",7],[\"D4\",7],[\"D5\",5],[\"D6\",5],[\"D10\",5],[\"D12\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "file extension for slideshows"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "trendy '90s milk cap"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "lie under oath"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "request from an understimulated dog: \"_____ __\""
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "guitar notation or list of drink orders"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "fromis_9 debut single"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "particle with an electron surplus"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "posterior pimples"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "old-timey contraction of over"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "snakes and strangers are this to rhyming vehicles in film titles"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "like some novels and T-shirts"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "prestigious degree used to transmit high-quality video?"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "fromis_9 maknae and best girl <3"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "ordinary"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "online compendium of cinema facts: I___"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "band member who holds down the rhthm sctn"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "remark from a hive dweller accepting their fate: \"so ___ __\""
+    }
+  ]
+}
