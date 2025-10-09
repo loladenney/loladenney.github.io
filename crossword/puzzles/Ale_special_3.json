@@ -1,0 +1,768 @@
+{
+  "title": "Ale special #3",
+  "notes": "biggest one yet(in terms of dimension but with a rather lage kernel) give like! if you want extra hints email me at: myemail@email.com! Umm yeah you can clearly tell that some of these had more thought put into them than others jeje.",
+  "date": "2025-10-08T19:05:02.376Z",
+  "dimensions": 10,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 20,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 21,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 22,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 24,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 25,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 26,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 27,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 28,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 29,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "d",
+    "a",
+    "s",
+    "k",
+    "a",
+    "p",
+    "i",
+    "t",
+    "a",
+    "l",
+    "i",
+    "n",
+    "p",
+    "u",
+    "∅",
+    "∅",
+    "∅",
+    "a",
+    "∅",
+    "u",
+    "a",
+    "n",
+    "a",
+    "r",
+    "c",
+    "h",
+    "i",
+    "s",
+    "m",
+    "s",
+    "l",
+    "o",
+    "r",
+    "d",
+    "c",
+    "o",
+    "m",
+    "e",
+    "t",
+    "h",
+    "e",
+    "y",
+    "e",
+    "∅",
+    "p",
+    "r",
+    "i",
+    "∅",
+    "∅",
+    "∅",
+    "c",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "n",
+    "∅",
+    "k",
+    "e",
+    "t",
+    "t",
+    "l",
+    "a",
+    "c",
+    "o",
+    "y",
+    "o",
+    "∅",
+    "∅",
+    "e",
+    "i",
+    "a",
+    "m",
+    "o",
+    "k",
+    "∅",
+    "∅",
+    "o",
+    "a",
+    "r",
+    "c",
+    "r",
+    "o",
+    "d",
+    "i",
+    "e",
+    "∅",
+    "r",
+    "a",
+    "p",
+    "s",
+    "p",
+    "r",
+    "a",
+    "i",
+    "n",
+    "∅",
+    "b",
+    "∅",
+    "s"
+  ],
+  "answer_info": "[[\"A1\",10],[\"A7\",4],[\"A8\",10],[\"A13\",10],[\"A14\",3],[\"A15\",3],[\"A16\",3],[\"A18\",7],[\"A23\",5],[\"A24\",3],[\"A26\",6],[\"A28\",3],[\"A29\",6],[\"D1\",10],[\"D2\",5],[\"D3\",5],[\"D4\",4],[\"D5\",4],[\"D6\",4],[\"D9\",3],[\"D10\",5],[\"D11\",3],[\"D12\",2],[\"D17\",5],[\"D19\",4],[\"D20\",4],[\"D21\",4],[\"D22\",4],[\"D24\",3],[\"D25\",2],[\"D27\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "Many claim to have read it; three volumes of based economics"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "popularized by Hegel"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "to irritate"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "to have left over/extra"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "someone part of the largest ethnic minority in Turkey"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "to shoot w electricity gun "
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "Mitski debut album"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "anubis' legal name"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "plural (i.e. add an s at end) of political theory (bread)"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "founded by mao (abbreviation)"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "state of arousal"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "you are you, he is he and me? _____"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "acronym for importanr school examination, not a final"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "what someone might say when they're reaching out to a higher power"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "peepers (singular)"
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "Mexican political party (42 years in power)"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "horse drug abbreviation"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "no bro its not about sativa/indica, its all about the ____"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "oval shaped mexican dish made from corn flour usually filled with beans or cheese"
+    },
+    {
+      "direction": "down",
+      "number": 19,
+      "clue": "to role play but with swords and stuff"
+    },
+    {
+      "direction": "down",
+      "number": 20,
+      "clue": "lovee in spanish"
+    },
+    {
+      "direction": "down",
+      "number": 21,
+      "clue": "music term: passage that brings piece to end"
+    },
+    {
+      "direction": "down",
+      "number": 22,
+      "clue": "how someone who uses :333 would write okay"
+    },
+    {
+      "direction": "across",
+      "number": 23,
+      "clue": "what someone might say when you ask them how they are"
+    },
+    {
+      "direction": "across",
+      "number": 24,
+      "clue": "used to row"
+    },
+    {
+      "direction": "down",
+      "number": 24,
+      "clue": "shiny sphere"
+    },
+    {
+      "direction": "down",
+      "number": 25,
+      "clue": "if you have a drinkig problem, you might go to __ meeting"
+    },
+    {
+      "direction": "across",
+      "number": 26,
+      "clue": "toronto slang for bro"
+    },
+    {
+      "direction": "down",
+      "number": 27,
+      "clue": "acronym for la lange d'anglterre"
+    },
+    {
+      "direction": "across",
+      "number": 28,
+      "clue": "musical genre, characterized for emphasis in dropping rhymes like dimes"
+    },
+    {
+      "direction": "across",
+      "number": 29,
+      "clue": "when u hurt ur ligament, but not fully"
+    }
+  ]
+}
