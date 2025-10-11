@@ -1,0 +1,58 @@
+body {
+   /* background-image: url('https://www.example.com/sparkle-tile.gif');
+    background-repeat: repeat; */
+  }
+  
+.container {
+    background-image: url('https://shadowthehedgehog.ca/assets/fav_bkgnd.png');
+    background-repeat: repeat; 
+    font-family: "Lucida Console", Monaco, monospace;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-attachment: fixed;
+    background-size: 500px;
+
+  }
+  
+h2 {
+    text-align: center;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+  }
+  
+ul {
+    list-style-type: none;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    columns: 2;
+    column-gap: 10px;
+  }
+  
+li {
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    border: 3px dashed #363636;
+    color:  #363636;
+  }
+  
+li a {
+    color: #363636;      
+    text-decoration: none;
+  }
+  
+li a:visited {
+    color:  #363636;
+  }
+  
+li a:hover,
+li a:active {
+    color:  #363636;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
