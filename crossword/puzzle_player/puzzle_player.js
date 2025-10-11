@@ -4,7 +4,7 @@ let puzzleJson;
 const cellReferenceArray = []; //for storing references to all the cells in the array (1d array), includes black squares
 const inputReferenceArray = []; 
 const clueReferenceArray = [];
-let direction = 'across';
+let direction = 'down';
 let clue_num = 1;
 let current_active_cell_index = 0; // index of cell reference array
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
@@ -17,8 +17,8 @@ function getPuzzleTitleFromUrl() {
 
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
-    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
-    // for testing: fetch(`https://shadowthehedgehog.ca/crossword/puzzles/small_october_4th.json`)
+    //fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
+    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/small_october_4th.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -94,7 +94,7 @@ function FindNextIndex(currentRow, currentCol, tab) {
     if (direction === "across") {
         let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
         if (currentIndex >= 0) {
-            let remaining_row = across_in_order.slice(currentIndex+1); //TODO handle if currentIndex+1 out of bounds (might be handled by if statement)
+            let remaining_row = across_in_order.slice(currentIndex+1); 
             
             for (const cell of remaining_row) {
                 
@@ -259,6 +259,7 @@ function DrawBoard(){
 
         const key = e.key.toUpperCase().replace(/[^A-Z0-9]/g, ''); // get rid of blank space and capitalize
 
+        // TODO backspace doesnt work when we click on an already filled in word. check direction is correct and debug
         if (e.key === 'Backspace') { // delete current square and focus on previous one
             if (input.value == ""){ // if current cell input empty, we want to delete the previous char in that word (if it exists)
                 // move to previous
@@ -319,15 +320,22 @@ function updateActiveCellHighlight(index) {
     current_active_cell_index = index
     const cell = cellReferenceArray[index];
     if (!cell) return;
+    let highlightClass;
+    if (direction === "across"){
+        highlightClass = 'highlight-across';
+    }
+    else {
+        highlightClass = 'highlight-down';
 
-    const highlightClass = direction === "across" ? 'highlight-across' : 'highlight-down';
+    }
+    
     cell.classList.add(highlightClass);
 }
 
 function AddBetterNavigation(){
     const container = document.getElementById('gameboard-grid');
 
-     // toggle direction on space etc   TODO test this with highlighting
+     // toggle direction arrow on spacebar
      container.addEventListener('keydown', (e) => {
              
         if (e.key === ' '){
@@ -342,46 +350,58 @@ function AddBetterNavigation(){
 
 
     // this is about what happens when the user clicks on a cell (update direction and active clue number)
-    container.addEventListener('click', function(event) {
+    container.addEventListener('click', function(event) { // TODO i changed it on the airplane TEST THIS. it should change this to only change if same cell is clicked twice in a row
 
         const cell = event.target.closest('.crossword-cell');
         if (!cell) return; //we didtn click a  cell
         
         const input = cell.querySelector('input');
-        if (!input) return;
+        if (!input) return; // make sure somthign is there
+
+
         
         const row = Number(input.dataset.row);
         const col = Number(input.dataset.col);
+       
         
-        // Find clue number and if they have across and/or down
-        const acrossClue = across_in_order.find(c => c.row === row && c.col === col);
-        const downClue = down_in_order.find(c => c.row === row && c.col === col);
+        // if the cell changes, update current_active_cell
+        if ( (row * puzzleJson.dimensions) + col != current_active_cell_index){
+            current_active_cell_index = (row * puzzleJson.dimensions) + col
+        }
+        else { //toggle direction when the same cell is clicked on twice
+        
+            // Find clue number and if they have across and/or down
+            const acrossClue = across_in_order.find(c => c.row === row && c.col === col);
+            const downClue = down_in_order.find(c => c.row === row && c.col === col);
 
-        // update direction and clue number accordingly
-        if (direction === "across" && downClue) {
-            direction = "down";
-            clue_num = downClue.clue_num;
-        } else if (direction === "down" && acrossClue) {
-            direction = "across";
-            clue_num = acrossClue.clue_num;
-        } else if (direction === "across" && acrossClue) {
-            clue_num = acrossClue.clue_num;
-        } else if (direction === "down" && downClue) {
-            clue_num = downClue.clue_num;
-        } else {
-            return;
+            // update direction and clue number accordingly
+            if (direction === "across" && downClue) {
+                direction = "down";
+                clue_num = downClue.clue_num;
+            } else if (direction === "down" && acrossClue) {
+                direction = "across";
+                clue_num = acrossClue.clue_num;
+            } else if (direction === "across" && acrossClue) {
+                clue_num = acrossClue.clue_num;
+            } else if (direction === "down" && downClue) {
+                clue_num = downClue.clue_num;
+            } else {
+                return;
+            }
+
+            // check for highlighting update
+            const index = row * puzzleJson.dimensions + col;
+            updateActiveCellHighlight(index);
         }
 
-        // check for highlighting update
-        const index = row * puzzleJson.dimensions + col;
-        updateActiveCellHighlight(index);
+
+        
     });
 
 
 
 
-    // TODO THIS DOESNT WORK start by focusing on the first guy in the puzzle.
-    // WHEN IT WORKS SWITCH DEFUALT AT TOP TO ACROSS 
+    // TODO check this works for initilaizing direction as across
     for (const cell of cellReferenceArray){
         const input = cell?.querySelector('input');
         if (input){
@@ -402,6 +422,7 @@ function AddBetterNavigation(){
             break;
         }
     }
+    direction = "across"; // initialize to across
 }
 
 function DrawCluesList(){
@@ -502,43 +523,8 @@ function YouWin(){
 
 loadPuzzle();
 
-//TODO highlight full word based on direction and current letter
 
 
-
-// then add all the interactivity, inputing, , reveal answer
-//below notes, add buttons for puzzle check and letter reveal
-// add a letter check, and full puzzle check. once a letter is checked, lock its input and change its background to light grey. 
-
-// add controls for getting between clues quicker. arrow keys for squares in grid? return to get to next word in list, auto move to next space when typing in character
-// highlight current work beign written?? to know if its across or down. 
 
 // add animations for when the puzzle is complete
 
-
-//todo highlight currently selected box, starting with top right corner. when a character is inputted, automatically move to the right. 
-
-
-
-
-
-
-// ok for the highlighting
-/*
-when you click on a clue, it highlights the corresponding first empty square in the right direction at that number. if its all full it goes to the first square
-clicking on a clue sets the "direction" state, so we know which way to move the cursor when a character is entered
-
-by default on load in, the direction is set to across, and the highlighted square is the top left one. the first across clue is also highlighted
-if a cell that is currently selected gets clicked, direction flips and the square doesnt change even if its filled. 
-if no across clue exists, if there is a down clue flip direction and start with that one. if there is neither then 
-
-when a character is written, the cursor move one spot in the direction of "direction", if we are already at the end, we look at the list of 
-clues in the current direction, and go to the next empty square from a clue after the current one. 
-if there are no more blank squares from any of the clues in the current direction, we go to the next open square of the other direction (make sure we flip the direction), 
-if that one is filled then look through the original direction from the top. there will always be an open square because the below thing will enforce that.
-
-if the character is the one that completes the puzzle (correct or not) (this will be detected the same way we know to check the full puzzle) do not change anything. check this before the above to avoid infinite loops
-
--how can i get the thing to immediately take a character? a secret click happening? idk
-
-*/

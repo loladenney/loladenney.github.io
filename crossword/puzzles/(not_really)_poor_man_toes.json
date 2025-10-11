@@ -1,0 +1,387 @@
+{
+  "title": "(not really) poor man toes",
+  "notes": "",
+  "date": "2025-10-11T17:03:15.427Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "∅",
+    "∅",
+    "m",
+    "p",
+    "h",
+    "∅",
+    "∅",
+    "∅",
+    "l",
+    "i",
+    "m",
+    "e",
+    "∅",
+    "∅",
+    "d",
+    "e",
+    "c",
+    "o",
+    "r",
+    "u",
+    "m",
+    "e",
+    "a",
+    "r",
+    "∅",
+    "r",
+    "t",
+    "x",
+    "p",
+    "h",
+    "o",
+    "b",
+    "i",
+    "a",
+    "s",
+    "∅",
+    "∅",
+    "b",
+    "a",
+    "n",
+    "h",
+    "∅",
+    "∅",
+    "∅",
+    "e",
+    "c",
+    "g",
+    "∅",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",3],[\"A4\",4],[\"A5\",7],[\"A8\",3],[\"A9\",3],[\"A10\",7],[\"A12\",4],[\"A13\",3],[\"D1\",7],[\"D2\",3],[\"D3\",7],[\"D4\",4],[\"D5\",3],[\"D6\",4],[\"D7\",3],[\"D11\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "imperial speed unit"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "* regal attire for a recording device? (tiny organism)"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "annoy me in abbreviated internet slang"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "* torus she owns? (misleading fish)"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "green fruit"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "rivalrous sister of Rachel"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "* hesitation following home embellishments? (social standards)"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "Quebecois bodega, briefly"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "beehive state"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "title for multiple nonbinary people"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "wax-producing cavity"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "fka Raytheon Technologies"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "* inability to be objective about Vietnamese soup? (pathological fears)"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "French high school exam, briefly"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "part of a Vietnamese sandwich"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "heart monitor"
+    }
+  ]
+}
