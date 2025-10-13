@@ -1,0 +1,487 @@
+{
+  "title": "2010",
+  "notes": "",
+  "date": "2025-10-13T01:28:09.718Z",
+  "dimensions": 8,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "b",
+    "a",
+    "s",
+    "e",
+    "c",
+    "a",
+    "m",
+    "p",
+    "e",
+    "m",
+    "i",
+    "t",
+    "∅",
+    "∅",
+    "∅",
+    "a",
+    "e",
+    "∅",
+    "∅",
+    "c",
+    "a",
+    "p",
+    "e",
+    "r",
+    "r",
+    "∅",
+    "s",
+    "h",
+    "u",
+    "t",
+    "∅",
+    "a",
+    "s",
+    "∅",
+    "l",
+    "e",
+    "t",
+    "o",
+    "∅",
+    "s",
+    "h",
+    "i",
+    "n",
+    "d",
+    "i",
+    "∅",
+    "∅",
+    "i",
+    "e",
+    "∅",
+    "∅",
+    "∅",
+    "s",
+    "e",
+    "p",
+    "t",
+    "d",
+    "a",
+    "n",
+    "k",
+    "m",
+    "e",
+    "m",
+    "e"
+  ],
+  "answer_info": "[[\"A1\",8],[\"A6\",4],[\"A7\",5],[\"A10\",4],[\"A11\",4],[\"A12\",5],[\"A13\",4],[\"A16\",8],[\"D1\",8],[\"D2\",2],[\"D3\",2],[\"D4\",6],[\"D5\",8],[\"D8\",6],[\"D9\",3],[\"D10\",3],[\"D14\",2],[\"D15\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "project management software"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "backyard drinking spot"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "opposites with down 15"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "yes in spanish"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "scratched in"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "Bong Joon Ho's best picture"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "discharge"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "goes with lox and cream cheese"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "the new adhd"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "work benefit (abbr)"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "close"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "ans. "
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "morbius actor"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "mutually intelligeble with urdu"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "first -ember"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "twice the 5th"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "opposites with down 2"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "2016 pepe image"
+    }
+  ]
+}

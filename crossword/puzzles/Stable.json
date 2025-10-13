@@ -1,0 +1,289 @@
+{
+  "title": "Stable",
+  "notes": "written in april 2025",
+  "date": "2025-10-13T01:09:27.757Z",
+  "dimensions": 6,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "s",
+    "o",
+    "w",
+    "∅",
+    "∅",
+    "∅",
+    "u",
+    "n",
+    "h",
+    "i",
+    "d",
+    "e",
+    "c",
+    "l",
+    "o",
+    "n",
+    "e",
+    "r",
+    "h",
+    "y",
+    "a",
+    "e",
+    "n",
+    "a",
+    "∅",
+    "∅",
+    "∅",
+    "r",
+    "n",
+    "s",
+    "∅",
+    "∅",
+    "s",
+    "t",
+    "y",
+    "e"
+  ],
+  "answer_info": "[[\"A1\",3],[\"A4\",6],[\"A8\",6],[\"A9\",6],[\"A10\",3],[\"A11\",4],[\"D1\",4],[\"D2\",4],[\"D3\",4],[\"D5\",5],[\"D6\",5],[\"D7\",5]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "mama pig"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "\"_ a pity!\""
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "lonely child?"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "said to a horse to stop it"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "show"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "like argon gas"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "breakfast resturant"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "remove writing"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "machine for making clones"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "laughing carnivore"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "nurses (abbr.)"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "eye lump"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "title": "Donkey Kong",
+  "notes": "lola is short",
+  "date": "2025-10-13T01:30:08.675Z",
+  "dimensions": 7,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "L",
+    "A",
+    "∅",
+    "∅",
+    "C",
+    "O",
+    "W",
+    "A",
+    "D",
+    "J",
+    "∅",
+    "O",
+    "R",
+    "C",
+    "M",
+    "∅",
+    "U",
+    "N",
+    "U",
+    "∅",
+    "∅",
+    "B",
+    "A",
+    "N",
+    "A",
+    "N",
+    "Z",
+    "A",
+    "∅",
+    "L",
+    "I",
+    "N",
+    "T",
+    "∅",
+    "R",
+    "∅",
+    "F",
+    "O",
+    "U",
+    "R",
+    "∅",
+    "S",
+    "∅",
+    "∅",
+    "R",
+    "∅",
+    "Y",
+    "A",
+    "E"
+  ],
+  "answer_info": "[[\"A1\",2],[\"A3\",3],[\"A6\",3],[\"A8\",3],[\"A9\",3],[\"A11\",7],[\"A14\",4],[\"A15\",4],[\"A16\",3],[\"D1\",4],[\"D2\",2],[\"D3\",7],[\"D4\",2],[\"D5\",2],[\"D7\",6],[\"D10\",4],[\"D12\",3],[\"D13\",4]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "Cali. city"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "baby sheep"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "the year of our lord"
+    },
+    {
+      "direction": "across",
+      "number": 3,
+      "clue": "jumps over the moon"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "1994 donkey kong game"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "not and"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "what might be on a british washroom sign"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "desc. a noun"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "1982 donkey kong game"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "Lord of the Rings monster"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "school in Tokyo, with research and training institutes across 12 countries"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "police officer and kahuna from pokemon"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "2025 donkey kong game"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "1986 sitcom"
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "clean butt"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "something to be rolled"
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "donkey kong game: sixty __"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "Genshin Impact kitsune: __ Miko"
+    }
+  ]
+}

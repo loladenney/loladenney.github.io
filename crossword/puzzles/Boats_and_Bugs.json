@@ -1,0 +1,919 @@
+{
+  "title": "Boats and Bugs",
+  "notes": "wrote this one at a thanksgiving dinner with help from my new friend Tiffany",
+  "date": "2025-10-13T00:28:33.937Z",
+  "dimensions": 11,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 14,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 20,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 21,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 22,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 24,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 25,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 26,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 27,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 28,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 29,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 30,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 31,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 32,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 33,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "s",
+    "i",
+    "k",
+    "e",
+    "∅",
+    "s",
+    "t",
+    "y",
+    "x",
+    "∅",
+    "a",
+    "k",
+    "o",
+    "i",
+    "∅",
+    "t",
+    "w",
+    "a",
+    "e",
+    "∅",
+    "∅",
+    "d",
+    "u",
+    "r",
+    "n",
+    "s",
+    "∅",
+    "a",
+    "c",
+    "t",
+    "s",
+    "a",
+    "d",
+    "n",
+    "∅",
+    "g",
+    "h",
+    "o",
+    "s",
+    "t",
+    "i",
+    "n",
+    "g",
+    "∅",
+    "k",
+    "i",
+    "k",
+    "i",
+    "∅",
+    "h",
+    "∅",
+    "c",
+    "a",
+    "i",
+    "n",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "∅",
+    "d",
+    "a",
+    "i",
+    "l",
+    "y",
+    "d",
+    "o",
+    "o",
+    "d",
+    "∅",
+    "d",
+    "∅",
+    "f",
+    "l",
+    "e",
+    "m",
+    "∅",
+    "s",
+    "p",
+    "e",
+    "c",
+    "i",
+    "m",
+    "e",
+    "n",
+    "∅",
+    "p",
+    "s",
+    "e",
+    "a",
+    "m",
+    "a",
+    "n",
+    "∅",
+    "s",
+    "e",
+    "s",
+    "h",
+    "u",
+    "∅",
+    "∅",
+    "o",
+    "s",
+    "o",
+    "m",
+    "∅",
+    "r",
+    "e",
+    "i",
+    "m",
+    "∅",
+    "a",
+    "n",
+    "t",
+    "s",
+    "∅",
+    "i",
+    "d",
+    "e",
+    "d"
+  ],
+  "answer_info": "[[\"A1\",4],[\"A4\",4],[\"A8\",3],[\"A9\",4],[\"A10\",4],[\"A12\",6],[\"A15\",8],[\"A16\",4],[\"A18\",4],[\"A20\",5],[\"A21\",5],[\"A22\",4],[\"A24\",4],[\"A25\",8],[\"A27\",6],[\"A28\",4],[\"A30\",4],[\"A31\",3],[\"A32\",4],[\"A33\",4],[\"D1\",7],[\"D2\",3],[\"D3\",9],[\"D4\",5],[\"D5\",4],[\"D6\",9],[\"D7\",3],[\"D11\",9],[\"D13\",9],[\"D14\",5],[\"D17\",5],[\"D19\",7],[\"D23\",5],[\"D26\",4],[\"D27\",3],[\"D29\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "\"psych\" (to mess em up)"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "didn't catch any fish"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "and/or (as opposed to xor)"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "bowser"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "final river crossed"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "_ buckling"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "thoughtfulness"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "abominable coffee shops"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "+"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "japanese fish"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "a Scot's word for two"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "containers for the dead"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "kraken, siren, etc"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "put on a :("
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "shelled gastropod enthusiast"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "limber and quick"
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "leave on read permentantly"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "a little gossip sesh (gay slang)"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "u win"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "abel"
+    },
+    {
+      "direction": "down",
+      "number": 19,
+      "clue": "small nymph"
+    },
+    {
+      "direction": "across",
+      "number": 20,
+      "clue": "what a melon CAN'T do?"
+    },
+    {
+      "direction": "across",
+      "number": 21,
+      "clue": "every day"
+    },
+    {
+      "direction": "across",
+      "number": 22,
+      "clue": "online version of dude"
+    },
+    {
+      "direction": "down",
+      "number": 23,
+      "clue": "nugget shape"
+    },
+    {
+      "direction": "across",
+      "number": 24,
+      "clue": "person of Flounders "
+    },
+    {
+      "direction": "across",
+      "number": 25,
+      "clue": "a real sample"
+    },
+    {
+      "direction": "down",
+      "number": 26,
+      "clue": "_ away"
+    },
+    {
+      "direction": "across",
+      "number": 27,
+      "clue": "sailor"
+    },
+    {
+      "direction": "down",
+      "number": 27,
+      "clue": "+"
+    },
+    {
+      "direction": "across",
+      "number": 28,
+      "clue": "smoke weed with ur buds"
+    },
+    {
+      "direction": "down",
+      "number": 29,
+      "clue": "look"
+    },
+    {
+      "direction": "across",
+      "number": 30,
+      "clue": "kira's awesome spelling"
+    },
+    {
+      "direction": "across",
+      "number": 31,
+      "clue": "american MEC (outdoor equip.)"
+    },
+    {
+      "direction": "across",
+      "number": 32,
+      "clue": "picnic bugs"
+    },
+    {
+      "direction": "across",
+      "number": 33,
+      "clue": "carded for alcohol"
+    }
+  ]
+}
