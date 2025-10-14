@@ -441,7 +441,6 @@ function saveClues() {
             puzzleJson.clues.push(info);
         }
      }
-     console.log(puzzleJson.clues);
 }
 
 function checkAnswerLength() {
