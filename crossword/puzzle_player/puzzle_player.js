@@ -17,8 +17,8 @@ function getPuzzleTitleFromUrl() {
 
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
-    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
-    // for testing fetch(`https://shadowthehedgehog.ca/crossword/puzzles/JUMBOOOO.json`)
+    // for testing fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
+    fetch(`https://shadowthehedgehog.ca/crossword/puzzles/JUMBOOOO.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -206,7 +206,8 @@ function DrawBoard(){
         cell.className = 'crossword-cell';
 
         // for scaling the font size with css
-        document.documentElement.style.setProperty('--dim', puzzleJson.dimensions);
+        const dim = puzzleJson.dimensions
+        document.documentElement.style.setProperty('--dim',dim);
 
         // iterate through puzzle json template
         //  -1 means black and no input, otherwise there is an input and the square is white
