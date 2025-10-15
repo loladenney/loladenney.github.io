@@ -18,7 +18,7 @@ function getPuzzleTitleFromUrl() {
 function loadPuzzle(){
     const fileName = getPuzzleTitleFromUrl();
     fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
-    // for testing fetch(`https://shadowthehedgehog.ca/crossword/puzzles/small_october_4th.json`)
+    // for testing fetch(`https://shadowthehedgehog.ca/crossword/puzzles/JUMBOOOO.json`)
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -235,7 +235,7 @@ function DrawBoard(){
             //write in number if needed
             if (puzzleJson.template[i].value > 0){
                 const cornerNumber = document.createElement('div');
-                cornerNumber.className = cornerNumber;
+                cornerNumber.className = 'corner-number';
                 cornerNumber.textContent = puzzleJson.template[i].value;
                 cell.appendChild(cornerNumber);
             }
