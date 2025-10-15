@@ -76,7 +76,8 @@ body{
     position: absolute;
     top: 5%;
     left: 5%;
-    font-size: 0.6em;
+    
+    font-size: calc(495px / var(--dim) * 0.35);
     z-index: 3; /* above highlight and input */
     pointer-events: none;
   }

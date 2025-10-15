@@ -161,10 +161,10 @@ function FindNextIndex(currentRow, currentCol, tab) {
 
 
 // calculates the previous index for using backspace, only finds previous index within active word
-function FindPrevIndex(currentRow, currentCol) { 
+function FindPrevIndex(currentRow, currentCol) {  // TODO issue with backspace after spacebar is in here
     if (direction === "across") {
         let currentIndex = across_in_order.findIndex(cell => cell.row === currentRow && cell.col === currentCol);
-    
+
         // if current index is 0 we dont want to try to decrement index because it will be out of bounds.
         // and if its 0 its nessesarily the first char in its word
         if (currentIndex > 0) { 
@@ -281,7 +281,6 @@ function DrawBoard(){
         
             // no need to check if board is full because by def this will leave an empty cell
         }
-      
         
         else if (/^[A-Z0-9]$/.test(key) || e.key === 'Tab') { // we write a character or we want to skip to next word
             if ( e.key != 'Tab'){ // write in to square if its a character
@@ -322,12 +321,11 @@ function updateActiveCellHighlight(index) {
     const cell = cellReferenceArray[index];
     if (!cell) return;
     let highlightClass;
-    if (direction === "across"){
+    if (direction === 'across'){
         highlightClass = 'highlight-across';
     }
     else {
         highlightClass = 'highlight-down';
-
     }
     
     cell.classList.add(highlightClass);
@@ -340,10 +338,37 @@ function AddBetterNavigation(){
      container.addEventListener('keydown', (e) => {
              
         if (e.key === ' '){
-            direction = direction === "across"? "down":"across";
+            const row = Math.floor(current_active_cell_index / puzzleJson.dimensions);
+            const col = current_active_cell_index % puzzleJson.dimensions;
+
+            // toggle direction and update clue num to match
+            if (direction === 'down'){
+                direction = 'across';
+                const acrossClue = across_in_order.find(c => c.row === row && c.col === col);
+                if (typeof acrossClue === 'undefined'){
+                    clue_num = 0
+                }
+                else {
+                    clue_num = acrossClue.clue_num; 
+                }
+            }
+            else{
+                direction = 'down';
+                const downClue = down_in_order.find(c => c.row === row && c.col === col);
+                if (typeof downClue === 'undefined'){
+                    clue_num = 0
+                }
+                else {
+                    clue_num = downClue.clue_num; 
+                }
+            }
+            
+            
+
+
+
             //update arrow in "highlight"
             updateActiveCellHighlight(current_active_cell_index);
-
         }
 
 
@@ -383,8 +408,10 @@ function AddBetterNavigation(){
                 direction = "across";
                 clue_num = acrossClue.clue_num;
             } else if (direction === "across" && acrossClue) {
+                direction = "across";
                 clue_num = acrossClue.clue_num;
             } else if (direction === "down" && downClue) {
+                direction = "down";
                 clue_num = downClue.clue_num;
             } else {
                 return;
@@ -394,12 +421,8 @@ function AddBetterNavigation(){
             const index = row * puzzleJson.dimensions + col;
             updateActiveCellHighlight(index);
         }
-
-
         
     });
-
-
 
 
     // TODO check this works for initilaizing direction as across
