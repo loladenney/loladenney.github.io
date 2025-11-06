@@ -1,0 +1,1087 @@
+{
+  "title": "Galactic Garden",
+  "notes": "* means part of the \"theme\" hinted at in the title",
+  "date": "2025-11-06T17:51:09.153Z",
+  "dimensions": 12,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 10,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 20,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 21,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 22,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 24,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 25,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 26,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 27,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 28,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 29,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 30,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 31,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 32,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 33,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 34,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 35,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "a",
+    "r",
+    "e",
+    "a",
+    "∅",
+    "r",
+    "y",
+    "o",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "b",
+    "i",
+    "g",
+    "b",
+    "r",
+    "e",
+    "a",
+    "k",
+    "f",
+    "a",
+    "s",
+    "t",
+    "r",
+    "a",
+    "g",
+    "a",
+    "∅",
+    "s",
+    "c",
+    "r",
+    "o",
+    "l",
+    "l",
+    "s",
+    "u",
+    "∅",
+    "∅",
+    "d",
+    "∅",
+    "c",
+    "h",
+    "a",
+    "r",
+    "i",
+    "o",
+    "t",
+    "p",
+    "l",
+    "e",
+    "a",
+    "n",
+    "u",
+    "t",
+    "∅",
+    "g",
+    "e",
+    "t",
+    "s",
+    "t",
+    "∅",
+    "∅",
+    "t",
+    "o",
+    "e",
+    "∅",
+    "l",
+    "e",
+    "n",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "s",
+    "l",
+    "r",
+    "∅",
+    "m",
+    "i",
+    "t",
+    "∅",
+    "∅",
+    "a",
+    "z",
+    "o",
+    "e",
+    "a",
+    "∅",
+    "h",
+    "e",
+    "l",
+    "m",
+    "e",
+    "t",
+    "s",
+    "e",
+    "x",
+    "e",
+    "s",
+    "r",
+    "a",
+    "t",
+    "∅",
+    "e",
+    "∅",
+    "∅",
+    "t",
+    "r",
+    "e",
+    "d",
+    "r",
+    "o",
+    "s",
+    "e",
+    "∅",
+    "n",
+    "e",
+    "a",
+    "r",
+    "o",
+    "n",
+    "o",
+    "m",
+    "a",
+    "t",
+    "o",
+    "p",
+    "o",
+    "e",
+    "i",
+    "a",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "m",
+    "e",
+    "r",
+    "∅",
+    "t",
+    "o",
+    "l",
+    "l"
+  ],
+  "answer_info": "[[\"A1\",4],[\"A5\",3],[\"A8\",12],[\"A13\",4],[\"A14\",7],[\"A15\",7],[\"A16\",7],[\"A18\",4],[\"A19\",3],[\"A20\",3],[\"A21\",3],[\"A22\",3],[\"A24\",4],[\"A26\",7],[\"A27\",7],[\"A29\",7],[\"A30\",4],[\"A33\",12],[\"A34\",3],[\"A35\",4],[\"D1\",6],[\"D2\",3],[\"D3\",3],[\"D4\",11],[\"D5\",6],[\"D6\",5],[\"D7\",4],[\"D9\",11],[\"D10\",5],[\"D11\",4],[\"D12\",4],[\"D17\",3],[\"D20\",3],[\"D21\",5],[\"D22\",6],[\"D23\",6],[\"D24\",4],[\"D25\",4],[\"D26\",5],[\"D28\",4],[\"D31\",3],[\"D32\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "length measurement^2"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "sudden and maybe rude"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "nickname for Maria"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "prey in an easter hunt"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "a chamb. for inaccurate map books"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "japanese gold coin before the yen"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "save"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "expensive boat"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "ladyfinger vegetable"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "lots of pancakes, eggs, bacon and hashbrowns"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "*scorpion grasses, blue flowers"
+    },
+    {
+      "direction": "down",
+      "number": 10,
+      "clue": "*from out of this world"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "machine for gambling"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "loose hi-hat x2"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "_muffin cat breed"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "rolled sheets of papyrus"
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "apollo's vehicle"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "beg for a commonly miscategorized legume"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "neither _"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "attains"
+    },
+    {
+      "direction": "across",
+      "number": 19,
+      "clue": "japanese mathrock band/foot terminal"
+    },
+    {
+      "direction": "across",
+      "number": 20,
+      "clue": "rin's brother"
+    },
+    {
+      "direction": "down",
+      "number": 20,
+      "clue": "small for a rapper"
+    },
+    {
+      "direction": "across",
+      "number": 21,
+      "clue": "video cam."
+    },
+    {
+      "direction": "down",
+      "number": 21,
+      "clue": "actions a money takes"
+    },
+    {
+      "direction": "across",
+      "number": 22,
+      "clue": "Cambridge science school"
+    },
+    {
+      "direction": "down",
+      "number": 22,
+      "clue": "*part of a distant shower"
+    },
+    {
+      "direction": "down",
+      "number": 23,
+      "clue": "*starlike"
+    },
+    {
+      "direction": "across",
+      "number": 24,
+      "clue": "planktonic larval stage of many crabs"
+    },
+    {
+      "direction": "down",
+      "number": 24,
+      "clue": "nil, or the first natural"
+    },
+    {
+      "direction": "down",
+      "number": 25,
+      "clue": "big horned bovines"
+    },
+    {
+      "direction": "across",
+      "number": 26,
+      "clue": "armour for heads"
+    },
+    {
+      "direction": "down",
+      "number": 26,
+      "clue": "with urgency"
+    },
+    {
+      "direction": "across",
+      "number": 27,
+      "clue": "former lover's pet rodent"
+    },
+    {
+      "direction": "down",
+      "number": 28,
+      "clue": "stroll about"
+    },
+    {
+      "direction": "across",
+      "number": 29,
+      "clue": "*valentines gift"
+    },
+    {
+      "direction": "across",
+      "number": 30,
+      "clue": "not far"
+    },
+    {
+      "direction": "down",
+      "number": 31,
+      "clue": "laws prohibiting types of job discrimination (acronym)"
+    },
+    {
+      "direction": "down",
+      "number": 32,
+      "clue": "trouble in mind or body"
+    },
+    {
+      "direction": "across",
+      "number": 33,
+      "clue": "sound word"
+    },
+    {
+      "direction": "across",
+      "number": 34,
+      "clue": "maid or man"
+    },
+    {
+      "direction": "across",
+      "number": 35,
+      "clue": "road cost"
+    }
+  ]
+}
