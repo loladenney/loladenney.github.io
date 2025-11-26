@@ -1,0 +1,874 @@
+{
+  "title": "Halloween Special",
+  "notes": "dont look at the date this was published :|",
+  "date": "2025-11-26T22:13:32.750Z",
+  "dimensions": 11,
+  "template": [
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 18,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 20,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 21,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 22,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 24,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "∅",
+    "n",
+    "i",
+    "g",
+    "h",
+    "t",
+    "m",
+    "a",
+    "r",
+    "e",
+    "∅",
+    "f",
+    "o",
+    "∅",
+    "∅",
+    "a",
+    "o",
+    "o",
+    "∅",
+    "∅",
+    "w",
+    "h",
+    "e",
+    "∅",
+    "∅",
+    "∅",
+    "u",
+    "r",
+    "n",
+    "∅",
+    "∅",
+    "∅",
+    "e",
+    "i",
+    "∅",
+    "∅",
+    "u",
+    "n",
+    "i",
+    "t",
+    "y",
+    "∅",
+    "∅",
+    "r",
+    "g",
+    "h",
+    "o",
+    "s",
+    "t",
+    "∅",
+    "h",
+    "a",
+    "l",
+    "l",
+    "o",
+    "n",
+    "i",
+    "c",
+    "e",
+    "∅",
+    "a",
+    "∅",
+    "w",
+    "e",
+    "e",
+    "n",
+    "∅",
+    "∅",
+    "t",
+    "r",
+    "i",
+    "d",
+    "e",
+    "n",
+    "t",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "o",
+    "∅",
+    "d",
+    "∅",
+    "m",
+    "∅",
+    "t",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "p",
+    "∅",
+    "i",
+    "∅",
+    "b",
+    "∅",
+    "u",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "u",
+    "∅",
+    "o",
+    "∅",
+    "e",
+    "∅",
+    "c",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "s",
+    "∅",
+    "m",
+    "∅",
+    "r",
+    "∅",
+    "e",
+    "∅",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",9],[\"A6\",2],[\"A7\",3],[\"A8\",2],[\"A10\",3],[\"A11\",5],[\"A13\",5],[\"A16\",5],[\"A19\",4],[\"A21\",4],[\"A22\",7],[\"D1\",2],[\"D2\",5],[\"D3\",4],[\"D4\",5],[\"D5\",2],[\"D6\",5],[\"D9\",5],[\"D11\",4],[\"D12\",4],[\"D14\",2],[\"D15\",7],[\"D17\",7],[\"D18\",2],[\"D20\",2],[\"D23\",5],[\"D24\",5]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "bad dream"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "nuh-uh"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "common behaviour of 13"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "japanese gate or chicken"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "12 per calendar"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "yuck"
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "beanstock giant's 3rd syllable"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "give false appearance of"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "**wolf howl**"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "prefix to many interrogative words"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "big bird"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "receptacable for a body once warm, cold, hot, then room temp"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "joined as a whole"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "computer or machine operator"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "sleepy action"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "spooky apparition"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "hello!"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "cephalo-8-pod"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "german greeting"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "iceberg, butter, etc"
+    },
+    {
+      "direction": "down",
+      "number": 18,
+      "clue": "french masculine the"
+    },
+    {
+      "direction": "across",
+      "number": 19,
+      "clue": "kind"
+    },
+    {
+      "direction": "down",
+      "number": 20,
+      "clue": "promotional material"
+    },
+    {
+      "direction": "across",
+      "number": 21,
+      "clue": "silly sounding suffix of 16"
+    },
+    {
+      "direction": "across",
+      "number": 22,
+      "clue": "3 spiked weapon"
+    },
+    {
+      "direction": "down",
+      "number": 23,
+      "clue": "saying"
+    },
+    {
+      "direction": "down",
+      "number": 24,
+      "clue": "glowing coal"
+    }
+  ]
+}
