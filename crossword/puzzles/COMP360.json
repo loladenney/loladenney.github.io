@@ -1,0 +1,497 @@
+{
+  "title": "COMP360",
+  "notes": "in honour of the final comp360 Algorithm Design lecture, I have written this crossword that is probably only playable by those in the class",
+  "date": "2025-11-27T19:55:06.632Z",
+  "dimensions": 8,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 17,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "c",
+    "o",
+    "m",
+    "p",
+    "l",
+    "e",
+    "t",
+    "e",
+    "∅",
+    "∅",
+    "o",
+    "d",
+    "e",
+    "∅",
+    "∅",
+    "q",
+    "n",
+    "p",
+    "h",
+    "a",
+    "r",
+    "d",
+    "∅",
+    "u",
+    "a",
+    "h",
+    "a",
+    "∅",
+    "∅",
+    "e",
+    "t",
+    "a",
+    "s",
+    "u",
+    "v",
+    "∅",
+    "∅",
+    "g",
+    "i",
+    "t",
+    "h",
+    "∅",
+    "e",
+    "m",
+    "e",
+    "r",
+    "g",
+    "e",
+    "e",
+    "∅",
+    "∅",
+    "a",
+    "l",
+    "e",
+    "∅",
+    "∅",
+    "q",
+    "u",
+    "i",
+    "c",
+    "k",
+    "e",
+    "s",
+    "t"
+  ],
+  "answer_info": "[[\"A1\",8],[\"A6\",3],[\"A7\",6],[\"A10\",3],[\"A11\",3],[\"A13\",3],[\"A14\",3],[\"A15\",6],[\"A18\",3],[\"A19\",8],[\"D2\",6],[\"D3\",3],[\"D4\",3],[\"D5\",6],[\"D7\",6],[\"D8\",3],[\"D9\",6],[\"D12\",3],[\"D16\",3],[\"D17\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "NP _, in NP and 3-SAT can be reduced to it"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "native group to a desert in arizona"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "kissing in public"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "to read in Portuguese"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "to make ="
+    },
+    {
+      "direction": "across",
+      "number": 6,
+      "clue": "poem addressing some(one/thing)"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "at least as difficult as 3-sat"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "when no player can incentive to change strat"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "https://www.porcupinehu.on.ca/en/"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "number of edges incident to vertex"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "interjection for triumph"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "η / how long until I'm there"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "welding done with a tungsten electrode"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "family transporter"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "commit -m \"this is a hint\""
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "come out from"
+    },
+    {
+      "direction": "down",
+      "number": 16,
+      "clue": "\"big\" mcdonalds burger"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "big in the deer family"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "comp360 classmate"
+    },
+    {
+      "direction": "across",
+      "number": 19,
+      "clue": "the most fast"
+    }
+  ]
+}
