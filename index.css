@@ -326,9 +326,4 @@ a :hover {
     cursor: url("https://shadowthehedgehog.ca/assets/magglasscursor.png") 12 12, auto;
 }
 
-a:hover {
-    text-decoration: underline;
-    cursor: url("https://shadowthehedgehog.ca/assets/magglasscursor.png") 12 12, auto;
-}
-
 
