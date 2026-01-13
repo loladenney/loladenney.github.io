@@ -63,7 +63,7 @@ body{
 .content-container {
     display: grid;
     grid-template-columns: [sidebar] 125px [subheadings] auto [content] auto;
-    grid-template-rows: [about-me-title] auto [about-me-body] auto [hire-me-title] auto [hire-me-body] auto [overflow] auto;
+    grid-template-rows: [about-me-title] auto [about-me-body] auto [hire-me-title] auto [hire-me-body] auto [papers-title] auto [papers-body] auto [overflow] auto;
     row-gap: 0px;
     column-gap: 25px;
 }
@@ -126,6 +126,21 @@ table#sidebar-table {
     grid-column: content;
     grid-row: hire-me-body;
 }
+.papers-title {
+    grid-column: subheadings;
+    grid-row: papers-title;
+}
+.papers-line {
+    grid-column: content;
+    grid-row: papers-title;
+    align-self: center;
+}
+.papers-body {
+    grid-column: content;
+    grid-row: papers-body;
+    text-decoration: underline;
+}
+
 
 
 
