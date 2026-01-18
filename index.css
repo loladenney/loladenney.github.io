@@ -92,6 +92,8 @@ table#sidebar-table {
 .sidebar-title {
     width: 115px;
     height: auto;
+    margin: 0px auto;
+    padding: 0px auto;
 
 }
 .sidebar :hover {
