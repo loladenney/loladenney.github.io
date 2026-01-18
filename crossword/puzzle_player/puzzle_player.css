@@ -147,3 +147,26 @@ body{
     align-self: flex-start;
     margin-right: auto;
   }
+
+  
+  .like-btn {
+    position: relative; 
+    aspect-ratio: 1;
+    gap: 5px;  
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  
+  
+  /* Style for the PNG image */
+  .heart-image {
+    width:1.5em;  /* Adjust size as needed */
+    height: 1.5em;
+    object-fit: contain;  /* Keeps aspect ratio */
+  }
+
+  h1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }

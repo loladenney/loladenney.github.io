@@ -10,13 +10,19 @@ let current_active_cell_index = 0; // index of cell reference array
 const across_in_order = []; // array of the clue number and indexes (clue num, row,col) of the characters in the across answers in order
 const down_in_order = [];
 
+// for like button
+const NAMESPACE = 'shadowthehedgehog'; 
+const KEY = '';
+const LIKE_BUTTON_API_BASE = 'https://api.countapi.xyz';
+
 function getPuzzleTitleFromUrl() {
     const params = new URLSearchParams(window.location.search);
     return params.get('id');
   }
 
-function loadPuzzle(){
-    const fileName = getPuzzleTitleFromUrl();
+
+function loadPuzzle(fileName){
+    //load in the puzzle
     fetch(`https://shadowthehedgehog.ca/crossword/puzzles/${fileName}.json`)
     // for testing fetch(`https://shadowthehedgehog.ca/crossword/puzzles/JUMBOOOO.json`)
     .then(response => {
@@ -34,6 +40,7 @@ function loadPuzzle(){
         console.error('Error fetching JSON:', error);
       });
 }
+
 
 function drawPage(){
     //draw in text for title and date and notes
@@ -543,9 +550,86 @@ function YouWin(){
     //TODO make the alert nicer and add a graphic
 }
 
+/* 
+// like button stuff
+const btn = document.getElementById('likeBtn');
+let hasLiked = localStorage.getItem(`liked_${NAMESPACE}_${KEY}`) === 'true';
+
+function updateLikeButton() {
+    const img = btn.querySelector('.heart-image');
+    
+    if (hasLiked) {
+      btn.classList.add('liked');
+      img.src = 'liked-image.png'; 
+    } else {
+      btn.classList.remove('liked');
+      img.src = 'unliked-image.png';
+    }
+}
 
 
-loadPuzzle();
+// Handle like/unlike
+async function toggleLike() {
+    btn.disabled = true;
+
+    try {
+        let endpoint;
+        
+        if (hasLiked) {
+            endpoint = `${API_BASE}/update/${NAMESPACE}/${KEY}?amount=-1`;
+        } else {
+            endpoint = `${API_BASE}/hit/${NAMESPACE}/${KEY}`;
+        }
+        
+        const response = await fetch(endpoint);
+        const data = await response.json();
+        
+        if (data.value !== undefined) {
+            hasLiked = !hasLiked;
+            localStorage.setItem(`liked_${NAMESPACE}_${KEY}`, hasLiked);
+            updateLikeButton();
+        } else {
+            throw new Error('Invalid response');
+        }
+        
+    } catch (error) {
+        console.error('Error toggling like:', error);
+    } finally {
+        btn.disabled = false;
+    }
+}
+    
+        
+  
+async function fetchLikeCount(){
+    try {
+        const response = await fetch(`${LIKE_BUTTON_API_BASE}/get/${NAMESPACE}/${KEY}`);
+        const data = await response.json();
+        updateLikeButton();
+        btn.disabled = false;
+    } catch (error) {
+        console.error('Error fetching count:', error);
+        countSpan.textContent = '?';
+    }
+}
+ */
+
+
+// start running stuff
+function loadPage(){
+    const fileName = getPuzzleTitleFromUrl();
+    // do like button stuff
+    //fetchLikeCount();
+
+    // load the puzzle
+    loadPuzzle(fileName);
+
+    // Event listener
+    //likebtn.addEventListener('click', toggleLike);
+}
+  
+
+loadPage();
 
 
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--L Denney's Homepage-->
+    <link rel="stylesheet" href="3dmodels.css">
+    <link rel="icon" type="image/png" href="assets/gator2025.png">
+    <meta name="viewport" content="width=700">
+    <script type="importmap">
+        { "imports":{
+            "three":"https://cdn.jsdelivr.net/npm/three@v0.182.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.182.0/examples/jsm/"
+        }}</script>
+    
+</head>
+<body>
+
+ <title>L Denney's Website</title>
+
+
+<div class="dragonheader"><img class="dragon-img" src="assets/dragon_header.png" alt="awesome wavy dragon"></div>
+
+<div class="navbar"> 
+    <div class="navbuttonbackground" > <a class="navbutton" href="index.html">----- Home -----</a> </div>
+    <div class="navbuttonbackground" > <a class="navbutton" href="archive.html">----- Archive -----</a>  </div>
+    <div class="navbuttonbackground" > <a class="navbutton" href="pottery.html">----- Pottery -----</a> </div>
+</div>
+
+<div class="title" width="300px" ><h1 class="title-text">My 3D models !</h1><h3 class="title-text" >I use Nomad sculpt to make them, and three.js to display them  </h3>
+    <h4 class="title-text" >Please try moving them around</h4></div>
+
+<div class="dottedline"><hr size="1" style="border-top:2px dashed #000; padding-bottom: 10px;padding-top: 10px;" ></div>
+
+
+<div class="canvascontainer">
+    <canvas id="canvas"></canvas>
+</div>
+
+
+<script type="module" src="3dmodels.js"></script>
+
+</body>
+</html
