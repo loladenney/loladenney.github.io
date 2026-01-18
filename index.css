@@ -82,7 +82,7 @@ table#sidebar-table {
 .sidebar-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0px;
 }
 .sidebar-icon {
     width: 115px;
@@ -98,6 +98,9 @@ table#sidebar-table {
     cursor: url("https://shadowthehedgehog.ca/assets/magglasscursor.png") 12 12, auto;
 }
 
+.sidebar img {
+    display: block;
+}
 
 
 .aboutme-title {
