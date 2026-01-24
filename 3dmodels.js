@@ -41,8 +41,8 @@ let jax;
 const jaxloader = new GLTFLoader();
 jaxloader.load( 'assets/3dmodels/Jax.glb', function ( gltf ) {
     jax = gltf.scene;
-    jax.scale.set(2,2, 2); 
-    //jaxscene.add(jax);
+    jax.scale.set(4,4,4); 
+    jax.position.y = -1;
 }, undefined, function ( error ) {
     console.error( error );
 } ); 
@@ -53,24 +53,36 @@ sharkloader.load( 'assets/3dmodels/Shark.glb', function ( gltf ) {
     shark = gltf.scene;
     shark.rotation.y = Math.PI / 2 *3 -0.7;
     shark.scale.set(1.3,1.3,1.3); 
-    scene.add(shark);
+    scene.add(shark);  // by default shark is rendered in
 }, undefined, function ( error ) {
     console.error( error );
 } ); 
 
 
-
+// environment
+const loader = new THREE.TextureLoader();
+loader.load('assets/3dmodels/env.jpg', texture => {
+    texture.mapping = THREE.EquirectangularReflectionMapping;
+    scene.environment = texture;
+    scene.environment.intensity = 0.2;
+});
 
 
 // light
-const hemilight = new THREE.HemisphereLight(0xffffff, 0.5);
-const light = new THREE.DirectionalLight(0xffffff, 0.5);
-light.position.set(5, 5, 5);
+const ambient = new THREE.AmbientLight(0xffffff, 0.7);
+scene.add(ambient);
 
-scene.add(hemilight);
-scene.add(light);
-scene.add(new THREE.AmbientLight(0xffffff, 1));
+const keyLight = new THREE.DirectionalLight(0xffffff, 1);
+keyLight.position.set(5, 10, 7);
+scene.add(keyLight);
 
+const fillLight = new THREE.DirectionalLight(0xffffff, 0.4);
+fillLight.position.set(-5, 5, -5);
+scene.add(fillLight);
+
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; 
+renderer.toneMappingExposure = 0.5; 
 
 
 function animate(t=0) {
@@ -84,3 +96,25 @@ function animate(t=0) {
     controls.update();
 }
 animate();
+
+
+// buttons integration
+const buttons = document.querySelectorAll('.model');
+//const canvascontainer = document.querySelector('.canvascontainer');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const name = button.dataset.id;
+            if (name === "jax"){
+                
+                scene.remove(shark);
+                scene.add(jax);
+                renderer.toneMappingExposure = 0.3;
+            }
+            else if (name === "shark"){
+                scene.remove(jax);
+                scene.add(shark);
+                renderer.toneMappingExposure = 0.5;
+            }
+            // do stuff here
+        });
+    });
