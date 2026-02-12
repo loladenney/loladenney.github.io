@@ -1,0 +1,208 @@
+{
+  "title": "Birdie",
+  "notes": "",
+  "date": "2026-02-12T20:51:19.379Z",
+  "dimensions": 5,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "r",
+    "o",
+    "b",
+    "i",
+    "n",
+    "i",
+    "d",
+    "∅",
+    "∅",
+    "i",
+    "g",
+    "∅",
+    "∅",
+    "∅",
+    "g",
+    "h",
+    "∅",
+    "a",
+    "s",
+    "h",
+    "t",
+    "w",
+    "i",
+    "s",
+    "t"
+  ],
+  "answer_info": "[[\"A1\",5],[\"A4\",2],[\"A5\",3],[\"A7\",5],[\"D1\",5],[\"D2\",2],[\"D3\",5],[\"D5\",2],[\"D6\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "red breast"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "not left"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "took too much, ABBREVIATED"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "opposite of day"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "drivers licence, ABBREVIATED"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "remains of a cigar"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "artificial intelligence ABBREVIATED"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "stainless steel, ABBREVIATED"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "Oliver _____ (Charles Dickens)"
+    }
+  ]
+}
