@@ -1,0 +1,284 @@
+{
+  "title": "Birdman",
+  "notes": "This is dedicated to my former employer Shaun Bird he is the best!!!",
+  "date": "2026-02-12T22:08:40.395Z",
+  "dimensions": 6,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 4,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "t",
+    "∅",
+    "t",
+    "∅",
+    "t",
+    "∅",
+    "s",
+    "p",
+    "e",
+    "a",
+    "r",
+    "s",
+    "p",
+    "e",
+    "a",
+    "n",
+    "u",
+    "t",
+    "∅",
+    "s",
+    "p",
+    "a",
+    "c",
+    "e",
+    "∅",
+    "t",
+    "r",
+    "i",
+    "k",
+    "e",
+    "c",
+    "o",
+    "o",
+    "l",
+    "∅",
+    "l"
+  ],
+  "answer_info": "[[\"A4\",6],[\"A8\",6],[\"A9\",5],[\"A10\",5],[\"A11\",4],[\"D1\",3],[\"D2\",6],[\"D3\",5],[\"D5\",5],[\"D6\",5],[\"D7\",5]]",
+  "clues": [
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "small measurment"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "expert leaf steeper"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "dump, fire, pick-up"
+    },
+    {
+      "direction": "across",
+      "number": 4,
+      "clue": "pointy battle weapons"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "green sauce"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "a thing to be hammered"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "iron plus some carbon"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "a baseball snack"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "a _ odyssey"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "150% bike"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "chilly"
+    }
+  ]
+}
