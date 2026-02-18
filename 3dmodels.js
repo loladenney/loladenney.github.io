@@ -58,6 +58,17 @@ sharkloader.load( 'assets/3dmodels/Shark.glb', function ( gltf ) {
     console.error( error );
 } ); 
 
+let shadow;
+const shadowloader = new GLTFLoader();
+shadowloader.load( 'assets/3dmodels/Shadow.glb', function ( gltf ) {
+    shadow = gltf.scene;
+    shadow.rotation.y = Math.PI / 2 *3 -0.7;
+    shadow.scale.set(1.3,1.3,1.3); 
+    
+}, undefined, function ( error ) {
+    console.error( error );
+} );
+
 
 // environment
 const loader = new THREE.TextureLoader();
@@ -105,15 +116,22 @@ const buttons = document.querySelectorAll('.model');
         button.addEventListener('click', () => {
             const name = button.dataset.id;
             if (name === "jax"){
-                
+                scene.remove(shadow);
                 scene.remove(shark);
                 scene.add(jax);
                 renderer.toneMappingExposure = 0.3;
             }
             else if (name === "shark"){
                 scene.remove(jax);
+                scene.remove(shadow);
                 scene.add(shark);
                 renderer.toneMappingExposure = 0.5;
+            }
+            else if (name === "shadow"){
+                scene.remove(jax);
+                scene.remove(shark);
+                scene.add(shadow);
+                renderer.toneMappingExposure = 0.3;
             }
             // do stuff here
         });
