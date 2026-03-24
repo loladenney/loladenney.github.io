@@ -1,0 +1,1879 @@
+{
+  "title": "Master's 8",
+  "notes": "all of the pokemon master's 8's names are in the puzzle!",
+  "date": "2026-03-24T00:14:22.500Z",
+  "dimensions": 16,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 20,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 21,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 22,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 24,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 25,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 26,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 27,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 28,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 29,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 30,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 31,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 32,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 33,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 34,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 35,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 36,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 37,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 38,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 39,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 40,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 41,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 42,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 43,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 44,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 45,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 46,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 47,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 48,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 49,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 50,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 51,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 52,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 53,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 54,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 55,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 56,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 57,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 58,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 59,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "l",
+    "e",
+    "o",
+    "n",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "m",
+    "n",
+    "e",
+    "m",
+    "o",
+    "n",
+    "i",
+    "c",
+    "a",
+    "l",
+    "a",
+    "i",
+    "n",
+    "∅",
+    "∅",
+    "∅",
+    "o",
+    "∅",
+    "∅",
+    "e",
+    "n",
+    "g",
+    "∅",
+    "r",
+    "n",
+    "e",
+    "t",
+    "t",
+    "l",
+    "e",
+    "∅",
+    "∅",
+    "n",
+    "∅",
+    "∅",
+    "m",
+    "i",
+    "l",
+    "k",
+    "y",
+    "c",
+    "m",
+    "∅",
+    "∅",
+    "l",
+    "∅",
+    "∅",
+    "c",
+    "o",
+    "d",
+    "∅",
+    "o",
+    "∅",
+    "∅",
+    "n",
+    "∅",
+    "e",
+    "e",
+    "l",
+    "s",
+    "∅",
+    "s",
+    "f",
+    "u",
+    "∅",
+    "i",
+    "r",
+    "i",
+    "s",
+    "∅",
+    "o",
+    "∅",
+    "∅",
+    "n",
+    "∅",
+    "∅",
+    "∅",
+    "i",
+    "∅",
+    "l",
+    "∅",
+    "a",
+    "∅",
+    "r",
+    "a",
+    "∅",
+    "w",
+    "∅",
+    "s",
+    "t",
+    "e",
+    "v",
+    "e",
+    "n",
+    "s",
+    "t",
+    "o",
+    "n",
+    "e",
+    "∅",
+    "l",
+    "∅",
+    "l",
+    "∅",
+    "∅",
+    "a",
+    "v",
+    "∅",
+    "x",
+    "∅",
+    "t",
+    "∅",
+    "∅",
+    "t",
+    "r",
+    "o",
+    "t",
+    "∅",
+    "e",
+    "a",
+    "∅",
+    "l",
+    "e",
+    "t",
+    "o",
+    "∅",
+    "u",
+    "∅",
+    "∅",
+    "h",
+    "∅",
+    "∅",
+    "∅",
+    "f",
+    "d",
+    "r",
+    "∅",
+    "∅",
+    "n",
+    "∅",
+    "t",
+    "∅",
+    "p",
+    "o",
+    "t",
+    "a",
+    "s",
+    "h",
+    "∅",
+    "a",
+    "g",
+    "e",
+    "a",
+    "∅",
+    "∅",
+    "a",
+    "h",
+    "∅",
+    "i",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "y",
+    "o",
+    "r",
+    "e",
+    "∅",
+    "s",
+    "p",
+    "a",
+    "c",
+    "e",
+    "∅",
+    "d",
+    "a",
+    "z",
+    "z",
+    "l",
+    "e",
+    "∅",
+    "t",
+    "∅",
+    "∅",
+    "h",
+    "o",
+    "v",
+    "e",
+    "r",
+    "∅",
+    "e",
+    "∅",
+    "e",
+    "∅",
+    "∅",
+    "n",
+    "∅",
+    "s",
+    "a",
+    "x",
+    "∅",
+    "k",
+    "i",
+    "∅",
+    "m",
+    "∅",
+    "r",
+    "a",
+    "d",
+    "i",
+    "c",
+    "a",
+    "l",
+    "∅",
+    "∅",
+    "e",
+    "m",
+    "e",
+    "d",
+    "∅",
+    "i",
+    "∅",
+    "∅",
+    "r",
+    "∅",
+    "c",
+    "i",
+    "s",
+    "∅",
+    "m",
+    "a",
+    "n",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "c",
+    "y",
+    "n",
+    "t",
+    "h",
+    "i",
+    "a",
+    "∅",
+    "∅",
+    "e",
+    "g",
+    "o"
+  ],
+  "answer_info": "[[\"A1\",4],[\"A5\",8],[\"A10\",5],[\"A12\",3],[\"A13\",6],[\"A14\",5],[\"A16\",2],[\"A17\",3],[\"A19\",4],[\"A20\",3],[\"A21\",4],[\"A23\",2],[\"A24\",11],[\"A29\",2],[\"A30\",4],[\"A31\",2],[\"A33\",4],[\"A34\",3],[\"A35\",6],[\"A37\",3],[\"A39\",2],[\"A40\",4],[\"A41\",5],[\"A44\",6],[\"A46\",5],[\"A47\",3],[\"A49\",2],[\"A50\",7],[\"A54\",3],[\"A55\",3],[\"A56\",3],[\"A58\",7],[\"A59\",3],[\"D1\",5],[\"D2\",9],[\"D3\",3],[\"D4\",3],[\"D5\",4],[\"D6\",6],[\"D7\",3],[\"D8\",3],[\"D9\",3],[\"D11\",3],[\"D15\",9],[\"D17\",4],[\"D18\",7],[\"D20\",3],[\"D22\",4],[\"D25\",4],[\"D26\",10],[\"D27\",8],[\"D28\",2],[\"D32\",3],[\"D34\",5],[\"D36\",6],[\"D38\",3],[\"D39\",3],[\"D42\",4],[\"D43\",4],[\"D45\",3],[\"D48\",4],[\"D51\",3],[\"D52\",3],[\"D53\",3],[\"D56\",2],[\"D57\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "Galar champ, as well as master's 8 runner-up"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "Master's 8 competitor with a red gyarados"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "Like a power ninjago power"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "Milkable ceral ingredient"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "___wit"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "A device to help remember"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "One prefix"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "Autobiography"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "Japanese demon"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "tbh"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "Weep"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "The non-champion of the master's 8"
+    },
+    {
+      "direction": "down",
+      "number": 11,
+      "clue": "They use the same arenas as the NHL, but for a different sport and with the ice removed"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "This language, short"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "A stinging plant"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "White, or ___ way"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "What a girl might get in college"
+    },
+    {
+      "direction": "across",
+      "number": 16,
+      "clue": "1% of m"
+    },
+    {
+      "direction": "across",
+      "number": 17,
+      "clue": "A fish or a cape"
+    },
+    {
+      "direction": "down",
+      "number": 17,
+      "clue": "A small, controlling religious group"
+    },
+    {
+      "direction": "down",
+      "number": 18,
+      "clue": "Master's 8 competitor and actress"
+    },
+    {
+      "direction": "across",
+      "number": 19,
+      "clue": "Multiple long fish"
+    },
+    {
+      "direction": "across",
+      "number": 20,
+      "clue": "A prison-like BC university"
+    },
+    {
+      "direction": "down",
+      "number": 20,
+      "clue": "Seven of them, and they should be avoided"
+    },
+    {
+      "direction": "across",
+      "number": 21,
+      "clue": "The goddess of the rainbow, a lovely flower, or a part of the eye"
+    },
+    {
+      "direction": "down",
+      "number": 22,
+      "clue": "NaCl"
+    },
+    {
+      "direction": "across",
+      "number": 23,
+      "clue": "God of the sun to the pharaohs"
+    },
+    {
+      "direction": "across",
+      "number": 24,
+      "clue": "Master's 8 competitor with a shiny mega"
+    },
+    {
+      "direction": "down",
+      "number": 25,
+      "clue": "Not very odd"
+    },
+    {
+      "direction": "down",
+      "number": 26,
+      "clue": "A reaction releasing heat"
+    },
+    {
+      "direction": "down",
+      "number": 27,
+      "clue": "What a boy might get on Jupiter"
+    },
+    {
+      "direction": "down",
+      "number": 28,
+      "clue": "Where to go with chest pain or unconsciousness"
+    },
+    {
+      "direction": "across",
+      "number": 29,
+      "clue": "Avenue, for short"
+    },
+    {
+      "direction": "across",
+      "number": 30,
+      "clue": "Gallop, dash, scamper"
+    },
+    {
+      "direction": "across",
+      "number": 31,
+      "clue": "Creators of The Sims, Apex Legends, and Split Fiction"
+    },
+    {
+      "direction": "down",
+      "number": 32,
+      "clue": "I am, you ___"
+    },
+    {
+      "direction": "across",
+      "number": 33,
+      "clue": "Mother of Apollo and Artemis"
+    },
+    {
+      "direction": "across",
+      "number": 34,
+      "clue": "President of the USA during WWII"
+    },
+    {
+      "direction": "down",
+      "number": 34,
+      "clue": "They come out the butt"
+    },
+    {
+      "direction": "across",
+      "number": 35,
+      "clue": "What the very first US patent was issued for, also a form of potassium and an incredible fertilizer"
+    },
+    {
+      "direction": "down",
+      "number": 36,
+      "clue": "Laughing animal"
+    },
+    {
+      "direction": "across",
+      "number": 37,
+      "clue": "New, Stone, Ice ___"
+    },
+    {
+      "direction": "down",
+      "number": 38,
+      "clue": "Winner of the Master's 8"
+    },
+    {
+      "direction": "across",
+      "number": 39,
+      "clue": "Interjection used to express delight, relief, regret, or contempt"
+    },
+    {
+      "direction": "down",
+      "number": 39,
+      "clue": "What Charizard is to 1 Across or what Haxorus is to 21 Across"
+    },
+    {
+      "direction": "across",
+      "number": 40,
+      "clue": "Days of ____, a long time ago"
+    },
+    {
+      "direction": "across",
+      "number": 41,
+      "clue": "Where to find stars and space"
+    },
+    {
+      "direction": "down",
+      "number": 42,
+      "clue": "Prod, ____mon"
+    },
+    {
+      "direction": "down",
+      "number": 43,
+      "clue": "Keenly interested or desiring"
+    },
+    {
+      "direction": "across",
+      "number": 44,
+      "clue": "Following \"Razzle\""
+    },
+    {
+      "direction": "down",
+      "number": 45,
+      "clue": "Z for a canadian"
+    },
+    {
+      "direction": "across",
+      "number": 46,
+      "clue": "Float"
+    },
+    {
+      "direction": "across",
+      "number": 47,
+      "clue": "Underwear brand or short for an instrument L used to play"
+    },
+    {
+      "direction": "down",
+      "number": 48,
+      "clue": "Before morph or phobia"
+    },
+    {
+      "direction": "across",
+      "number": 49,
+      "clue": "Points a DnD monk might have"
+    },
+    {
+      "direction": "across",
+      "number": 50,
+      "clue": "A root, or awesome"
+    },
+    {
+      "direction": "down",
+      "number": 51,
+      "clue": "Drawing or painting for example"
+    },
+    {
+      "direction": "down",
+      "number": 52,
+      "clue": "Here (French)"
+    },
+    {
+      "direction": "down",
+      "number": 53,
+      "clue": "Agency that collects intelligence for the US government"
+    },
+    {
+      "direction": "across",
+      "number": 54,
+      "clue": "School for a Dr"
+    },
+    {
+      "direction": "across",
+      "number": 55,
+      "clue": "Not trans"
+    },
+    {
+      "direction": "across",
+      "number": 56,
+      "clue": "What captian Li Sheng tried to make out of Mulan"
+    },
+    {
+      "direction": "down",
+      "number": 56,
+      "clue": "Not u"
+    },
+    {
+      "direction": "down",
+      "number": 57,
+      "clue": "Atomic symbol to kill a werewolf or a vampire"
+    },
+    {
+      "direction": "across",
+      "number": 58,
+      "clue": "Master's 8 competitor famous for her Garchomp"
+    },
+    {
+      "direction": "across",
+      "number": 59,
+      "clue": "Self esteem"
+    }
+  ]
+}
