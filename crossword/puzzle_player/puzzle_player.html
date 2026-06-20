@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<audio id="music" muted autoplay loop src="https://shadowthehedgehog.ca/assets/musicassets/oozolegame.mp3" type="audio/mpeg"></audio>
+
 <table><tr><td>
 
 <h1 id="title">title
@@ -19,13 +21,28 @@
 <p id="notes">notes</p>
 <div class="dottedline"><hr size="1" style="border-top:2px dashed #000; padding-bottom: 10px;padding-top: 10px;" ></div>
 
-<p>space bar will toggle the direction you advance in (across/down) <br>
-tab will advance you to the next word <br>
-backspace will delete within active word</p>
-<!-- 
-<button id="reveal-letter-button" disabled>Reveal Letter</button> -->
+<table style="width: 100%;"><tr><td rowspan="2">
+<p style="margin-top: 0;">
+<b>controls:</b> <br>
+- space bar will toggle the direction you advance in (across/down) <br>
+- tab will advance you to the next word <br>
+- backspace will delete within active word</p>
+</td>
+<td style="width:215px;vertical-align: bottom;">
+    <div class="music-playing-container">
+    <img class="music-playing" src="https://shadowthehedgehog.ca/assets/musicassets/silence.png">
+    </div>
+ </td>
+ <td>
+    <div class="mute-unmute-container"></div>
+    <img class="mute-unmute" src="https://shadowthehedgehog.ca/assets/musicassets/soundoff.png">
+    </div>
+ </td>
+ </tr>
+ <tr><td style="vertical-align: top;"><div class="artist-credit-container"> <p class="artist-credit">Oozle Game by Ale Suarez Serrano</p></div></td></tr>
+ </table>
 
-<button id="display-incorrect-squares-button" onclick="RevealIncorrectSquares()">Reveal Incorrect Squares</button> 
+
 <div class="layout" align="center">
     <div class="gameboard-box">
     <div id="gameboard-grid"></div>
@@ -38,7 +55,11 @@ backspace will delete within active word</p>
     </div>
 </div>
 
-</td></tr></table>
+</td></tr>
+<tr><td>
+<button id="display-incorrect-squares-button" onclick="RevealIncorrectSquares()">Reveal Incorrect Squares</button> 
+</td></tr>
+</table>
 
 
 

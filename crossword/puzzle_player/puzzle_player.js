@@ -1,5 +1,34 @@
 'use strict';
 
+// music stuff
+const audio = document.getElementById('music');
+let audio_playing = false;
+const mute_button = document.querySelector('.mute-unmute');
+const musicplayinggif = document.querySelector('.music-playing');
+const mute_image = 'https://shadowthehedgehog.ca/assets/musicassets/soundoff.png';
+const unmute_image = 'https://shadowthehedgehog.ca/assets/musicassets/soundon.png';
+const music_playing_image = 'https://shadowthehedgehog.ca/assets/musicassets/musicplaying.gif'; // todo this should be gif
+const music_not_playing_image = 'https://shadowthehedgehog.ca/assets/musicassets/silence.png'; //TODO change this to flatline
+
+mute_button.addEventListener('click', function() {
+    if (audio_playing) {
+        // currently playing -> mute it
+        audio.muted = true;
+        mute_button.src = mute_image;
+        musicplayinggif.src = music_not_playing_image;
+        audio_playing = false;
+    } else {
+        // currently muted -> unmute it
+        audio.muted = false;
+        mute_button.src = unmute_image;
+        musicplayinggif.src = music_playing_image;
+        audio_playing = true;
+    }
+});
+
+
+
+// gameplay stuff
 let puzzleJson;
 const cellReferenceArray = []; //for storing references to all the cells in the array (1d array), includes black squares
 const inputReferenceArray = []; 
