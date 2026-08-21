@@ -20,6 +20,7 @@ body{
 .navbar {
     display:flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .navbuttonbackground {
@@ -52,12 +53,11 @@ body{
     width: 100%;  
     text-align: left;
     margin: 0 auto; 
-    margin-top: 7px;
 }
 
 .title-text {
     position: relative;
-    left: 20px;
+    left:10px;
   }
 
 .content-container {
@@ -150,6 +150,9 @@ a :hover {
     cursor: url("https://shadowthehedgehog.ca/assets/magglasscursor.png") 12 12, auto;
 }
 
+.GSOCsubtitle {
+    margin-bottom: 0px;
+}
 
 
 
@@ -330,5 +333,4 @@ a :hover {
     text-decoration: underline;
     cursor: url("https://shadowthehedgehog.ca/assets/magglasscursor.png") 12 12, auto;
 }
-
 
