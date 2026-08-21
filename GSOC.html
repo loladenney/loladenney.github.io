@@ -33,12 +33,12 @@
 <p>
 The results of three runs of benchmarking (on a 2019 Macbook with an i5 chip) are provided here. The first is directly on the BList, populated by micro-benchmarks looking at specific situations in which to compare BList against Scala’s List and Vector datatypes. The other two, as mentioned above, are on fs2’s Channel. One with an underlying List, the other with an underlying BList. 
 <br>
-One pattern observed throughout benchmarking was invariance over list length. If BList performs better than List for some benchmark, it often outperforms List for the same benchmark regardless of the size of the list. This can be seen in the results, available here:
+One pattern observed throughout benchmarking was invariance over list length. If BList performs better than List for some benchmark, it often outperforms List for the same benchmark regardless of the size of the list. This can be seen in the results (JMH JSON report files, visualizer available <a href="https://jmh.morethan.io/" target="_blank">here</a>):
 </p>
 <table border="1"><tr><td><a href="assets/gsoc/BListresults.json" target="_blank"> Directly on BList </a></td><td><a href="assets/gsoc/results_Channel_BList.json" target="_blank"> Channel with BList </a></td><td><a href="assets/gsoc/results_Channel_Unchanged.json" target="_blank"> Channel with no changes </a></td></tr></table>
 
 <p>
-BList outperforms List on repeated random accesses to elements within the list. This is a strength of BList, it can skip over blocks when searching for an element at a specified index. BList has efficient concatenations for the same reason.
+BList outperforms List on repeated random accesses to elements within the list. A strength of BList is it's ability to skip over blocks, this allows significant optimization over a standard Linked List when searching for an element at a specified index. BList has efficient concatenations for the same reason.
 </p>
 <img src="assets/gsoc/random_access.png" alt="benchmarking results for repeated random access to the two linked lists">
 
