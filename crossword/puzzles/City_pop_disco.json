@@ -1,0 +1,639 @@
+{
+  "title": "City pop disco",
+  "notes": "",
+  "date": "2026-10-07T16:28:04.956Z",
+  "dimensions": 9,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 5,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 7,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 8,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 9,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 13,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 15,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 19,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 20,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 21,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 22,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 23,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 24,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 25,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "e",
+    "t",
+    "c",
+    "h",
+    "∅",
+    "∅",
+    "m",
+    "i",
+    "c",
+    "d",
+    "i",
+    "l",
+    "e",
+    "m",
+    "m",
+    "a",
+    "∅",
+    "h",
+    "m",
+    "g",
+    "∅",
+    "n",
+    "a",
+    "a",
+    "n",
+    "∅",
+    "o",
+    "∅",
+    "e",
+    "∅",
+    "∅",
+    "n",
+    "u",
+    "t",
+    "∅",
+    "r",
+    "c",
+    "r",
+    "a",
+    "s",
+    "h",
+    "l",
+    "a",
+    "n",
+    "d",
+    "o",
+    "∅",
+    "e",
+    "c",
+    "o",
+    "∅",
+    "∅",
+    "a",
+    "∅",
+    "u",
+    "∅",
+    "s",
+    "a",
+    "l",
+    "t",
+    "∅",
+    "n",
+    "b",
+    "c",
+    "∅",
+    "o",
+    "n",
+    "e",
+    "a",
+    "d",
+    "a",
+    "y",
+    "h",
+    "i",
+    "p",
+    "∅",
+    "∅",
+    "j",
+    "a",
+    "k",
+    "e"
+  ],
+  "answer_info": "[[\"A1\",4],[\"A5\",3],[\"A7\",7],[\"A10\",2],[\"A11\",4],[\"A12\",3],[\"A13\",9],[\"A17\",3],[\"A18\",4],[\"A20\",2],[\"A22\",7],[\"A24\",3],[\"A25\",4],[\"D1\",3],[\"D2\",5],[\"D3\",2],[\"D4\",3],[\"D5\",5],[\"D6\",5],[\"D8\",7],[\"D9\",4],[\"D13\",5],[\"D14\",5],[\"D15\",4],[\"D16\",5],[\"D19\",3],[\"D21\",3],[\"D23\",2]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "inscribe"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "david guetta genre"
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "ferocious striped beast"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "pool chem."
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "clucker"
+    },
+    {
+      "direction": "across",
+      "number": 5,
+      "clue": "sound picker upper"
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "my favourite kind of ray"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "note combo"
+    },
+    {
+      "direction": "across",
+      "number": 7,
+      "clue": "i'm stuck between two clues and neither is quite right"
+    },
+    {
+      "direction": "down",
+      "number": 8,
+      "clue": "entry/exit for a ninja turtle"
+    },
+    {
+      "direction": "down",
+      "number": 9,
+      "clue": "what 2 down might do to you if left alone"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "units for daily sodium intake"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "leavened flatbred"
+    },
+    {
+      "direction": "across",
+      "number": 12,
+      "clue": "tough to crack"
+    },
+    {
+      "direction": "across",
+      "number": 13,
+      "clue": "the kind of touchdown that might happen in a tailspin"
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "multi person chair"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "fables or fancy soap"
+    },
+    {
+      "direction": "down",
+      "number": 15,
+      "clue": "what Kojima does to every celebrity he can"
+    },
+    {
+      "direction": "down",
+      "number": 16,
+      "clue": "founding guru of sikhism"
+    },
+    {
+      "direction": "across",
+      "number": 17,
+      "clue": "_-friendly, safe for the planet"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "don't put this in a wound"
+    },
+    {
+      "direction": "down",
+      "number": 19,
+      "clue": "the mausoleum _ mahal"
+    },
+    {
+      "direction": "across",
+      "number": 20,
+      "clue": "not male nor female"
+    },
+    {
+      "direction": "down",
+      "number": 21,
+      "clue": "contracted god be with ye"
+    },
+    {
+      "direction": "across",
+      "number": 22,
+      "clue": "gummy multi-vitamin brand and instructions"
+    },
+    {
+      "direction": "down",
+      "number": 23,
+      "clue": "russian yes"
+    },
+    {
+      "direction": "across",
+      "number": 24,
+      "clue": "big ball and socket joint"
+    },
+    {
+      "direction": "across",
+      "number": 25,
+      "clue": "the dog from adventure time"
+    }
+  ]
+}
