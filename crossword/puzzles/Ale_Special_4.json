@@ -1,0 +1,497 @@
+{
+  "title": "Ale Special #4",
+  "notes": "(: give like plis",
+  "date": "2026-10-09T02:19:34.882Z",
+  "dimensions": 8,
+  "template": [
+    {
+      "value": 1,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 2,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 3,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 4,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 5,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 6,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 7,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 8,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 9,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 10,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 11,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 12,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 13,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 14,
+      "acrossflag": true,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 15,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 16,
+      "acrossflag": false,
+      "downflag": true
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 17,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 18,
+      "acrossflag": true,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": 0,
+      "acrossflag": false,
+      "downflag": false
+    },
+    {
+      "value": -1,
+      "acrossflag": false,
+      "downflag": false
+    }
+  ],
+  "solution": [
+    "w",
+    "a",
+    "t",
+    "e",
+    "r",
+    "l",
+    "o",
+    "o",
+    "a",
+    "n",
+    "e",
+    "m",
+    "i",
+    "a",
+    "∅",
+    "i",
+    "t",
+    "i",
+    "n",
+    "p",
+    "a",
+    "n",
+    "∅",
+    "g",
+    "t",
+    "s",
+    "a",
+    "∅",
+    "∅",
+    "e",
+    "∅",
+    "n",
+    "p",
+    "e",
+    "n",
+    "n",
+    "e",
+    "∅",
+    "n",
+    "o",
+    "a",
+    "∅",
+    "t",
+    "a",
+    "m",
+    "p",
+    "o",
+    "n",
+    "d",
+    "∅",
+    "s",
+    "a",
+    "m",
+    "b",
+    "a",
+    "∅",
+    "∅",
+    "∅",
+    "∅",
+    "n",
+    "a",
+    "r",
+    "c",
+    "∅"
+  ],
+  "answer_info": "[[\"A1\",8],[\"A8\",6],[\"A9\",6],[\"A10\",3],[\"A11\",5],[\"A14\",2],[\"A15\",6],[\"A17\",5],[\"A18\",4],[\"D1\",7],[\"D2\",5],[\"D3\",7],[\"D4\",3],[\"D5\",3],[\"D6\",4],[\"D7\",6],[\"D12\",4],[\"D13\",4],[\"D14\",4],[\"D16\",3]]",
+  "clues": [
+    {
+      "direction": "across",
+      "number": 1,
+      "clue": "where canadian vampires hangout // university famous for making engineers bald"
+    },
+    {
+      "direction": "down",
+      "number": 1,
+      "clue": "where the current generation of writers came up on "
+    },
+    {
+      "direction": "down",
+      "number": 2,
+      "clue": "spice that often comes in star form"
+    },
+    {
+      "direction": "down",
+      "number": 3,
+      "clue": "People that landlords screw over"
+    },
+    {
+      "direction": "down",
+      "number": 4,
+      "clue": "what they use in movies to cause blackouts "
+    },
+    {
+      "direction": "down",
+      "number": 5,
+      "clue": "female version of the spanish word for river"
+    },
+    {
+      "direction": "down",
+      "number": 6,
+      "clue": "does not help traffic if another one is added"
+    },
+    {
+      "direction": "down",
+      "number": 7,
+      "clue": "soup d'_ (french)"
+    },
+    {
+      "direction": "across",
+      "number": 8,
+      "clue": "makes you crave ice and gives you bruises"
+    },
+    {
+      "direction": "across",
+      "number": 9,
+      "clue": "disposable container often used at potlucks"
+    },
+    {
+      "direction": "across",
+      "number": 10,
+      "clue": "in the US, they might randomly search you depending on your nationality"
+    },
+    {
+      "direction": "across",
+      "number": 11,
+      "clue": "best pasta shape"
+    },
+    {
+      "direction": "down",
+      "number": 12,
+      "clue": "bread bread"
+    },
+    {
+      "direction": "down",
+      "number": 13,
+      "clue": "book that inspired the movie shameless"
+    },
+    {
+      "direction": "across",
+      "number": 14,
+      "clue": "negative"
+    },
+    {
+      "direction": "down",
+      "number": 14,
+      "clue": "you would die in the Texas heat if you had __ "
+    },
+    {
+      "direction": "across",
+      "number": 15,
+      "clue": "prevents bleeding"
+    },
+    {
+      "direction": "down",
+      "number": 16,
+      "clue": "\"Heineken? fuck that shit!\" / cheap beer brand"
+    },
+    {
+      "direction": "across",
+      "number": 17,
+      "clue": "brazilian genre / adidas shoe"
+    },
+    {
+      "direction": "across",
+      "number": 18,
+      "clue": "do not sell drugs to this guy"
+    }
+  ]
+}
